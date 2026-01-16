@@ -1,0 +1,2354 @@
+﻿tWojewodztwo;Powiat;Gmina;Miejscowosc;Dzielnica;ludnosc
+DOLNOŚLĄSKIE;Jelenia Góra;Jelenia Góra;Jelenia Góra;;74194.0
+DOLNOŚLĄSKIE;Legnica;Legnica;Legnica;;90823.0
+DOLNOŚLĄSKIE;Wałbrzych;Wałbrzych;Wałbrzych;;98748.0
+DOLNOŚLĄSKIE;bolesławiecki;Bolesławiec;Bolesławiec;;36795.0
+DOLNOŚLĄSKIE;bolesławiecki;Gromadka;Gromadka;;
+DOLNOŚLĄSKIE;bolesławiecki;Nowogrodziec;Nowogrodziec;;4050.0
+DOLNOŚLĄSKIE;bolesławiecki;Osiecznica;Osiecznica;;
+DOLNOŚLĄSKIE;bolesławiecki;Warta Bolesławiecka;Warta Bolesławiecka;;
+DOLNOŚLĄSKIE;dzierżoniowski;Bielawa;Bielawa;;27713.0
+DOLNOŚLĄSKIE;dzierżoniowski;Dzierżoniów;Dzierżoniów;;30312.0
+DOLNOŚLĄSKIE;dzierżoniowski;Niemcza;Niemcza;;2650.0
+DOLNOŚLĄSKIE;dzierżoniowski;Pieszyce;Pieszyce;;6750.0
+DOLNOŚLĄSKIE;dzierżoniowski;Piława Górna;Piława Górna;;5847.0
+DOLNOŚLĄSKIE;dzierżoniowski;Łagiewniki;Łagiewniki;;
+DOLNOŚLĄSKIE;górowski;Góra;Góra;;10623.0
+DOLNOŚLĄSKIE;górowski;Jemielno;Jemielno;;
+DOLNOŚLĄSKIE;górowski;Niechlów;Niechlów;;
+DOLNOŚLĄSKIE;górowski;Wąsosz;Wąsosz;;2510.0
+DOLNOŚLĄSKIE;głogowski;Głogów;Głogów;;61206.0
+DOLNOŚLĄSKIE;głogowski;Jerzmanowa;Jerzmanowa;;
+DOLNOŚLĄSKIE;głogowski;Kotla;Kotla;;
+DOLNOŚLĄSKIE;głogowski;Pęcław;Pęcław;;
+DOLNOŚLĄSKIE;głogowski;Żukowice;Żukowice;;
+DOLNOŚLĄSKIE;jaworski;Bolków;Bolków;;4601.0
+DOLNOŚLĄSKIE;jaworski;Jawor;Jawor;;20298.0
+DOLNOŚLĄSKIE;jaworski;Męcinka;Męcinka;;
+DOLNOŚLĄSKIE;jaworski;Mściwojów;Mściwojów;;
+DOLNOŚLĄSKIE;jaworski;Paszowice;Paszowice;;
+DOLNOŚLĄSKIE;jaworski;Wądroże Wielkie;Wądroże Wielkie;;
+DOLNOŚLĄSKIE;kamiennogórski;Kamienna Góra;Kamienna Góra;;16838.0
+DOLNOŚLĄSKIE;kamiennogórski;Lubawka;Lubawka;;5469.0
+DOLNOŚLĄSKIE;kamiennogórski;Marciszów;Marciszów;;
+DOLNOŚLĄSKIE;karkonoski;Janowice Wielkie;Janowice Wielkie;;
+DOLNOŚLĄSKIE;karkonoski;Jeżów Sudecki;Jeżów Sudecki;;
+DOLNOŚLĄSKIE;karkonoski;Karpacz;Karpacz;;4140.0
+DOLNOŚLĄSKIE;karkonoski;Kowary;Kowary;;9520.0
+DOLNOŚLĄSKIE;karkonoski;Mysłakowice;Mysłakowice;;
+DOLNOŚLĄSKIE;karkonoski;Piechowice;Piechowice;;5668.0
+DOLNOŚLĄSKIE;karkonoski;Podgórzyn;Podgórzyn;;
+DOLNOŚLĄSKIE;karkonoski;Stara Kamienica;Stara Kamienica;;
+DOLNOŚLĄSKIE;karkonoski;Szklarska Poręba;Szklarska Poręba;;5588.0
+DOLNOŚLĄSKIE;kłodzki;Bystrzyca Kłodzka;Bystrzyca Kłodzka;;8802.0
+DOLNOŚLĄSKIE;kłodzki;Duszniki-Zdrój;Duszniki-Zdrój;;3907.0
+DOLNOŚLĄSKIE;kłodzki;Kudowa-Zdrój;Kudowa-Zdrój;;9145.0
+DOLNOŚLĄSKIE;kłodzki;Kłodzko;Kłodzko;;24503.0
+DOLNOŚLĄSKIE;kłodzki;Lewin Kłodzki;Lewin Kłodzki;;
+DOLNOŚLĄSKIE;kłodzki;Lądek-Zdrój;Lądek-Zdrój;;4862.0
+DOLNOŚLĄSKIE;kłodzki;Międzylesie;Międzylesie;;2353.0
+DOLNOŚLĄSKIE;kłodzki;Nowa Ruda;Nowa Ruda;;20100.0
+DOLNOŚLĄSKIE;kłodzki;Polanica-Zdrój;Polanica-Zdrój;;5800.0
+DOLNOŚLĄSKIE;kłodzki;Radków;Radków;;2209.0
+DOLNOŚLĄSKIE;kłodzki;Stronie Śląskie;Stronie Śląskie;;4910.0
+DOLNOŚLĄSKIE;kłodzki;Szczytna;Szczytna;;4742.0
+DOLNOŚLĄSKIE;legnicki;Chojnów;Chojnów;;12243.0
+DOLNOŚLĄSKIE;legnicki;Krotoszyce;Krotoszyce;;
+DOLNOŚLĄSKIE;legnicki;Kunice;Kunice;;
+DOLNOŚLĄSKIE;legnicki;Legnickie Pole;Legnickie Pole;;
+DOLNOŚLĄSKIE;legnicki;Miłkowice;Miłkowice;;
+DOLNOŚLĄSKIE;legnicki;Prochowice;Prochowice;;3470.0
+DOLNOŚLĄSKIE;legnicki;Ruja;Ruja;;
+DOLNOŚLĄSKIE;lubański;Leśna;Leśna;;3942.0
+DOLNOŚLĄSKIE;lubański;Lubań;Lubań;;19257.0
+DOLNOŚLĄSKIE;lubański;Olszyna;Olszyna;;4282.0
+DOLNOŚLĄSKIE;lubański;Platerówka;Platerówka;;
+DOLNOŚLĄSKIE;lubański;Siekierczyn;Siekierczyn;;
+DOLNOŚLĄSKIE;lubański;Świeradów-Zdrój;Świeradów-Zdrój;;3906.0
+DOLNOŚLĄSKIE;lubiński;Lubin;Lubin;;66864.0
+DOLNOŚLĄSKIE;lubiński;Rudna;Rudna;;
+DOLNOŚLĄSKIE;lubiński;Ścinawa;Ścinawa;;5229.0
+DOLNOŚLĄSKIE;lwówecki;Gryfów Śląski;Gryfów Śląski;;6061.0
+DOLNOŚLĄSKIE;lwówecki;Lubomierz;Lubomierz;;1772.0
+DOLNOŚLĄSKIE;lwówecki;Lwówek Śląski;Lwówek Śląski;;8015.0
+DOLNOŚLĄSKIE;lwówecki;Mirsk;Mirsk;;3551.0
+DOLNOŚLĄSKIE;lwówecki;Wleń;Wleń;;1564.0
+DOLNOŚLĄSKIE;milicki;Cieszków;Cieszków;;
+DOLNOŚLĄSKIE;milicki;Cieszków;Cieszków;;
+DOLNOŚLĄSKIE;milicki;Krośnice;Krośnice;;
+DOLNOŚLĄSKIE;milicki;Krośnice;Krośnice;;
+DOLNOŚLĄSKIE;milicki;Milicz;Milicz;;10606.0
+DOLNOŚLĄSKIE;oleśnicki;Bierutów;Bierutów;;4418.0
+DOLNOŚLĄSKIE;oleśnicki;Dobroszyce;Dobroszyce;;
+DOLNOŚLĄSKIE;oleśnicki;Dziadowa Kłoda;Dziadowa Kłoda;;
+DOLNOŚLĄSKIE;oleśnicki;Międzybórz;Międzybórz;;2292.0
+DOLNOŚLĄSKIE;oleśnicki;Oleśnica;Oleśnica;;34914.0
+DOLNOŚLĄSKIE;oleśnicki;Syców;Syców;;9920.0
+DOLNOŚLĄSKIE;oleśnicki;Twardogóra;Twardogóra;;6111.0
+DOLNOŚLĄSKIE;oławski;Domaniów;Domaniów;;
+DOLNOŚLĄSKIE;oławski;Jelcz-Laskowice;Jelcz-Laskowice;;14912.0
+DOLNOŚLĄSKIE;oławski;Oława;Oława;;33086.0
+DOLNOŚLĄSKIE;polkowicki;Chocianów;Chocianów;;7270.0
+DOLNOŚLĄSKIE;polkowicki;Gaworzyce;Gaworzyce;;
+DOLNOŚLĄSKIE;polkowicki;Grębocice;Grębocice;;
+DOLNOŚLĄSKIE;polkowicki;Polkowice;Polkowice;;21090.0
+DOLNOŚLĄSKIE;polkowicki;Przemków;Przemków;;5506.0
+DOLNOŚLĄSKIE;polkowicki;Radwanice;Radwanice;;
+DOLNOŚLĄSKIE;strzeliński;Borów;Borów;;
+DOLNOŚLĄSKIE;strzeliński;Kondratowice;Kondratowice;;
+DOLNOŚLĄSKIE;strzeliński;Przeworno;Przeworno;;
+DOLNOŚLĄSKIE;strzeliński;Strzelin;Strzelin;;11841.0
+DOLNOŚLĄSKIE;strzeliński;Wiązów;Wiązów;;2233.0
+DOLNOŚLĄSKIE;trzebnicki;Oborniki Śląskie;Oborniki Śląskie;;8914.0
+DOLNOŚLĄSKIE;trzebnicki;Prusice;Prusice;;2102.0
+DOLNOŚLĄSKIE;trzebnicki;Trzebnica;Trzebnica;;13575.0
+DOLNOŚLĄSKIE;trzebnicki;Wisznia Mała;Wisznia Mała;;
+DOLNOŚLĄSKIE;trzebnicki;Zawonia;Zawonia;;
+DOLNOŚLĄSKIE;trzebnicki;Żmigród;Żmigród;;6193.0
+DOLNOŚLĄSKIE;trzebnicki;Żmigród;Żmigród;;6193.0
+DOLNOŚLĄSKIE;wałbrzyski;Boguszów-Gorce;Boguszów-Gorce;;14079.0
+DOLNOŚLĄSKIE;wałbrzyski;Czarny Bór;Czarny Bór;;
+DOLNOŚLĄSKIE;wałbrzyski;Głuszyca;Głuszyca;;5829.0
+DOLNOŚLĄSKIE;wałbrzyski;Jedlina-Zdrój;Jedlina-Zdrój;;4578.0
+DOLNOŚLĄSKIE;wałbrzyski;Mieroszów;Mieroszów;;3676.0
+DOLNOŚLĄSKIE;wałbrzyski;Stare Bogaczowice;Stare Bogaczowice;;
+DOLNOŚLĄSKIE;wałbrzyski;Szczawno-Zdrój;Szczawno-Zdrój;;5180.0
+DOLNOŚLĄSKIE;wałbrzyski;Walim;Walim;;
+DOLNOŚLĄSKIE;wołowski;Brzeg Dolny;Brzeg Dolny;;12395.0
+DOLNOŚLĄSKIE;wołowski;Wińsko;Wińsko;;
+DOLNOŚLĄSKIE;wołowski;Wołów;Wołów;;11942.0
+DOLNOŚLĄSKIE;wrocławski;Czernica;Czernica;;
+DOLNOŚLĄSKIE;wrocławski;Długołęka;Długołęka;;
+DOLNOŚLĄSKIE;wrocławski;Jordanów Śląski;Jordanów Śląski;;
+DOLNOŚLĄSKIE;wrocławski;Kobierzyce;Kobierzyce;;
+DOLNOŚLĄSKIE;wrocławski;Kąty Wrocławskie;Kąty Wrocławskie;;7127.0
+DOLNOŚLĄSKIE;wrocławski;Mietków;Mietków;;
+DOLNOŚLĄSKIE;wrocławski;Siechnice;Siechnice;;11366.0
+DOLNOŚLĄSKIE;wrocławski;Sobótka;Sobótka;;7076.0
+DOLNOŚLĄSKIE;wrocławski;Żórawina;Żórawina;;
+DOLNOŚLĄSKIE;zgorzelecki;Bogatynia;Bogatynia;;15852.0
+DOLNOŚLĄSKIE;zgorzelecki;Pieńsk;Pieńsk;;5402.0
+DOLNOŚLĄSKIE;zgorzelecki;Sulików;Sulików;;
+DOLNOŚLĄSKIE;zgorzelecki;Węgliniec;Węgliniec;;2632.0
+DOLNOŚLĄSKIE;zgorzelecki;Zawidów;Zawidów;;3729.0
+DOLNOŚLĄSKIE;zgorzelecki;Zgorzelec;Zgorzelec;;28466.0
+DOLNOŚLĄSKIE;ząbkowicki;Bardo;Bardo;;2276.0
+DOLNOŚLĄSKIE;ząbkowicki;Ciepłowody;Ciepłowody;;
+DOLNOŚLĄSKIE;ząbkowicki;Kamieniec Ząbkowicki;Kamieniec Ząbkowicki;;4291.0
+DOLNOŚLĄSKIE;ząbkowicki;Stoszowice;Stoszowice;;
+DOLNOŚLĄSKIE;ząbkowicki;Ziębice;Ziębice;;7865.0
+DOLNOŚLĄSKIE;ząbkowicki;Ząbkowice Śląskie;Ząbkowice Śląskie;;14032.0
+DOLNOŚLĄSKIE;ząbkowicki;Złoty Stok;Złoty Stok;;2378.0
+DOLNOŚLĄSKIE;złotoryjski;Pielgrzymka;Pielgrzymka;;
+DOLNOŚLĄSKIE;złotoryjski;Wojcieszów;Wojcieszów;;3377.0
+DOLNOŚLĄSKIE;złotoryjski;Zagrodno;Zagrodno;;
+DOLNOŚLĄSKIE;złotoryjski;Złotoryja;Złotoryja;;14000.0
+DOLNOŚLĄSKIE;złotoryjski;Świerzawa;Świerzawa;;1980.0
+DOLNOŚLĄSKIE;średzki;Kostomłoty;Kostomłoty;;
+DOLNOŚLĄSKIE;średzki;Malczyce;Malczyce;;
+DOLNOŚLĄSKIE;średzki;Miękinia;Miękinia;;2150.0
+DOLNOŚLĄSKIE;średzki;Udanin;Udanin;;
+DOLNOŚLĄSKIE;średzki;Środa Śląska;Środa Śląska;;9520.0
+DOLNOŚLĄSKIE;świdnicki;Dobromierz;Dobromierz;;
+DOLNOŚLĄSKIE;świdnicki;Jaworzyna Śląska;Jaworzyna Śląska;;5015.0
+DOLNOŚLĄSKIE;świdnicki;Marcinowice;Marcinowice;;
+DOLNOŚLĄSKIE;świdnicki;Strzegom;Strzegom;;14813.0
+DOLNOŚLĄSKIE;świdnicki;Świdnica;Świdnica;;52050.0
+DOLNOŚLĄSKIE;świdnicki;Świebodzice;Świebodzice;;21634.0
+DOLNOŚLĄSKIE;świdnicki;Żarów;Żarów;;6334.0
+KUJAWSKO-POMORSKIE;Bydgoszcz;Bydgoszcz;Bydgoszcz;;324043.0
+KUJAWSKO-POMORSKIE;Grudziądz;Grudziądz;Grudziądz;;87696.0
+KUJAWSKO-POMORSKIE;Toruń;Toruń;Toruń;;193717.0
+KUJAWSKO-POMORSKIE;Włocławek;Włocławek;Włocławek;;99474.0
+KUJAWSKO-POMORSKIE;aleksandrowski;Aleksandrów Kujawski;Aleksandrów Kujawski;;11426.0
+KUJAWSKO-POMORSKIE;aleksandrowski;Bądkowo;Bądkowo;;
+KUJAWSKO-POMORSKIE;aleksandrowski;Ciechocinek;Ciechocinek;;10018.0
+KUJAWSKO-POMORSKIE;aleksandrowski;Koneck;Koneck;;
+KUJAWSKO-POMORSKIE;aleksandrowski;Nieszawa;Nieszawa;;1747.0
+KUJAWSKO-POMORSKIE;aleksandrowski;Raciążek;Raciążek;;
+KUJAWSKO-POMORSKIE;aleksandrowski;Waganiec;Waganiec;;
+KUJAWSKO-POMORSKIE;aleksandrowski;Zakrzewo;Zakrzewo;;
+KUJAWSKO-POMORSKIE;brodnicki;Bartniczka;Bartniczka;;
+KUJAWSKO-POMORSKIE;brodnicki;Bobrowo;Bobrowo;;
+KUJAWSKO-POMORSKIE;brodnicki;Brodnica;Brodnica;;27940.0
+KUJAWSKO-POMORSKIE;brodnicki;Brzozie;Brzozie;;
+KUJAWSKO-POMORSKIE;brodnicki;Górzno;Górzno;;1349.0
+KUJAWSKO-POMORSKIE;brodnicki;Jabłonowo Pomorskie;Jabłonowo Pomorskie;;3635.0
+KUJAWSKO-POMORSKIE;brodnicki;Osiek;Osiek;;
+KUJAWSKO-POMORSKIE;brodnicki;Zbiczno;Zbiczno;;
+KUJAWSKO-POMORSKIE;brodnicki;Świedziebnia;Świedziebnia;;
+KUJAWSKO-POMORSKIE;bydgoski;Białe Błota;Białe Błota;;
+KUJAWSKO-POMORSKIE;bydgoski;Dobrcz;Dobrcz;;
+KUJAWSKO-POMORSKIE;bydgoski;Dąbrowa Chełmińska;Dąbrowa Chełmińska;;
+KUJAWSKO-POMORSKIE;bydgoski;Koronowo;Koronowo;;10583.0
+KUJAWSKO-POMORSKIE;bydgoski;Nowa Wieś Wielka;Nowa Wieś Wielka;;
+KUJAWSKO-POMORSKIE;bydgoski;Osielsko;Osielsko;;
+KUJAWSKO-POMORSKIE;bydgoski;Sicienko;Sicienko;;
+KUJAWSKO-POMORSKIE;bydgoski;Solec Kujawski;Solec Kujawski;;15140.0
+KUJAWSKO-POMORSKIE;chełmiński;Chełmno;Chełmno;;17827.0
+KUJAWSKO-POMORSKIE;chełmiński;Kijewo Królewskie;Kijewo Królewskie;;
+KUJAWSKO-POMORSKIE;chełmiński;Lisewo;Lisewo;;
+KUJAWSKO-POMORSKIE;chełmiński;Papowo Biskupie;Papowo Biskupie;;
+KUJAWSKO-POMORSKIE;chełmiński;Stolno;Stolno;;
+KUJAWSKO-POMORSKIE;chełmiński;Unisław;Unisław;;
+KUJAWSKO-POMORSKIE;golubsko-dobrzyński;Ciechocin;Ciechocin;;
+KUJAWSKO-POMORSKIE;golubsko-dobrzyński;Golub-Dobrzyń;Golub-Dobrzyń;;11122.0
+KUJAWSKO-POMORSKIE;golubsko-dobrzyński;Kowalewo Pomorskie;Kowalewo Pomorskie;;4022.0
+KUJAWSKO-POMORSKIE;golubsko-dobrzyński;Radomin;Radomin;;
+KUJAWSKO-POMORSKIE;golubsko-dobrzyński;Zbójno;Zbójno;;
+KUJAWSKO-POMORSKIE;grudziądzki;Gruta;Gruta;;
+KUJAWSKO-POMORSKIE;grudziądzki;Radzyń Chełmiński;Radzyń Chełmiński;;1763.0
+KUJAWSKO-POMORSKIE;grudziądzki;Rogóźno;Rogóźno;;
+KUJAWSKO-POMORSKIE;grudziądzki;Łasin;Łasin;;3004.0
+KUJAWSKO-POMORSKIE;grudziądzki;Świecie nad Osą;Świecie nad Osą;;
+KUJAWSKO-POMORSKIE;inowrocławski;Dąbrowa Biskupia;Dąbrowa Biskupia;;
+KUJAWSKO-POMORSKIE;inowrocławski;Gniewkowo;Gniewkowo;;6621.0
+KUJAWSKO-POMORSKIE;inowrocławski;Inowrocław;Inowrocław;;66543.0
+KUJAWSKO-POMORSKIE;inowrocławski;Janikowo;Janikowo;;8041.0
+KUJAWSKO-POMORSKIE;inowrocławski;Kruszwica;Kruszwica;;8987.0
+KUJAWSKO-POMORSKIE;inowrocławski;Pakość;Pakość;;5082.0
+KUJAWSKO-POMORSKIE;inowrocławski;Rojewo;Rojewo;;
+KUJAWSKO-POMORSKIE;inowrocławski;Złotniki Kujawskie;Złotniki Kujawskie;;
+KUJAWSKO-POMORSKIE;lipnowski;Bobrowniki;Bobrowniki;;1139.0
+KUJAWSKO-POMORSKIE;lipnowski;Chrostkowo;Chrostkowo;;
+KUJAWSKO-POMORSKIE;lipnowski;Dobrzyń nad Wisłą;Dobrzyń nad Wisłą;;1946.0
+KUJAWSKO-POMORSKIE;lipnowski;Kikół;Kikół;;2014.0
+KUJAWSKO-POMORSKIE;lipnowski;Lipno;Lipno;;13253.0
+KUJAWSKO-POMORSKIE;lipnowski;Lipno;Lipno;;13253.0
+KUJAWSKO-POMORSKIE;lipnowski;Skępe;Skępe;;3379.0
+KUJAWSKO-POMORSKIE;lipnowski;Tłuchowo;Tłuchowo;;
+KUJAWSKO-POMORSKIE;lipnowski;Wielgie;Wielgie;;
+KUJAWSKO-POMORSKIE;mogileński;Dąbrowa;Dąbrowa;;
+KUJAWSKO-POMORSKIE;mogileński;Jeziora Wielkie;Jeziora Wielkie;;
+KUJAWSKO-POMORSKIE;mogileński;Mogilno;Mogilno;;10820.0
+KUJAWSKO-POMORSKIE;mogileński;Strzelno;Strzelno;;5156.0
+KUJAWSKO-POMORSKIE;nakielski;Kcynia;Kcynia;;4206.0
+KUJAWSKO-POMORSKIE;nakielski;Mrocza;Mrocza;;4072.0
+KUJAWSKO-POMORSKIE;nakielski;Nakło nad Notecią;Nakło nad Notecią;;16848.0
+KUJAWSKO-POMORSKIE;nakielski;Sadki;Sadki;;
+KUJAWSKO-POMORSKIE;nakielski;Szubin;Szubin;;9348.0
+KUJAWSKO-POMORSKIE;radziejowski;Bytoń;Bytoń;;
+KUJAWSKO-POMORSKIE;radziejowski;Dobre;Dobre;;
+KUJAWSKO-POMORSKIE;radziejowski;Osięciny;Osięciny;;
+KUJAWSKO-POMORSKIE;radziejowski;Piotrków Kujawski;Piotrków Kujawski;;4147.0
+KUJAWSKO-POMORSKIE;radziejowski;Radziejów;Radziejów;;4983.0
+KUJAWSKO-POMORSKIE;radziejowski;Topólka;Topólka;;
+KUJAWSKO-POMORSKIE;rypiński;Brzuze;Brzuze;;
+KUJAWSKO-POMORSKIE;rypiński;Rogowo;Rogowo;;
+KUJAWSKO-POMORSKIE;rypiński;Rypin;Rypin;;15215.0
+KUJAWSKO-POMORSKIE;rypiński;Skrwilno;Skrwilno;;
+KUJAWSKO-POMORSKIE;rypiński;Wąpielsk;Wąpielsk;;
+KUJAWSKO-POMORSKIE;sępoleński;Kamień Krajeński;Kamień Krajeński;;2312.0
+KUJAWSKO-POMORSKIE;sępoleński;Sośno;Sośno;;
+KUJAWSKO-POMORSKIE;sępoleński;Sępólno Krajeńskie;Sępólno Krajeńskie;;8663.0
+KUJAWSKO-POMORSKIE;sępoleński;Więcbork;Więcbork;;5598.0
+KUJAWSKO-POMORSKIE;toruński;Chełmża;Chełmża;;13536.0
+KUJAWSKO-POMORSKIE;toruński;Czernikowo;Czernikowo;;
+KUJAWSKO-POMORSKIE;toruński;Obrowo;Obrowo;;
+KUJAWSKO-POMORSKIE;toruński;Wielka Nieszawka;Wielka Nieszawka;;
+KUJAWSKO-POMORSKIE;toruński;Zławieś Wielka;Zławieś Wielka;;
+KUJAWSKO-POMORSKIE;toruński;Łubianka;Łubianka;;
+KUJAWSKO-POMORSKIE;toruński;Łysomice;Łysomice;;
+KUJAWSKO-POMORSKIE;tucholski;Cekcyn;Cekcyn;;
+KUJAWSKO-POMORSKIE;tucholski;Gostycyn;Gostycyn;;
+KUJAWSKO-POMORSKIE;tucholski;Kęsowo;Kęsowo;;
+KUJAWSKO-POMORSKIE;tucholski;Lubiewo;Lubiewo;;
+KUJAWSKO-POMORSKIE;tucholski;Tuchola;Tuchola;;12843.0
+KUJAWSKO-POMORSKIE;tucholski;Śliwice;Śliwice;;
+KUJAWSKO-POMORSKIE;wąbrzeski;Dębowa Łąka;Dębowa Łąka;;
+KUJAWSKO-POMORSKIE;wąbrzeski;Książki;Książki;;
+KUJAWSKO-POMORSKIE;wąbrzeski;Płużnica;Płużnica;;
+KUJAWSKO-POMORSKIE;wąbrzeski;Ryńsk;Ryńsk;;
+KUJAWSKO-POMORSKIE;wąbrzeski;Wąbrzeźno;Wąbrzeźno;;12755.0
+KUJAWSKO-POMORSKIE;włocławski;Baruchowo;Baruchowo;;
+KUJAWSKO-POMORSKIE;włocławski;Boniewo;Boniewo;;
+KUJAWSKO-POMORSKIE;włocławski;Boniewo;Boniewo;;
+KUJAWSKO-POMORSKIE;włocławski;Brześć Kujawski;Brześć Kujawski;;4513.0
+KUJAWSKO-POMORSKIE;włocławski;Choceń;Choceń;;
+KUJAWSKO-POMORSKIE;włocławski;Chodecz;Chodecz;;1676.0
+KUJAWSKO-POMORSKIE;włocławski;Fabianki;Fabianki;;
+KUJAWSKO-POMORSKIE;włocławski;Izbica Kujawska;Izbica Kujawska;;2412.0
+KUJAWSKO-POMORSKIE;włocławski;Kowal;Kowal;;3245.0
+KUJAWSKO-POMORSKIE;włocławski;Lubanie;Lubanie;;
+KUJAWSKO-POMORSKIE;włocławski;Lubień Kujawski;Lubień Kujawski;;1292.0
+KUJAWSKO-POMORSKIE;włocławski;Lubraniec;Lubraniec;;2618.0
+KUJAWSKO-POMORSKIE;świecki;Bukowiec;Bukowiec;;
+KUJAWSKO-POMORSKIE;świecki;Dragacz;Dragacz;;
+KUJAWSKO-POMORSKIE;świecki;Drzycim;Drzycim;;
+KUJAWSKO-POMORSKIE;świecki;Jeżewo;Jeżewo;;
+KUJAWSKO-POMORSKIE;świecki;Lniano;Lniano;;
+KUJAWSKO-POMORSKIE;świecki;Nowe;Nowe;;5364.0
+KUJAWSKO-POMORSKIE;świecki;Nowe;Nowe;;5364.0
+KUJAWSKO-POMORSKIE;świecki;Osie;Osie;;
+KUJAWSKO-POMORSKIE;świecki;Pruszcz;Pruszcz;;2811.0
+KUJAWSKO-POMORSKIE;świecki;Warlubie;Warlubie;;
+KUJAWSKO-POMORSKIE;świecki;Warlubie;Warlubie;;
+KUJAWSKO-POMORSKIE;świecki;Świecie;Świecie;;24743.0
+KUJAWSKO-POMORSKIE;świecki;Świekatowo;Świekatowo;;
+KUJAWSKO-POMORSKIE;żniński;Barcin;Barcin;;6824.0
+KUJAWSKO-POMORSKIE;żniński;Gąsawa;Gąsawa;;1413.0
+KUJAWSKO-POMORSKIE;żniński;Janowiec Wielkopolski;Janowiec Wielkopolski;;3618.0
+KUJAWSKO-POMORSKIE;żniński;Rogowo;Rogowo;;
+KUJAWSKO-POMORSKIE;żniński;Łabiszyn;Łabiszyn;;4300.0
+KUJAWSKO-POMORSKIE;żniński;Żnin;Żnin;;12831.0
+LUBELSKIE;Biała Podlaska;Biała Podlaska;Biała Podlaska;;53888.0
+LUBELSKIE;Chełm;Chełm;Chełm;;56434.0
+LUBELSKIE;Lublin;Lublin;Lublin;;328305.0
+LUBELSKIE;Zamość;Zamość;Zamość;;57516.0
+LUBELSKIE;bialski;Drelów;Drelów;;
+LUBELSKIE;bialski;Janów Podlaski;Janów Podlaski;;
+LUBELSKIE;bialski;Kodeń;Kodeń;;
+LUBELSKIE;bialski;Konstantynów;Konstantynów;;
+LUBELSKIE;bialski;Leśna Podlaska;Leśna Podlaska;;
+LUBELSKIE;bialski;Międzyrzec Podlaski;Międzyrzec Podlaski;;15230.0
+LUBELSKIE;bialski;Piszczac;Piszczac;;2073.0
+LUBELSKIE;bialski;Rokitno;Rokitno;;
+LUBELSKIE;bialski;Rossosz;Rossosz;;
+LUBELSKIE;bialski;Sosnówka;Sosnówka;;
+LUBELSKIE;bialski;Sławatycze;Sławatycze;;
+LUBELSKIE;bialski;Terespol;Terespol;;5054.0
+LUBELSKIE;bialski;Tuczna;Tuczna;;
+LUBELSKIE;bialski;Wisznice;Wisznice;;
+LUBELSKIE;bialski;Zalesie;Zalesie;;
+LUBELSKIE;bialski;Łomazy;Łomazy;;
+LUBELSKIE;biłgorajski;Aleksandrów;Aleksandrów;;
+LUBELSKIE;biłgorajski;Biszcza;Biszcza;;
+LUBELSKIE;biłgorajski;Biłgoraj;Biłgoraj;;24543.0
+LUBELSKIE;biłgorajski;Frampol;Frampol;;1320.0
+LUBELSKIE;biłgorajski;Goraj;Goraj;;884.0
+LUBELSKIE;biłgorajski;Józefów;Józefów;;2286.0
+LUBELSKIE;biłgorajski;Księżpol;Księżpol;;
+LUBELSKIE;biłgorajski;Obsza;Obsza;;
+LUBELSKIE;biłgorajski;Potok Górny;Potok Górny;;
+LUBELSKIE;biłgorajski;Tarnogród;Tarnogród;;3080.0
+LUBELSKIE;biłgorajski;Turobin;Turobin;;797.0
+LUBELSKIE;biłgorajski;Łukowa;Łukowa;;
+LUBELSKIE;chełmski;Białopole;Białopole;;
+LUBELSKIE;chełmski;Dorohusk;Dorohusk;;
+LUBELSKIE;chełmski;Dubienka;Dubienka;;
+LUBELSKIE;chełmski;Kamień;Kamień;;
+LUBELSKIE;chełmski;Leśniowice;Leśniowice;;
+LUBELSKIE;chełmski;Rejowiec;Rejowiec;;2041.0
+LUBELSKIE;chełmski;Rejowiec Fabryczny;Rejowiec Fabryczny;;3963.0
+LUBELSKIE;chełmski;Ruda-Huta;Ruda-Huta;;
+LUBELSKIE;chełmski;Sawin;Sawin;;
+LUBELSKIE;chełmski;Siedliszcze;Siedliszcze;;1309.0
+LUBELSKIE;chełmski;Wierzbica;Wierzbica;;
+LUBELSKIE;chełmski;Wojsławice;Wojsławice;;
+LUBELSKIE;chełmski;Wojsławice;Wojsławice;;
+LUBELSKIE;chełmski;Żmudź;Żmudź;;
+LUBELSKIE;hrubieszowski;Dołhobyczów;Dołhobyczów;;
+LUBELSKIE;hrubieszowski;Horodło;Horodło;;
+LUBELSKIE;hrubieszowski;Hrubieszów;Hrubieszów;;15735.0
+LUBELSKIE;hrubieszowski;Mircze;Mircze;;
+LUBELSKIE;hrubieszowski;Uchanie;Uchanie;;
+LUBELSKIE;hrubieszowski;Werbkowice;Werbkowice;;
+LUBELSKIE;janowski;Batorz;Batorz;;
+LUBELSKIE;janowski;Chrzanów;Chrzanów;;
+LUBELSKIE;janowski;Dzwola;Dzwola;;
+LUBELSKIE;janowski;Janów Lubelski;Janów Lubelski;;10721.0
+LUBELSKIE;janowski;Modliborzyce;Modliborzyce;;1401.0
+LUBELSKIE;janowski;Potok Wielki;Potok Wielki;;
+LUBELSKIE;krasnostawski;Fajsławice;Fajsławice;;
+LUBELSKIE;krasnostawski;Izbica;Izbica;;1660.0
+LUBELSKIE;krasnostawski;Krasnystaw;Krasnystaw;;17080.0
+LUBELSKIE;krasnostawski;Kraśniczyn;Kraśniczyn;;
+LUBELSKIE;krasnostawski;Rudnik;Rudnik;;
+LUBELSKIE;krasnostawski;Siennica Różana;Siennica Różana;;
+LUBELSKIE;krasnostawski;Siennica Różana;Siennica Różana;;
+LUBELSKIE;krasnostawski;Łopiennik Górny;Łopiennik Górny;;
+LUBELSKIE;kraśnicki;Annopol;Annopol;;2279.0
+LUBELSKIE;kraśnicki;Kraśnik;Kraśnik;;30842.0
+LUBELSKIE;kraśnicki;Kraśnik;Kraśnik;;30842.0
+LUBELSKIE;kraśnicki;Szastarka;Szastarka;;
+LUBELSKIE;kraśnicki;Trzydnik Duży;Trzydnik Duży;;
+LUBELSKIE;kraśnicki;Urzędów;Urzędów;;1703.0
+LUBELSKIE;kraśnicki;Zakrzówek;Zakrzówek;;
+LUBELSKIE;lubartowski;Abramów;Abramów;;
+LUBELSKIE;lubartowski;Firlej;Firlej;;
+LUBELSKIE;lubartowski;Jeziorzany;Jeziorzany;;
+LUBELSKIE;lubartowski;Kamionka;Kamionka;;1727.0
+LUBELSKIE;lubartowski;Kock;Kock;;2843.0
+LUBELSKIE;lubartowski;Kock;Kock;;2843.0
+LUBELSKIE;lubartowski;Lubartów;Lubartów;;19566.0
+LUBELSKIE;lubartowski;Michów;Michów;;
+LUBELSKIE;lubartowski;Niedźwiada;Niedźwiada;;
+LUBELSKIE;lubartowski;Ostrów Lubelski;Ostrów Lubelski;;1901.0
+LUBELSKIE;lubartowski;Ostrówek;Ostrówek;;
+LUBELSKIE;lubartowski;Serniki;Serniki;;
+LUBELSKIE;lubelski;Bełżyce;Bełżyce;;5802.0
+LUBELSKIE;lubelski;Borzechów;Borzechów;;
+LUBELSKIE;lubelski;Bychawa;Bychawa;;4414.0
+LUBELSKIE;lubelski;Garbów;Garbów;;
+LUBELSKIE;lubelski;Głusk;Głusk;;
+LUBELSKIE;lubelski;Jastków;Jastków;;
+LUBELSKIE;lubelski;Konopnica;Konopnica;;
+LUBELSKIE;lubelski;Krzczonów;Krzczonów;;
+LUBELSKIE;lubelski;Niedrzwica Duża;Niedrzwica Duża;;
+LUBELSKIE;lubelski;Niemce;Niemce;;
+LUBELSKIE;lubelski;Strzyżewice;Strzyżewice;;
+LUBELSKIE;lubelski;Wojciechów;Wojciechów;;
+LUBELSKIE;lubelski;Wysokie;Wysokie;;
+LUBELSKIE;lubelski;Wólka;Wólka;;
+LUBELSKIE;lubelski;Zakrzew;Zakrzew;;
+LUBELSKIE;opolski;Chodel;Chodel;;
+LUBELSKIE;opolski;Józefów nad Wisłą;Józefów nad Wisłą;;775.0
+LUBELSKIE;opolski;Karczmiska;Karczmiska;;
+LUBELSKIE;opolski;Opole Lubelskie;Opole Lubelskie;;7756.0
+LUBELSKIE;opolski;Poniatowa;Poniatowa;;8123.0
+LUBELSKIE;opolski;Poniatowa;Poniatowa;;8123.0
+LUBELSKIE;opolski;Wilków;Wilków;;
+LUBELSKIE;opolski;Łaziska;Łaziska;;
+LUBELSKIE;parczewski;Dębowa Kłoda;Dębowa Kłoda;;
+LUBELSKIE;parczewski;Jabłoń;Jabłoń;;
+LUBELSKIE;parczewski;Jabłoń;Jabłoń;;
+LUBELSKIE;parczewski;Milanów;Milanów;;
+LUBELSKIE;parczewski;Parczew;Parczew;;10080.0
+LUBELSKIE;parczewski;Podedwórze;Podedwórze;;
+LUBELSKIE;parczewski;Siemień;Siemień;;
+LUBELSKIE;parczewski;Sosnowica;Sosnowica;;
+LUBELSKIE;puławski;Baranów;Baranów;;
+LUBELSKIE;puławski;Janowiec;Janowiec;;
+LUBELSKIE;puławski;Kazimierz Dolny;Kazimierz Dolny;;3192.0
+LUBELSKIE;puławski;Końskowola;Końskowola;;1974.0
+LUBELSKIE;puławski;Kurów;Kurów;;2630.0
+LUBELSKIE;puławski;Markuszów;Markuszów;;
+LUBELSKIE;puławski;Nałęczów;Nałęczów;;3581.0
+LUBELSKIE;puławski;Puławy;Puławy;;43597.0
+LUBELSKIE;puławski;Wąwolnica;Wąwolnica;;887.0
+LUBELSKIE;puławski;Żyrzyn;Żyrzyn;;
+LUBELSKIE;radzyński;Borki;Borki;;
+LUBELSKIE;radzyński;Czemierniki;Czemierniki;;1295.0
+LUBELSKIE;radzyński;Komarówka Podlaska;Komarówka Podlaska;;
+LUBELSKIE;radzyński;Kąkolewnica;Kąkolewnica;;
+LUBELSKIE;radzyński;Radzyń Podlaski;Radzyń Podlaski;;14049.0
+LUBELSKIE;radzyński;Ulan-Majorat;Ulan-Majorat;;
+LUBELSKIE;radzyński;Wohyń;Wohyń;;
+LUBELSKIE;rycki;Dęblin;Dęblin;;13842.0
+LUBELSKIE;rycki;Kłoczew;Kłoczew;;
+LUBELSKIE;rycki;Nowodwór;Nowodwór;;
+LUBELSKIE;rycki;Ryki;Ryki;;8877.0
+LUBELSKIE;rycki;Stężyca;Stężyca;;
+LUBELSKIE;rycki;Ułęż;Ułęż;;
+LUBELSKIE;tomaszowski;Bełżec;Bełżec;;
+LUBELSKIE;tomaszowski;Jarczów;Jarczów;;
+LUBELSKIE;tomaszowski;Krynice;Krynice;;
+LUBELSKIE;tomaszowski;Lubycza Królewska;Lubycza Królewska;;2092.0
+LUBELSKIE;tomaszowski;Rachanie;Rachanie;;
+LUBELSKIE;tomaszowski;Susiec;Susiec;;
+LUBELSKIE;tomaszowski;Susiec;Susiec;;
+LUBELSKIE;tomaszowski;Tarnawatka;Tarnawatka;;
+LUBELSKIE;tomaszowski;Tarnawatka;Tarnawatka;;
+LUBELSKIE;tomaszowski;Telatyn;Telatyn;;
+LUBELSKIE;tomaszowski;Tomaszów Lubelski;Tomaszów Lubelski;;17598.0
+LUBELSKIE;tomaszowski;Tyszowce;Tyszowce;;1815.0
+LUBELSKIE;tomaszowski;Ulhówek;Ulhówek;;
+LUBELSKIE;tomaszowski;Łaszczów;Łaszczów;;1937.0
+LUBELSKIE;włodawski;Hanna;Hanna;;
+LUBELSKIE;włodawski;Stary Brus;Stary Brus;;
+LUBELSKIE;włodawski;Urszulin;Urszulin;;
+LUBELSKIE;włodawski;Wola Uhruska;Wola Uhruska;;
+LUBELSKIE;włodawski;Włodawa;Włodawa;;11934.0
+LUBELSKIE;zamojski;Adamów;Adamów;;
+LUBELSKIE;zamojski;Grabowiec;Grabowiec;;
+LUBELSKIE;zamojski;Komarów-Osada;Komarów-Osada;;
+LUBELSKIE;zamojski;Krasnobród;Krasnobród;;2937.0
+LUBELSKIE;zamojski;Miączyn;Miączyn;;
+LUBELSKIE;zamojski;Nielisz;Nielisz;;
+LUBELSKIE;zamojski;Radecznica;Radecznica;;
+LUBELSKIE;zamojski;Sitno;Sitno;;
+LUBELSKIE;zamojski;Skierbieszów;Skierbieszów;;
+LUBELSKIE;zamojski;Stary Zamość;Stary Zamość;;
+LUBELSKIE;zamojski;Sułów;Sułów;;
+LUBELSKIE;zamojski;Szczebrzeszyn;Szczebrzeszyn;;4676.0
+LUBELSKIE;zamojski;Zwierzyniec;Zwierzyniec;;2737.0
+LUBELSKIE;zamojski;Łabunie;Łabunie;;
+LUBELSKIE;łukowski;Adamów;Adamów;;
+LUBELSKIE;łukowski;Krzywda;Krzywda;;
+LUBELSKIE;łukowski;Serokomla;Serokomla;;
+LUBELSKIE;łukowski;Stanin;Stanin;;
+LUBELSKIE;łukowski;Stoczek Łukowski;Stoczek Łukowski;;2325.0
+LUBELSKIE;łukowski;Trzebieszów;Trzebieszów;;
+LUBELSKIE;łukowski;Trzebieszów;Trzebieszów;;
+LUBELSKIE;łukowski;Wojcieszków;Wojcieszków;;
+LUBELSKIE;łukowski;Wola Mysłowska;Wola Mysłowska;;
+LUBELSKIE;łukowski;Łuków;Łuków;;26890.0
+LUBELSKIE;łęczyński;Cyców;Cyców;;
+LUBELSKIE;łęczyński;Ludwin;Ludwin;;
+LUBELSKIE;łęczyński;Milejów;Milejów;;
+LUBELSKIE;łęczyński;Puchaczów;Puchaczów;;
+LUBELSKIE;łęczyński;Spiczyn;Spiczyn;;
+LUBELSKIE;łęczyński;Łęczna;Łęczna;;17378.0
+LUBELSKIE;świdnicki;Mełgiew;Mełgiew;;
+LUBELSKIE;świdnicki;Piaski;Piaski;;2412.0
+LUBELSKIE;świdnicki;Trawniki;Trawniki;;
+LUBELSKIE;świdnicki;Świdnik;Świdnik;;36468.0
+LUBUSKIE;Gorzów Wielkopolski;Gorzów Wielkopolski;Gorzów Wielkopolski;;114700.0
+LUBUSKIE;Zielona Góra;Zielona Góra;Zielona Góra;;138869.0
+LUBUSKIE;gorzowski;Bogdaniec;Bogdaniec;;
+LUBUSKIE;gorzowski;Deszczno;Deszczno;;
+LUBUSKIE;gorzowski;Kostrzyn nad Odrą;Kostrzyn nad Odrą;;17428.0
+LUBUSKIE;gorzowski;Kłodawa;Kłodawa;;
+LUBUSKIE;gorzowski;Lubiszyn;Lubiszyn;;
+LUBUSKIE;gorzowski;Santok;Santok;;
+LUBUSKIE;gorzowski;Witnica;Witnica;;6364.0
+LUBUSKIE;krośnieński;Bobrowice;Bobrowice;;
+LUBUSKIE;krośnieński;Bytnica;Bytnica;;
+LUBUSKIE;krośnieński;Dąbie;Dąbie;;
+LUBUSKIE;krośnieński;Gubin;Gubin;;15375.0
+LUBUSKIE;krośnieński;Krosno Odrzańskie;Krosno Odrzańskie;;10315.0
+LUBUSKIE;krośnieński;Maszewo;Maszewo;;
+LUBUSKIE;międzyrzecki;Bledzew;Bledzew;;
+LUBUSKIE;międzyrzecki;Międzyrzecz;Międzyrzecz;;16593.0
+LUBUSKIE;międzyrzecki;Przytoczna;Przytoczna;;
+LUBUSKIE;międzyrzecki;Pszczew;Pszczew;;
+LUBUSKIE;międzyrzecki;Skwierzyna;Skwierzyna;;8987.0
+LUBUSKIE;międzyrzecki;Trzciel;Trzciel;;2215.0
+LUBUSKIE;międzyrzecki;Trzciel;Trzciel;;2215.0
+LUBUSKIE;nowosolski;Bytom Odrzański;Bytom Odrzański;;3870.0
+LUBUSKIE;nowosolski;Kolsko;Kolsko;;
+LUBUSKIE;nowosolski;Kożuchów;Kożuchów;;8825.0
+LUBUSKIE;nowosolski;Nowa Sól;Nowa Sól;;35545.0
+LUBUSKIE;nowosolski;Nowe Miasteczko;Nowe Miasteczko;;2599.0
+LUBUSKIE;nowosolski;Otyń;Otyń;;1783.0
+LUBUSKIE;nowosolski;Siedlisko;Siedlisko;;
+LUBUSKIE;strzelecko-drezdenecki;Dobiegniew;Dobiegniew;;2973.0
+LUBUSKIE;strzelecko-drezdenecki;Dobiegniew;Dobiegniew;;2973.0
+LUBUSKIE;strzelecko-drezdenecki;Drezdenko;Drezdenko;;9344.0
+LUBUSKIE;strzelecko-drezdenecki;Stare Kurowo;Stare Kurowo;;
+LUBUSKIE;strzelecko-drezdenecki;Strzelce Krajeńskie;Strzelce Krajeńskie;;9608.0
+LUBUSKIE;strzelecko-drezdenecki;Zwierzyn;Zwierzyn;;
+LUBUSKIE;sulęciński;Krzeszyce;Krzeszyce;;
+LUBUSKIE;sulęciński;Krzeszyce;Krzeszyce;;
+LUBUSKIE;sulęciński;Lubniewice;Lubniewice;;1981.0
+LUBUSKIE;sulęciński;Sulęcin;Sulęcin;;9607.0
+LUBUSKIE;sulęciński;Słońsk;Słońsk;;
+LUBUSKIE;sulęciński;Torzym;Torzym;;2374.0
+LUBUSKIE;słubicki;Cybinka;Cybinka;;2646.0
+LUBUSKIE;słubicki;Górzyca;Górzyca;;
+LUBUSKIE;słubicki;Ośno Lubuskie;Ośno Lubuskie;;3867.0
+LUBUSKIE;słubicki;Rzepin;Rzepin;;6348.0
+LUBUSKIE;słubicki;Rzepin;Rzepin;;6348.0
+LUBUSKIE;słubicki;Słubice;Słubice;;16090.0
+LUBUSKIE;wschowski;Szlichtyngowa;Szlichtyngowa;;1240.0
+LUBUSKIE;wschowski;Sława;Sława;;4074.0
+LUBUSKIE;wschowski;Wschowa;Wschowa;;12843.0
+LUBUSKIE;zielonogórski;Babimost;Babimost;;3790.0
+LUBUSKIE;zielonogórski;Bojadła;Bojadła;;
+LUBUSKIE;zielonogórski;Czerwieńsk;Czerwieńsk;;3723.0
+LUBUSKIE;zielonogórski;Kargowa;Kargowa;;3817.0
+LUBUSKIE;zielonogórski;Nowogród Bobrzański;Nowogród Bobrzański;;4675.0
+LUBUSKIE;zielonogórski;Sulechów;Sulechów;;15330.0
+LUBUSKIE;zielonogórski;Trzebiechów;Trzebiechów;;
+LUBUSKIE;zielonogórski;Trzebiechów;Trzebiechów;;
+LUBUSKIE;zielonogórski;Zabór;Zabór;;
+LUBUSKIE;zielonogórski;Świdnica;Świdnica;;
+LUBUSKIE;świebodziński;Lubrza;Lubrza;;
+LUBUSKIE;świebodziński;Skąpe;Skąpe;;
+LUBUSKIE;świebodziński;Szczaniec;Szczaniec;;
+LUBUSKIE;świebodziński;Zbąszynek;Zbąszynek;;4842.0
+LUBUSKIE;świebodziński;Łagów;Łagów;;
+LUBUSKIE;świebodziński;Świebodzin;Świebodzin;;20668.0
+LUBUSKIE;żagański;Brzeźnica;Brzeźnica;;
+LUBUSKIE;żagański;Gozdnica;Gozdnica;;2681.0
+LUBUSKIE;żagański;Iłowa;Iłowa;;3547.0
+LUBUSKIE;żagański;Małomice;Małomice;;3396.0
+LUBUSKIE;żagański;Niegosławice;Niegosławice;;
+LUBUSKIE;żagański;Szprotawa;Szprotawa;;10363.0
+LUBUSKIE;żagański;Wymiarki;Wymiarki;;
+LUBUSKIE;żagański;Żagań;Żagań;;23136.0
+LUBUSKIE;żarski;Brody;Brody;;845.0
+LUBUSKIE;żarski;Jasień;Jasień;;3984.0
+LUBUSKIE;żarski;Lipinki Łużyckie;Lipinki Łużyckie;;
+LUBUSKIE;żarski;Lubsko;Lubsko;;12697.0
+LUBUSKIE;żarski;Przewóz;Przewóz;;
+LUBUSKIE;żarski;Trzebiel;Trzebiel;;
+LUBUSKIE;żarski;Tuplice;Tuplice;;
+LUBUSKIE;żarski;Łęknica;Łęknica;;2195.0
+LUBUSKIE;żarski;Żary;Żary;;34389.0
+MAZOWIECKIE;Ostrołęka;Ostrołęka;Ostrołęka;;47696.0
+MAZOWIECKIE;Płock;Płock;Płock;;110015.0
+MAZOWIECKIE;Radom;Radom;Radom;;193777.0
+MAZOWIECKIE;Siedlce;Siedlce;Siedlce;;74780.0
+MAZOWIECKIE;białobrzeski;Białobrzegi;Białobrzegi;;6357.0
+MAZOWIECKIE;białobrzeski;Promna;Promna;;
+MAZOWIECKIE;białobrzeski;Radzanów;Radzanów;;
+MAZOWIECKIE;białobrzeski;Stara Błotnica;Stara Błotnica;;
+MAZOWIECKIE;białobrzeski;Stromiec;Stromiec;;
+MAZOWIECKIE;białobrzeski;Wyśmierzyce;Wyśmierzyce;;864.0
+MAZOWIECKIE;ciechanowski;Ciechanów;Ciechanów;;41474.0
+MAZOWIECKIE;ciechanowski;Glinojeck;Glinojeck;;2748.0
+MAZOWIECKIE;ciechanowski;Gołymin-Ośrodek;Gołymin-Ośrodek;;
+MAZOWIECKIE;ciechanowski;Grudusk;Grudusk;;
+MAZOWIECKIE;ciechanowski;Ojrzeń;Ojrzeń;;
+MAZOWIECKIE;ciechanowski;Opinogóra Górna;Opinogóra Górna;;
+MAZOWIECKIE;ciechanowski;Regimin;Regimin;;
+MAZOWIECKIE;ciechanowski;Sońsk;Sońsk;;
+MAZOWIECKIE;garwoliński;Borowie;Borowie;;
+MAZOWIECKIE;garwoliński;Garwolin;Garwolin;;17258.0
+MAZOWIECKIE;garwoliński;Górzno;Górzno;;
+MAZOWIECKIE;garwoliński;Maciejowice;Maciejowice;;1415.0
+MAZOWIECKIE;garwoliński;Miastków Kościelny;Miastków Kościelny;;
+MAZOWIECKIE;garwoliński;Parysów;Parysów;;
+MAZOWIECKIE;garwoliński;Pilawa;Pilawa;;4427.0
+MAZOWIECKIE;garwoliński;Sobolew;Sobolew;;
+MAZOWIECKIE;garwoliński;Trojanów;Trojanów;;
+MAZOWIECKIE;garwoliński;Wilga;Wilga;;
+MAZOWIECKIE;garwoliński;Łaskarzew;Łaskarzew;;4447.0
+MAZOWIECKIE;garwoliński;Żelechów;Żelechów;;3655.0
+MAZOWIECKIE;gostyniński;Gostynin;Gostynin;;16695.0
+MAZOWIECKIE;gostyniński;Pacyna;Pacyna;;
+MAZOWIECKIE;gostyniński;Sanniki;Sanniki;;1709.0
+MAZOWIECKIE;gostyniński;Szczawin Kościelny;Szczawin Kościelny;;
+MAZOWIECKIE;grodziski;Baranów;Baranów;;
+MAZOWIECKIE;grodziski;Grodzisk Mazowiecki;Grodzisk Mazowiecki;;35156.0
+MAZOWIECKIE;grodziski;Jaktorów;Jaktorów;;
+MAZOWIECKIE;grodziski;Milanówek;Milanówek;;16317.0
+MAZOWIECKIE;grodziski;Podkowa Leśna;Podkowa Leśna;;3741.0
+MAZOWIECKIE;grodziski;Żabia Wola;Żabia Wola;;
+MAZOWIECKIE;grójecki;Belsk Duży;Belsk Duży;;
+MAZOWIECKIE;grójecki;Błędów;Błędów;;
+MAZOWIECKIE;grójecki;Chynów;Chynów;;
+MAZOWIECKIE;grójecki;Goszczyn;Goszczyn;;
+MAZOWIECKIE;grójecki;Grójec;Grójec;;16726.0
+MAZOWIECKIE;grójecki;Jasieniec;Jasieniec;;
+MAZOWIECKIE;grójecki;Mogielnica;Mogielnica;;2111.0
+MAZOWIECKIE;grójecki;Nowe Miasto nad Pilicą;Nowe Miasto nad Pilicą;;3430.0
+MAZOWIECKIE;grójecki;Pniewy;Pniewy;;
+MAZOWIECKIE;grójecki;Warka;Warka;;11870.0
+MAZOWIECKIE;kozienicki;Garbatka-Letnisko;Garbatka-Letnisko;;
+MAZOWIECKIE;kozienicki;Gniewoszów;Gniewoszów;;
+MAZOWIECKIE;kozienicki;Grabów nad Pilicą;Grabów nad Pilicą;;
+MAZOWIECKIE;kozienicki;Głowaczów;Głowaczów;;807.0
+MAZOWIECKIE;kozienicki;Kozienice;Kozienice;;15237.0
+MAZOWIECKIE;kozienicki;Magnuszew;Magnuszew;;973.0
+MAZOWIECKIE;kozienicki;Sieciechów;Sieciechów;;
+MAZOWIECKIE;legionowski;Jabłonna;Jabłonna;;
+MAZOWIECKIE;legionowski;Legionowo;Legionowo;;52247.0
+MAZOWIECKIE;legionowski;Nieporęt;Nieporęt;;
+MAZOWIECKIE;legionowski;Serock;Serock;;5381.0
+MAZOWIECKIE;legionowski;Wieliszew;Wieliszew;;
+MAZOWIECKIE;lipski;Ciepielów;Ciepielów;;707.0
+MAZOWIECKIE;lipski;Lipsko;Lipsko;;4912.0
+MAZOWIECKIE;lipski;Rzeczniów;Rzeczniów;;
+MAZOWIECKIE;lipski;Sienno;Sienno;;948.0
+MAZOWIECKIE;lipski;Solec nad Wisłą;Solec nad Wisłą;;907.0
+MAZOWIECKIE;makowski;Karniewo;Karniewo;;
+MAZOWIECKIE;makowski;Krasnosielc;Krasnosielc;;
+MAZOWIECKIE;makowski;Maków Mazowiecki;Maków Mazowiecki;;8818.0
+MAZOWIECKIE;makowski;Młynarze;Młynarze;;
+MAZOWIECKIE;makowski;Płoniawy-Bramura;Płoniawy-Bramura;;
+MAZOWIECKIE;makowski;Płoniawy-Bramura;Płoniawy-Bramura;;
+MAZOWIECKIE;makowski;Rzewnie;Rzewnie;;
+MAZOWIECKIE;makowski;Różan;Różan;;2566.0
+MAZOWIECKIE;makowski;Sypniewo;Sypniewo;;
+MAZOWIECKIE;miński;Cegłów;Cegłów;;2344.0
+MAZOWIECKIE;miński;Dobre;Dobre;;1823.0
+MAZOWIECKIE;miński;Dębe Wielkie;Dębe Wielkie;;
+MAZOWIECKIE;miński;Halinów;Halinów;;3703.0
+MAZOWIECKIE;miński;Jakubów;Jakubów;;
+MAZOWIECKIE;miński;Kałuszyn;Kałuszyn;;2675.0
+MAZOWIECKIE;miński;Latowicz;Latowicz;;1343.0
+MAZOWIECKIE;miński;Mińsk Mazowiecki;Mińsk Mazowiecki;;39645.0
+MAZOWIECKIE;miński;Mrozy;Mrozy;;3635.0
+MAZOWIECKIE;miński;Siennica;Siennica;;2299.0
+MAZOWIECKIE;miński;Stanisławów;Stanisławów;;
+MAZOWIECKIE;miński;Sulejówek;Sulejówek;;21568.0
+MAZOWIECKIE;mławski;Dzierzgowo;Dzierzgowo;;
+MAZOWIECKIE;mławski;Lipowiec Kościelny;Lipowiec Kościelny;;
+MAZOWIECKIE;mławski;Mława;Mława;;30693.0
+MAZOWIECKIE;mławski;Radzanów;Radzanów;;
+MAZOWIECKIE;mławski;Strzegowo;Strzegowo;;
+MAZOWIECKIE;mławski;Stupsk;Stupsk;;
+MAZOWIECKIE;mławski;Szreńsk;Szreńsk;;
+MAZOWIECKIE;mławski;Szydłowo;Szydłowo;;
+MAZOWIECKIE;mławski;Wieczfnia Kościelna;Wieczfnia Kościelna;;
+MAZOWIECKIE;mławski;Wiśniewo;Wiśniewo;;
+MAZOWIECKIE;nowodworski;Czosnów;Czosnów;;
+MAZOWIECKIE;nowodworski;Leoncin;Leoncin;;
+MAZOWIECKIE;nowodworski;Nasielsk;Nasielsk;;7286.0
+MAZOWIECKIE;nowodworski;Nowy Dwór Mazowiecki;Nowy Dwór Mazowiecki;;28469.0
+MAZOWIECKIE;nowodworski;Pomiechówek;Pomiechówek;;
+MAZOWIECKIE;nowodworski;Zakroczym;Zakroczym;;3119.0
+MAZOWIECKIE;ostrowski;Andrzejewo;Andrzejewo;;
+MAZOWIECKIE;ostrowski;Boguty-Pianki;Boguty-Pianki;;
+MAZOWIECKIE;ostrowski;Brok;Brok;;1702.0
+MAZOWIECKIE;ostrowski;Małkinia Górna;Małkinia Górna;;
+MAZOWIECKIE;ostrowski;Nur;Nur;;
+MAZOWIECKIE;ostrowski;Ostrów Mazowiecka;Ostrów Mazowiecka;;21400.0
+MAZOWIECKIE;ostrowski;Stary Lubotyń;Stary Lubotyń;;
+MAZOWIECKIE;ostrowski;Szulborze Wielkie;Szulborze Wielkie;;
+MAZOWIECKIE;ostrowski;Wąsewo;Wąsewo;;
+MAZOWIECKIE;ostrowski;Zaręby Kościelne;Zaręby Kościelne;;
+MAZOWIECKIE;ostrołęcki;Baranowo;Baranowo;;
+MAZOWIECKIE;ostrołęcki;Czarnia;Czarnia;;
+MAZOWIECKIE;ostrołęcki;Czerwin;Czerwin;;
+MAZOWIECKIE;ostrołęcki;Goworowo;Goworowo;;
+MAZOWIECKIE;ostrołęcki;Kadzidło;Kadzidło;;
+MAZOWIECKIE;ostrołęcki;Lelis;Lelis;;
+MAZOWIECKIE;ostrołęcki;Myszyniec;Myszyniec;;3176.0
+MAZOWIECKIE;ostrołęcki;Olszewo-Borki;Olszewo-Borki;;
+MAZOWIECKIE;ostrołęcki;Rzekuń;Rzekuń;;
+MAZOWIECKIE;ostrołęcki;Troszyn;Troszyn;;
+MAZOWIECKIE;ostrołęcki;Łyse;Łyse;;
+MAZOWIECKIE;otwocki;Celestynów;Celestynów;;
+MAZOWIECKIE;otwocki;Józefów;Józefów;;21235.0
+MAZOWIECKIE;otwocki;Karczew;Karczew;;9191.0
+MAZOWIECKIE;otwocki;Kołbiel;Kołbiel;;
+MAZOWIECKIE;otwocki;Osieck;Osieck;;1104.0
+MAZOWIECKIE;otwocki;Otwock;Otwock;;43527.0
+MAZOWIECKIE;otwocki;Sobienie-Jeziory;Sobienie-Jeziory;;
+MAZOWIECKIE;otwocki;Wiązowna;Wiązowna;;
+MAZOWIECKIE;piaseczyński;Góra Kalwaria;Góra Kalwaria;;12216.0
+MAZOWIECKIE;piaseczyński;Konstancin-Jeziorna;Konstancin-Jeziorna;;16777.0
+MAZOWIECKIE;piaseczyński;Lesznowola;Lesznowola;;
+MAZOWIECKIE;piaseczyński;Piaseczno;Piaseczno;;51678.0
+MAZOWIECKIE;piaseczyński;Prażmów;Prażmów;;
+MAZOWIECKIE;piaseczyński;Tarczyn;Tarczyn;;4371.0
+MAZOWIECKIE;pruszkowski;Brwinów;Brwinów;;14624.0
+MAZOWIECKIE;pruszkowski;Michałowice;Michałowice;;
+MAZOWIECKIE;pruszkowski;Nadarzyn;Nadarzyn;;
+MAZOWIECKIE;pruszkowski;Piastów;Piastów;;22719.0
+MAZOWIECKIE;pruszkowski;Pruszków;Pruszków;;65686.0
+MAZOWIECKIE;pruszkowski;Raszyn;Raszyn;;
+MAZOWIECKIE;przasnyski;Chorzele;Chorzele;;2879.0
+MAZOWIECKIE;przasnyski;Czernice Borowe;Czernice Borowe;;
+MAZOWIECKIE;przasnyski;Jednorożec;Jednorożec;;
+MAZOWIECKIE;przasnyski;Krasne;Krasne;;
+MAZOWIECKIE;przasnyski;Krzynowłoga Mała;Krzynowłoga Mała;;
+MAZOWIECKIE;przasnyski;Przasnysz;Przasnysz;;16189.0
+MAZOWIECKIE;przysuski;Borkowice;Borkowice;;
+MAZOWIECKIE;przysuski;Gielniów;Gielniów;;768.0
+MAZOWIECKIE;przysuski;Klwów;Klwów;;
+MAZOWIECKIE;przysuski;Odrzywół;Odrzywół;;993.0
+MAZOWIECKIE;przysuski;Potworów;Potworów;;
+MAZOWIECKIE;przysuski;Przysucha;Przysucha;;5191.0
+MAZOWIECKIE;przysuski;Rusinów;Rusinów;;
+MAZOWIECKIE;przysuski;Wieniawa;Wieniawa;;
+MAZOWIECKIE;pułtuski;Gzy;Gzy;;
+MAZOWIECKIE;pułtuski;Obryte;Obryte;;
+MAZOWIECKIE;pułtuski;Obryte;Obryte;;
+MAZOWIECKIE;pułtuski;Pokrzywnica;Pokrzywnica;;
+MAZOWIECKIE;pułtuski;Pułtusk;Pułtusk;;18973.0
+MAZOWIECKIE;pułtuski;Winnica;Winnica;;
+MAZOWIECKIE;pułtuski;Zatory;Zatory;;
+MAZOWIECKIE;pułtuski;Świercze;Świercze;;
+MAZOWIECKIE;płocki;Bielsk;Bielsk;;
+MAZOWIECKIE;płocki;Bodzanów;Bodzanów;;1132.0
+MAZOWIECKIE;płocki;Brudzeń Duży;Brudzeń Duży;;
+MAZOWIECKIE;płocki;Bulkowo;Bulkowo;;
+MAZOWIECKIE;płocki;Drobin;Drobin;;2604.0
+MAZOWIECKIE;płocki;Gąbin;Gąbin;;4108.0
+MAZOWIECKIE;płocki;Mała Wieś;Mała Wieś;;
+MAZOWIECKIE;płocki;Nowy Duninów;Nowy Duninów;;
+MAZOWIECKIE;płocki;Radzanowo;Radzanowo;;
+MAZOWIECKIE;płocki;Stara Biała;Stara Biała;;
+MAZOWIECKIE;płocki;Staroźreby;Staroźreby;;
+MAZOWIECKIE;płocki;Słubice;Słubice;;
+MAZOWIECKIE;płocki;Słupno;Słupno;;
+MAZOWIECKIE;płocki;Wyszogród;Wyszogród;;2344.0
+MAZOWIECKIE;płocki;Łąck;Łąck;;
+MAZOWIECKIE;płocki;Łąck;Łąck;;
+MAZOWIECKIE;płoński;Baboszewo;Baboszewo;;
+MAZOWIECKIE;płoński;Czerwińsk nad Wisłą;Czerwińsk nad Wisłą;;975.0
+MAZOWIECKIE;płoński;Dzierzążnia;Dzierzążnia;;
+MAZOWIECKIE;płoński;Joniec;Joniec;;
+MAZOWIECKIE;płoński;Naruszewo;Naruszewo;;
+MAZOWIECKIE;płoński;Nowe Miasto;Nowe Miasto;;1510.0
+MAZOWIECKIE;płoński;Płońsk;Płońsk;;21381.0
+MAZOWIECKIE;płoński;Raciąż;Raciąż;;3932.0
+MAZOWIECKIE;płoński;Sochocin;Sochocin;;1894.0
+MAZOWIECKIE;płoński;Załuski;Załuski;;
+MAZOWIECKIE;radomski;Gózd;Gózd;;
+MAZOWIECKIE;radomski;Iłża;Iłża;;4182.0
+MAZOWIECKIE;radomski;Jastrzębia;Jastrzębia;;
+MAZOWIECKIE;radomski;Jedlińsk;Jedlińsk;;
+MAZOWIECKIE;radomski;Jedlnia-Letnisko;Jedlnia-Letnisko;;3972.0
+MAZOWIECKIE;radomski;Pionki;Pionki;;15824.0
+MAZOWIECKIE;radomski;Przytyk;Przytyk;;906.0
+MAZOWIECKIE;radomski;Skaryszew;Skaryszew;;4446.0
+MAZOWIECKIE;radomski;Wierzbica;Wierzbica;;
+MAZOWIECKIE;radomski;Wolanów;Wolanów;;
+MAZOWIECKIE;radomski;Zakrzew;Zakrzew;;
+MAZOWIECKIE;siedlecki;Domanice;Domanice;;
+MAZOWIECKIE;siedlecki;Korczew;Korczew;;
+MAZOWIECKIE;siedlecki;Kotuń;Kotuń;;
+MAZOWIECKIE;siedlecki;Mokobody;Mokobody;;
+MAZOWIECKIE;siedlecki;Mordy;Mordy;;1580.0
+MAZOWIECKIE;siedlecki;Paprotnia;Paprotnia;;
+MAZOWIECKIE;siedlecki;Przesmyki;Przesmyki;;
+MAZOWIECKIE;siedlecki;Skórzec;Skórzec;;
+MAZOWIECKIE;siedlecki;Suchożebry;Suchożebry;;
+MAZOWIECKIE;siedlecki;Wiśniew;Wiśniew;;
+MAZOWIECKIE;siedlecki;Wodynie;Wodynie;;
+MAZOWIECKIE;siedlecki;Zbuczyn;Zbuczyn;;
+MAZOWIECKIE;sierpecki;Gozdowo;Gozdowo;;
+MAZOWIECKIE;sierpecki;Mochowo;Mochowo;;
+MAZOWIECKIE;sierpecki;Rościszewo;Rościszewo;;
+MAZOWIECKIE;sierpecki;Sierpc;Sierpc;;16692.0
+MAZOWIECKIE;sierpecki;Szczutowo;Szczutowo;;
+MAZOWIECKIE;sochaczewski;Brochów;Brochów;;
+MAZOWIECKIE;sochaczewski;Iłów;Iłów;;
+MAZOWIECKIE;sochaczewski;Młodzieszyn;Młodzieszyn;;
+MAZOWIECKIE;sochaczewski;Nowa Sucha;Nowa Sucha;;
+MAZOWIECKIE;sochaczewski;Rybno;Rybno;;
+MAZOWIECKIE;sochaczewski;Sochaczew;Sochaczew;;33154.0
+MAZOWIECKIE;sochaczewski;Teresin;Teresin;;
+MAZOWIECKIE;sokołowski;Ceranów;Ceranów;;
+MAZOWIECKIE;sokołowski;Jabłonna Lacka;Jabłonna Lacka;;
+MAZOWIECKIE;sokołowski;Kosów Lacki;Kosów Lacki;;1964.0
+MAZOWIECKIE;sokołowski;Repki;Repki;;
+MAZOWIECKIE;sokołowski;Sabnie;Sabnie;;
+MAZOWIECKIE;sokołowski;Sokołów Podlaski;Sokołów Podlaski;;18209.0
+MAZOWIECKIE;sokołowski;Sterdyń;Sterdyń;;
+MAZOWIECKIE;szydłowiecki;Chlewiska;Chlewiska;;
+MAZOWIECKIE;szydłowiecki;Jastrząb;Jastrząb;;1187.0
+MAZOWIECKIE;szydłowiecki;Orońsko;Orońsko;;
+MAZOWIECKIE;szydłowiecki;Szydłowiec;Szydłowiec;;10401.0
+MAZOWIECKIE;warszawski zachodni;Błonie;Błonie;;12165.0
+MAZOWIECKIE;warszawski zachodni;Izabelin;Izabelin;;
+MAZOWIECKIE;warszawski zachodni;Kampinos;Kampinos;;
+MAZOWIECKIE;warszawski zachodni;Leszno;Leszno;;
+MAZOWIECKIE;warszawski zachodni;Leszno;Leszno;;
+MAZOWIECKIE;warszawski zachodni;Ożarów Mazowiecki;Ożarów Mazowiecki;;15940.0
+MAZOWIECKIE;warszawski zachodni;Stare Babice;Stare Babice;;
+MAZOWIECKIE;warszawski zachodni;Łomianki;Łomianki;;18248.0
+MAZOWIECKIE;wołomiński;Dąbrówka;Dąbrówka;;
+MAZOWIECKIE;wołomiński;Jadów;Jadów;;895.0
+MAZOWIECKIE;wołomiński;Klembów;Klembów;;
+MAZOWIECKIE;wołomiński;Kobyłka;Kobyłka;;28599.0
+MAZOWIECKIE;wołomiński;Marki;Marki;;46163.0
+MAZOWIECKIE;wołomiński;Poświętne;Poświętne;;
+MAZOWIECKIE;wołomiński;Radzymin;Radzymin;;15333.0
+MAZOWIECKIE;wołomiński;Strachówka;Strachówka;;
+MAZOWIECKIE;wołomiński;Tłuszcz;Tłuszcz;;8064.0
+MAZOWIECKIE;wołomiński;Wołomin;Wołomin;;35313.0
+MAZOWIECKIE;wołomiński;Zielonka;Zielonka;;18047.0
+MAZOWIECKIE;wołomiński;Ząbki;Ząbki;;45538.0
+MAZOWIECKIE;wyszkowski;Brańszczyk;Brańszczyk;;
+MAZOWIECKIE;wyszkowski;Długosiodło;Długosiodło;;
+MAZOWIECKIE;wyszkowski;Rząśnik;Rząśnik;;
+MAZOWIECKIE;wyszkowski;Somianka;Somianka;;
+MAZOWIECKIE;wyszkowski;Wyszków;Wyszków;;25857.0
+MAZOWIECKIE;wyszkowski;Zabrodzie;Zabrodzie;;
+MAZOWIECKIE;węgrowski;Grębków;Grębków;;
+MAZOWIECKIE;węgrowski;Korytnica;Korytnica;;
+MAZOWIECKIE;węgrowski;Liw;Liw;;
+MAZOWIECKIE;węgrowski;Miedzna;Miedzna;;
+MAZOWIECKIE;węgrowski;Sadowne;Sadowne;;
+MAZOWIECKIE;węgrowski;Sadowne;Sadowne;;
+MAZOWIECKIE;węgrowski;Sadowne;Sadowne;;
+MAZOWIECKIE;węgrowski;Stoczek;Stoczek;;
+MAZOWIECKIE;węgrowski;Wierzbno;Wierzbno;;
+MAZOWIECKIE;węgrowski;Węgrów;Węgrów;;11718.0
+MAZOWIECKIE;węgrowski;Łochów;Łochów;;6502.0
+MAZOWIECKIE;zwoleński;Kazanów;Kazanów;;398.0
+MAZOWIECKIE;zwoleński;Policzna;Policzna;;
+MAZOWIECKIE;zwoleński;Przyłęk;Przyłęk;;
+MAZOWIECKIE;zwoleński;Tczów;Tczów;;
+MAZOWIECKIE;zwoleński;Zwoleń;Zwoleń;;7081.0
+MAZOWIECKIE;łosicki;Huszlew;Huszlew;;
+MAZOWIECKIE;łosicki;Olszanka;Olszanka;;
+MAZOWIECKIE;łosicki;Platerów;Platerów;;
+MAZOWIECKIE;łosicki;Sarnaki;Sarnaki;;
+MAZOWIECKIE;łosicki;Stara Kornica;Stara Kornica;;
+MAZOWIECKIE;łosicki;Łosice;Łosice;;6777.0
+MAZOWIECKIE;żuromiński;Bieżuń;Bieżuń;;1683.0
+MAZOWIECKIE;żuromiński;Kuczbork-Osada;Kuczbork-Osada;;
+MAZOWIECKIE;żuromiński;Lubowidz;Lubowidz;;1463.0
+MAZOWIECKIE;żuromiński;Lutocin;Lutocin;;
+MAZOWIECKIE;żuromiński;Siemiątkowo;Siemiątkowo;;
+MAZOWIECKIE;żuromiński;Żuromin;Żuromin;;8415.0
+MAZOWIECKIE;żyrardowski;Mszczonów;Mszczonów;;6022.0
+MAZOWIECKIE;żyrardowski;Puszcza Mariańska;Puszcza Mariańska;;
+MAZOWIECKIE;żyrardowski;Radziejowice;Radziejowice;;
+MAZOWIECKIE;żyrardowski;Wiskitki;Wiskitki;;1478.0
+MAZOWIECKIE;żyrardowski;Żyrardów;Żyrardów;;38401.0
+MAŁOPOLSKIE;Nowy Sącz;Nowy Sącz;Nowy Sącz;;79821.0
+MAŁOPOLSKIE;Tarnów;Tarnów;Tarnów;;102123.0
+MAŁOPOLSKIE;bocheński;Bochnia;Bochnia;;28339.0
+MAŁOPOLSKIE;bocheński;Drwinia;Drwinia;;
+MAŁOPOLSKIE;bocheński;Lipnica Murowana;Lipnica Murowana;;
+MAŁOPOLSKIE;bocheński;Nowy Wiśnicz;Nowy Wiśnicz;;2719.0
+MAŁOPOLSKIE;bocheński;Rzezawa;Rzezawa;;
+MAŁOPOLSKIE;bocheński;Trzciana;Trzciana;;
+MAŁOPOLSKIE;bocheński;Łapanów;Łapanów;;
+MAŁOPOLSKIE;bocheński;Żegocina;Żegocina;;
+MAŁOPOLSKIE;brzeski;Borzęcin;Borzęcin;;
+MAŁOPOLSKIE;brzeski;Brzesko;Brzesko;;15795.0
+MAŁOPOLSKIE;brzeski;Czchów;Czchów;;2263.0
+MAŁOPOLSKIE;brzeski;Dębno;Dębno;;
+MAŁOPOLSKIE;brzeski;Gnojnik;Gnojnik;;
+MAŁOPOLSKIE;brzeski;Iwkowa;Iwkowa;;
+MAŁOPOLSKIE;brzeski;Szczurowa;Szczurowa;;
+MAŁOPOLSKIE;chrzanowski;Alwernia;Alwernia;;3211.0
+MAŁOPOLSKIE;chrzanowski;Babice;Babice;;
+MAŁOPOLSKIE;chrzanowski;Chrzanów;Chrzanów;;33522.0
+MAŁOPOLSKIE;chrzanowski;Libiąż;Libiąż;;15788.0
+MAŁOPOLSKIE;chrzanowski;Trzebinia;Trzebinia;;18298.0
+MAŁOPOLSKIE;dąbrowski;Bolesław;Bolesław;;
+MAŁOPOLSKIE;dąbrowski;Dąbrowa Tarnowska;Dąbrowa Tarnowska;;11393.0
+MAŁOPOLSKIE;dąbrowski;Gręboszów;Gręboszów;;
+MAŁOPOLSKIE;dąbrowski;Mędrzechów;Mędrzechów;;
+MAŁOPOLSKIE;dąbrowski;Olesno;Olesno;;
+MAŁOPOLSKIE;dąbrowski;Radgoszcz;Radgoszcz;;
+MAŁOPOLSKIE;dąbrowski;Szczucin;Szczucin;;4065.0
+MAŁOPOLSKIE;gorlicki;Biecz;Biecz;;4267.0
+MAŁOPOLSKIE;gorlicki;Bobowa;Bobowa;;3067.0
+MAŁOPOLSKIE;gorlicki;Gorlice;Gorlice;;25166.0
+MAŁOPOLSKIE;gorlicki;Lipinki;Lipinki;;
+MAŁOPOLSKIE;gorlicki;Moszczenica;Moszczenica;;
+MAŁOPOLSKIE;gorlicki;Ropa;Ropa;;
+MAŁOPOLSKIE;gorlicki;Sękowa;Sękowa;;
+MAŁOPOLSKIE;gorlicki;Uście Gorlickie;Uście Gorlickie;;
+MAŁOPOLSKIE;gorlicki;Łużna;Łużna;;
+MAŁOPOLSKIE;krakowski;Czernichów;Czernichów;;
+MAŁOPOLSKIE;krakowski;Krzeszowice;Krzeszowice;;9763.0
+MAŁOPOLSKIE;krakowski;Liszki;Liszki;;
+MAŁOPOLSKIE;krakowski;Michałowice;Michałowice;;
+MAŁOPOLSKIE;krakowski;Mogilany;Mogilany;;
+MAŁOPOLSKIE;krakowski;Skawina;Skawina;;23868.0
+MAŁOPOLSKIE;krakowski;Skała;Skała;;3856.0
+MAŁOPOLSKIE;krakowski;Sułoszowa;Sułoszowa;;
+MAŁOPOLSKIE;krakowski;Słomniki;Słomniki;;4159.0
+MAŁOPOLSKIE;krakowski;Wielka Wieś;Wielka Wieś;;
+MAŁOPOLSKIE;krakowski;Zabierzów;Zabierzów;;
+MAŁOPOLSKIE;krakowski;Zielonki;Zielonki;;
+MAŁOPOLSKIE;krakowski;Świątniki Górne;Świątniki Górne;;2387.0
+MAŁOPOLSKIE;limanowski;Dobra;Dobra;;
+MAŁOPOLSKIE;limanowski;Jodłownik;Jodłownik;;
+MAŁOPOLSKIE;limanowski;Kamienica;Kamienica;;
+MAŁOPOLSKIE;limanowski;Laskowa;Laskowa;;
+MAŁOPOLSKIE;limanowski;Limanowa;Limanowa;;14365.0
+MAŁOPOLSKIE;limanowski;Mszana Dolna;Mszana Dolna;;7807.0
+MAŁOPOLSKIE;limanowski;Niedźwiedź;Niedźwiedź;;
+MAŁOPOLSKIE;limanowski;Szczawa;Szczawa;;
+MAŁOPOLSKIE;limanowski;Słopnice;Słopnice;;
+MAŁOPOLSKIE;limanowski;Tymbark;Tymbark;;
+MAŁOPOLSKIE;limanowski;Łukowica;Łukowica;;
+MAŁOPOLSKIE;miechowski;Charsznica;Charsznica;;
+MAŁOPOLSKIE;miechowski;Gołcza;Gołcza;;
+MAŁOPOLSKIE;miechowski;Kozłów;Kozłów;;
+MAŁOPOLSKIE;miechowski;Książ Wielki;Książ Wielki;;850.0
+MAŁOPOLSKIE;miechowski;Miechów;Miechów;;10857.0
+MAŁOPOLSKIE;miechowski;Racławice;Racławice;;
+MAŁOPOLSKIE;miechowski;Słaboszów;Słaboszów;;
+MAŁOPOLSKIE;myślenicki;Dobczyce;Dobczyce;;6124.0
+MAŁOPOLSKIE;myślenicki;Lubień;Lubień;;
+MAŁOPOLSKIE;myślenicki;Myślenice;Myślenice;;17684.0
+MAŁOPOLSKIE;myślenicki;Pcim;Pcim;;
+MAŁOPOLSKIE;myślenicki;Raciechowice;Raciechowice;;
+MAŁOPOLSKIE;myślenicki;Siepraw;Siepraw;;
+MAŁOPOLSKIE;myślenicki;Sułkowice;Sułkowice;;6486.0
+MAŁOPOLSKIE;myślenicki;Tokarnia;Tokarnia;;
+MAŁOPOLSKIE;myślenicki;Wiśniowa;Wiśniowa;;
+MAŁOPOLSKIE;nowosądecki;Chełmiec;Chełmiec;;
+MAŁOPOLSKIE;nowosądecki;Grybów;Grybów;;5918.0
+MAŁOPOLSKIE;nowosądecki;Gródek nad Dunajcem;Gródek nad Dunajcem;;
+MAŁOPOLSKIE;nowosądecki;Kamionka Wielka;Kamionka Wielka;;
+MAŁOPOLSKIE;nowosądecki;Korzenna;Korzenna;;
+MAŁOPOLSKIE;nowosądecki;Krynica-Zdrój;Krynica-Zdrój;;9434.0
+MAŁOPOLSKIE;nowosądecki;Muszyna;Muszyna;;4435.0
+MAŁOPOLSKIE;nowosądecki;Nawojowa;Nawojowa;;
+MAŁOPOLSKIE;nowosądecki;Piwniczna-Zdrój;Piwniczna-Zdrój;;5322.0
+MAŁOPOLSKIE;nowosądecki;Podegrodzie;Podegrodzie;;
+MAŁOPOLSKIE;nowosądecki;Rytro;Rytro;;
+MAŁOPOLSKIE;nowosądecki;Stary Sącz;Stary Sącz;;8606.0
+MAŁOPOLSKIE;nowosądecki;Łabowa;Łabowa;;
+MAŁOPOLSKIE;nowosądecki;Łososina Dolna;Łososina Dolna;;
+MAŁOPOLSKIE;nowosądecki;Łącko;Łącko;;
+MAŁOPOLSKIE;nowotarski;Czarny Dunajec;Czarny Dunajec;;3652.0
+MAŁOPOLSKIE;nowotarski;Czorsztyn;Czorsztyn;;
+MAŁOPOLSKIE;nowotarski;Jabłonka;Jabłonka;;
+MAŁOPOLSKIE;nowotarski;Krościenko nad Dunajcem;Krościenko nad Dunajcem;;
+MAŁOPOLSKIE;nowotarski;Lipnica Wielka;Lipnica Wielka;;
+MAŁOPOLSKIE;nowotarski;Nowy Targ;Nowy Targ;;33040.0
+MAŁOPOLSKIE;nowotarski;Ochotnica Dolna;Ochotnica Dolna;;
+MAŁOPOLSKIE;nowotarski;Raba Wyżna;Raba Wyżna;;
+MAŁOPOLSKIE;nowotarski;Rabka-Zdrój;Rabka-Zdrój;;12135.0
+MAŁOPOLSKIE;nowotarski;Spytkowice;Spytkowice;;
+MAŁOPOLSKIE;nowotarski;Szaflary;Szaflary;;
+MAŁOPOLSKIE;nowotarski;Szczawnica;Szczawnica;;5192.0
+MAŁOPOLSKIE;nowotarski;Łapsze Niżne;Łapsze Niżne;;
+MAŁOPOLSKIE;olkuski;Bolesław;Bolesław;;
+MAŁOPOLSKIE;olkuski;Bukowno;Bukowno;;9288.0
+MAŁOPOLSKIE;olkuski;Klucze;Klucze;;
+MAŁOPOLSKIE;olkuski;Olkusz;Olkusz;;31896.0
+MAŁOPOLSKIE;olkuski;Trzyciąż;Trzyciąż;;
+MAŁOPOLSKIE;olkuski;Wolbrom;Wolbrom;;8006.0
+MAŁOPOLSKIE;oświęcimski;Brzeszcze;Brzeszcze;;10548.0
+MAŁOPOLSKIE;oświęcimski;Chełmek;Chełmek;;8297.0
+MAŁOPOLSKIE;oświęcimski;Kęty;Kęty;;17537.0
+MAŁOPOLSKIE;oświęcimski;Osiek;Osiek;;
+MAŁOPOLSKIE;oświęcimski;Oświęcim;Oświęcim;;35313.0
+MAŁOPOLSKIE;oświęcimski;Polanka Wielka;Polanka Wielka;;
+MAŁOPOLSKIE;oświęcimski;Przeciszów;Przeciszów;;
+MAŁOPOLSKIE;oświęcimski;Zator;Zator;;3576.0
+MAŁOPOLSKIE;proszowicki;Koniusza;Koniusza;;
+MAŁOPOLSKIE;proszowicki;Koszyce;Koszyce;;765.0
+MAŁOPOLSKIE;proszowicki;Nowe Brzesko;Nowe Brzesko;;1593.0
+MAŁOPOLSKIE;proszowicki;Pałecznica;Pałecznica;;
+MAŁOPOLSKIE;proszowicki;Proszowice;Proszowice;;5717.0
+MAŁOPOLSKIE;proszowicki;Radziemice;Radziemice;;
+MAŁOPOLSKIE;suski;Budzów;Budzów;;
+MAŁOPOLSKIE;suski;Jordanów;Jordanów;;5396.0
+MAŁOPOLSKIE;suski;Maków Podhalański;Maków Podhalański;;5497.0
+MAŁOPOLSKIE;suski;Stryszawa;Stryszawa;;
+MAŁOPOLSKIE;suski;Sucha Beskidzka;Sucha Beskidzka;;8755.0
+MAŁOPOLSKIE;suski;Zawoja;Zawoja;;
+MAŁOPOLSKIE;suski;Zembrzyce;Zembrzyce;;
+MAŁOPOLSKIE;tarnowski;Ciężkowice;Ciężkowice;;2484.0
+MAŁOPOLSKIE;tarnowski;Gromnik;Gromnik;;
+MAŁOPOLSKIE;tarnowski;Lisia Góra;Lisia Góra;;
+MAŁOPOLSKIE;tarnowski;Pleśna;Pleśna;;
+MAŁOPOLSKIE;tarnowski;Radłów;Radłów;;2705.0
+MAŁOPOLSKIE;tarnowski;Ryglice;Ryglice;;2644.0
+MAŁOPOLSKIE;tarnowski;Rzepiennik Strzyżewski;Rzepiennik Strzyżewski;;
+MAŁOPOLSKIE;tarnowski;Skrzyszów;Skrzyszów;;
+MAŁOPOLSKIE;tarnowski;Szerzyny;Szerzyny;;
+MAŁOPOLSKIE;tarnowski;Tuchów;Tuchów;;6142.0
+MAŁOPOLSKIE;tarnowski;Wierzchosławice;Wierzchosławice;;
+MAŁOPOLSKIE;tarnowski;Wietrzychowice;Wietrzychowice;;
+MAŁOPOLSKIE;tarnowski;Wojnicz;Wojnicz;;3132.0
+MAŁOPOLSKIE;tarnowski;Zakliczyn;Zakliczyn;;1572.0
+MAŁOPOLSKIE;tarnowski;Żabno;Żabno;;4077.0
+MAŁOPOLSKIE;tatrzański;Biały Dunajec;Biały Dunajec;;
+MAŁOPOLSKIE;tatrzański;Bukowina Tatrzańska;Bukowina Tatrzańska;;
+MAŁOPOLSKIE;tatrzański;Kościelisko;Kościelisko;;
+MAŁOPOLSKIE;tatrzański;Poronin;Poronin;;
+MAŁOPOLSKIE;tatrzański;Zakopane;Zakopane;;25059.0
+MAŁOPOLSKIE;wadowicki;Andrychów;Andrychów;;18071.0
+MAŁOPOLSKIE;wadowicki;Brzeźnica;Brzeźnica;;
+MAŁOPOLSKIE;wadowicki;Kalwaria Zebrzydowska;Kalwaria Zebrzydowska;;4267.0
+MAŁOPOLSKIE;wadowicki;Lanckorona;Lanckorona;;
+MAŁOPOLSKIE;wadowicki;Mucharz;Mucharz;;
+MAŁOPOLSKIE;wadowicki;Spytkowice;Spytkowice;;
+MAŁOPOLSKIE;wadowicki;Stryszów;Stryszów;;
+MAŁOPOLSKIE;wadowicki;Tomice;Tomice;;
+MAŁOPOLSKIE;wadowicki;Wadowice;Wadowice;;16929.0
+MAŁOPOLSKIE;wadowicki;Wieprz;Wieprz;;
+MAŁOPOLSKIE;wielicki;Biskupice;Biskupice;;
+MAŁOPOLSKIE;wielicki;Gdów;Gdów;;
+MAŁOPOLSKIE;wielicki;Kłaj;Kłaj;;
+MAŁOPOLSKIE;wielicki;Niepołomice;Niepołomice;;17227.0
+MAŁOPOLSKIE;wielicki;Wieliczka;Wieliczka;;28173.0
+OPOLSKIE;Opole;Opole;Opole;;125492.0
+OPOLSKIE;brzeski;Brzeg;Brzeg;;33101.0
+OPOLSKIE;brzeski;Grodków;Grodków;;7800.0
+OPOLSKIE;brzeski;Lewin Brzeski;Lewin Brzeski;;5537.0
+OPOLSKIE;brzeski;Lubsza;Lubsza;;
+OPOLSKIE;brzeski;Olszanka;Olszanka;;
+OPOLSKIE;brzeski;Skarbimierz;Skarbimierz;;
+OPOLSKIE;głubczycki;Baborów;Baborów;;2721.0
+OPOLSKIE;głubczycki;Branice;Branice;;
+OPOLSKIE;głubczycki;Głubczyce;Głubczyce;;11452.0
+OPOLSKIE;głubczycki;Kietrz;Kietrz;;5418.0
+OPOLSKIE;kluczborski;Byczyna;Byczyna;;3309.0
+OPOLSKIE;kluczborski;Kluczbork;Kluczbork;;21607.0
+OPOLSKIE;kluczborski;Lasowice Wielkie;Lasowice Wielkie;;
+OPOLSKIE;kluczborski;Wołczyn;Wołczyn;;5267.0
+OPOLSKIE;krapkowicki;Gogolin;Gogolin;;6421.0
+OPOLSKIE;krapkowicki;Krapkowice;Krapkowice;;15139.0
+OPOLSKIE;krapkowicki;Strzeleczki;Strzeleczki;;1521.0
+OPOLSKIE;krapkowicki;Walce;Walce;;
+OPOLSKIE;krapkowicki;Zdzieszowice;Zdzieszowice;;10035.0
+OPOLSKIE;kędzierzyńsko-kozielski;Bierawa;Bierawa;;
+OPOLSKIE;kędzierzyńsko-kozielski;Cisek;Cisek;;
+OPOLSKIE;kędzierzyńsko-kozielski;Kędzierzyn-Koźle;Kędzierzyn-Koźle;;53849.0
+OPOLSKIE;kędzierzyńsko-kozielski;Pawłowiczki;Pawłowiczki;;
+OPOLSKIE;kędzierzyńsko-kozielski;Polska Cerekiew;Polska Cerekiew;;
+OPOLSKIE;kędzierzyńsko-kozielski;Reńska Wieś;Reńska Wieś;;
+OPOLSKIE;namysłowski;Domaszowice;Domaszowice;;
+OPOLSKIE;namysłowski;Namysłów;Namysłów;;16716.0
+OPOLSKIE;namysłowski;Pokój;Pokój;;
+OPOLSKIE;namysłowski;Wilków;Wilków;;
+OPOLSKIE;namysłowski;Świerczów;Świerczów;;
+OPOLSKIE;nyski;Głuchołazy;Głuchołazy;;12474.0
+OPOLSKIE;nyski;Kamiennik;Kamiennik;;
+OPOLSKIE;nyski;Korfantów;Korfantów;;1692.0
+OPOLSKIE;nyski;Nysa;Nysa;;40287.0
+OPOLSKIE;nyski;Otmuchów;Otmuchów;;6096.0
+OPOLSKIE;nyski;Paczków;Paczków;;6527.0
+OPOLSKIE;nyski;Pakosławice;Pakosławice;;
+OPOLSKIE;nyski;Skoroszyce;Skoroszyce;;
+OPOLSKIE;nyski;Łambinowice;Łambinowice;;
+OPOLSKIE;oleski;Dobrodzień;Dobrodzień;;3424.0
+OPOLSKIE;oleski;Gorzów Śląski;Gorzów Śląski;;2418.0
+OPOLSKIE;oleski;Olesno;Olesno;;8957.0
+OPOLSKIE;oleski;Praszka;Praszka;;6975.0
+OPOLSKIE;oleski;Radłów;Radłów;;
+OPOLSKIE;oleski;Rudniki;Rudniki;;
+OPOLSKIE;oleski;Zębowice;Zębowice;;
+OPOLSKIE;opolski;Chrząstowice;Chrząstowice;;
+OPOLSKIE;opolski;Dobrzeń Wielki;Dobrzeń Wielki;;
+OPOLSKIE;opolski;Dąbrowa;Dąbrowa;;
+OPOLSKIE;opolski;Komprachcice;Komprachcice;;
+OPOLSKIE;opolski;Murów;Murów;;
+OPOLSKIE;opolski;Niemodlin;Niemodlin;;5734.0
+OPOLSKIE;opolski;Ozimek;Ozimek;;7780.0
+OPOLSKIE;opolski;Popielów;Popielów;;
+OPOLSKIE;opolski;Prószków;Prószków;;2542.0
+OPOLSKIE;opolski;Tarnów Opolski;Tarnów Opolski;;
+OPOLSKIE;opolski;Tarnów Opolski;Tarnów Opolski;;
+OPOLSKIE;opolski;Turawa;Turawa;;
+OPOLSKIE;opolski;Tułowice;Tułowice;;3591.0
+OPOLSKIE;opolski;Łubniany;Łubniany;;
+OPOLSKIE;prudnicki;Biała;Biała;;2224.0
+OPOLSKIE;prudnicki;Głogówek;Głogówek;;5418.0
+OPOLSKIE;prudnicki;Lubrza;Lubrza;;
+OPOLSKIE;prudnicki;Prudnik;Prudnik;;18689.0
+OPOLSKIE;strzelecki;Izbicko;Izbicko;;
+OPOLSKIE;strzelecki;Jemielnica;Jemielnica;;
+OPOLSKIE;strzelecki;Kolonowskie;Kolonowskie;;3189.0
+OPOLSKIE;strzelecki;Leśnica;Leśnica;;2517.0
+OPOLSKIE;strzelecki;Strzelce Opolskie;Strzelce Opolskie;;16734.0
+OPOLSKIE;strzelecki;Ujazd;Ujazd;;1833.0
+OPOLSKIE;strzelecki;Zawadzkie;Zawadzkie;;6298.0
+PODKARPACKIE;Krosno;Krosno;Krosno;;43594.0
+PODKARPACKIE;Przemyśl;Przemyśl;Przemyśl;;55292.0
+PODKARPACKIE;Rzeszów;Rzeszów;Rzeszów;;198317.0
+PODKARPACKIE;Tarnobrzeg;Tarnobrzeg;Tarnobrzeg;;43224.0
+PODKARPACKIE;bieszczadzki;Lutowiska;Lutowiska;;
+PODKARPACKIE;bieszczadzki;Ustrzyki Dolne;Ustrzyki Dolne;;8246.0
+PODKARPACKIE;brzozowski;Brzozów;Brzozów;;7168.0
+PODKARPACKIE;brzozowski;Domaradz;Domaradz;;
+PODKARPACKIE;brzozowski;Dydnia;Dydnia;;
+PODKARPACKIE;brzozowski;Haczów;Haczów;;
+PODKARPACKIE;brzozowski;Jasienica Rosielna;Jasienica Rosielna;;
+PODKARPACKIE;brzozowski;Nozdrzec;Nozdrzec;;
+PODKARPACKIE;dębicki;Brzostek;Brzostek;;2663.0
+PODKARPACKIE;dębicki;Czarna;Czarna;;
+PODKARPACKIE;dębicki;Dębica;Dębica;;42600.0
+PODKARPACKIE;dębicki;Jodłowa;Jodłowa;;
+PODKARPACKIE;dębicki;Pilzno;Pilzno;;4977.0
+PODKARPACKIE;dębicki;Żyraków;Żyraków;;
+PODKARPACKIE;jarosławski;Chłopice;Chłopice;;
+PODKARPACKIE;jarosławski;Jarosław;Jarosław;;34966.0
+PODKARPACKIE;jarosławski;Laszki;Laszki;;
+PODKARPACKIE;jarosławski;Pawłosiów;Pawłosiów;;
+PODKARPACKIE;jarosławski;Pruchnik;Pruchnik;;3621.0
+PODKARPACKIE;jarosławski;Radymno;Radymno;;4873.0
+PODKARPACKIE;jarosławski;Rokietnica;Rokietnica;;
+PODKARPACKIE;jarosławski;Roźwienica;Roźwienica;;
+PODKARPACKIE;jarosławski;Wiązownica;Wiązownica;;
+PODKARPACKIE;jasielski;Brzyska;Brzyska;;
+PODKARPACKIE;jasielski;Dębowiec;Dębowiec;;
+PODKARPACKIE;jasielski;Jasło;Jasło;;32378.0
+PODKARPACKIE;jasielski;Kołaczyce;Kołaczyce;;1359.0
+PODKARPACKIE;jasielski;Krempna;Krempna;;
+PODKARPACKIE;jasielski;Nowy Żmigród;Nowy Żmigród;;
+PODKARPACKIE;jasielski;Osiek Jasielski;Osiek Jasielski;;
+PODKARPACKIE;jasielski;Skołyszyn;Skołyszyn;;
+PODKARPACKIE;jasielski;Tarnowiec;Tarnowiec;;
+PODKARPACKIE;kolbuszowski;Cmolas;Cmolas;;
+PODKARPACKIE;kolbuszowski;Dzikowiec;Dzikowiec;;
+PODKARPACKIE;kolbuszowski;Kolbuszowa;Kolbuszowa;;8394.0
+PODKARPACKIE;kolbuszowski;Majdan Królewski;Majdan Królewski;;
+PODKARPACKIE;kolbuszowski;Niwiska;Niwiska;;
+PODKARPACKIE;kolbuszowski;Raniżów;Raniżów;;
+PODKARPACKIE;krośnieński;Chorkówka;Chorkówka;;
+PODKARPACKIE;krośnieński;Dukla;Dukla;;1919.0
+PODKARPACKIE;krośnieński;Iwonicz-Zdrój;Iwonicz-Zdrój;;1511.0
+PODKARPACKIE;krośnieński;Jaśliska;Jaśliska;;
+PODKARPACKIE;krośnieński;Jedlicze;Jedlicze;;5462.0
+PODKARPACKIE;krośnieński;Korczyna;Korczyna;;
+PODKARPACKIE;krośnieński;Krościenko Wyżne;Krościenko Wyżne;;
+PODKARPACKIE;krośnieński;Miejsce Piastowe;Miejsce Piastowe;;
+PODKARPACKIE;krośnieński;Rymanów;Rymanów;;3508.0
+PODKARPACKIE;krośnieński;Wojaszówka;Wojaszówka;;
+PODKARPACKIE;leski;Baligród;Baligród;;
+PODKARPACKIE;leski;Cisna;Cisna;;
+PODKARPACKIE;leski;Lesko;Lesko;;5042.0
+PODKARPACKIE;leski;Olszanica;Olszanica;;
+PODKARPACKIE;leski;Solina;Solina;;
+PODKARPACKIE;leżajski;Grodzisko Dolne;Grodzisko Dolne;;
+PODKARPACKIE;leżajski;Kuryłówka;Kuryłówka;;
+PODKARPACKIE;leżajski;Leżajsk;Leżajsk;;12564.0
+PODKARPACKIE;leżajski;Nowa Sarzyna;Nowa Sarzyna;;5259.0
+PODKARPACKIE;lubaczowski;Cieszanów;Cieszanów;;1794.0
+PODKARPACKIE;lubaczowski;Horyniec-Zdrój;Horyniec-Zdrój;;
+PODKARPACKIE;lubaczowski;Lubaczów;Lubaczów;;11235.0
+PODKARPACKIE;lubaczowski;Narol;Narol;;1941.0
+PODKARPACKIE;lubaczowski;Oleszyce;Oleszyce;;2779.0
+PODKARPACKIE;lubaczowski;Stary Dzików;Stary Dzików;;
+PODKARPACKIE;lubaczowski;Wielkie Oczy;Wielkie Oczy;;
+PODKARPACKIE;mielecki;Borowa;Borowa;;
+PODKARPACKIE;mielecki;Czermin;Czermin;;
+PODKARPACKIE;mielecki;Gawłuszowice;Gawłuszowice;;
+PODKARPACKIE;mielecki;Mielec;Mielec;;56515.0
+PODKARPACKIE;mielecki;Padew Narodowa;Padew Narodowa;;
+PODKARPACKIE;mielecki;Przecław;Przecław;;1831.0
+PODKARPACKIE;mielecki;Radomyśl Wielki;Radomyśl Wielki;;3452.0
+PODKARPACKIE;mielecki;Tuszów Narodowy;Tuszów Narodowy;;
+PODKARPACKIE;mielecki;Wadowice Górne;Wadowice Górne;;
+PODKARPACKIE;niżański;Harasiuki;Harasiuki;;
+PODKARPACKIE;niżański;Harasiuki;Harasiuki;;
+PODKARPACKIE;niżański;Jarocin;Jarocin;;
+PODKARPACKIE;niżański;Jeżowe;Jeżowe;;
+PODKARPACKIE;niżański;Krzeszów;Krzeszów;;
+PODKARPACKIE;niżański;Nisko;Nisko;;14310.0
+PODKARPACKIE;niżański;Rudnik nad Sanem;Rudnik nad Sanem;;6315.0
+PODKARPACKIE;niżański;Ulanów;Ulanów;;1343.0
+PODKARPACKIE;przemyski;Bircza;Bircza;;976.0
+PODKARPACKIE;przemyski;Dubiecko;Dubiecko;;784.0
+PODKARPACKIE;przemyski;Fredropol;Fredropol;;
+PODKARPACKIE;przemyski;Krasiczyn;Krasiczyn;;
+PODKARPACKIE;przemyski;Krzywcza;Krzywcza;;
+PODKARPACKIE;przemyski;Medyka;Medyka;;
+PODKARPACKIE;przemyski;Orły;Orły;;
+PODKARPACKIE;przemyski;Stubno;Stubno;;
+PODKARPACKIE;przemyski;Żurawica;Żurawica;;
+PODKARPACKIE;przeworski;Adamówka;Adamówka;;
+PODKARPACKIE;przeworski;Gać;Gać;;
+PODKARPACKIE;przeworski;Jawornik Polski;Jawornik Polski;;1158.0
+PODKARPACKIE;przeworski;Kańczuga;Kańczuga;;2859.0
+PODKARPACKIE;przeworski;Przeworsk;Przeworsk;;14422.0
+PODKARPACKIE;przeworski;Sieniawa;Sieniawa;;1985.0
+PODKARPACKIE;przeworski;Tryńcza;Tryńcza;;
+PODKARPACKIE;przeworski;Zarzecze;Zarzecze;;
+PODKARPACKIE;ropczycko-sędziszowski;Iwierzyce;Iwierzyce;;
+PODKARPACKIE;ropczycko-sędziszowski;Ostrów;Ostrów;;
+PODKARPACKIE;ropczycko-sędziszowski;Ropczyce;Ropczyce;;15855.0
+PODKARPACKIE;ropczycko-sędziszowski;Sędziszów Małopolski;Sędziszów Małopolski;;12423.0
+PODKARPACKIE;ropczycko-sędziszowski;Wielopole Skrzyńskie;Wielopole Skrzyńskie;;
+PODKARPACKIE;rzeszowski;Boguchwała;Boguchwała;;6329.0
+PODKARPACKIE;rzeszowski;Błażowa;Błażowa;;2074.0
+PODKARPACKIE;rzeszowski;Chmielnik;Chmielnik;;
+PODKARPACKIE;rzeszowski;Dynów;Dynów;;5959.0
+PODKARPACKIE;rzeszowski;Głogów Małopolski;Głogów Małopolski;;10871.0
+PODKARPACKIE;rzeszowski;Hyżne;Hyżne;;
+PODKARPACKIE;rzeszowski;Kamień;Kamień;;
+PODKARPACKIE;rzeszowski;Krasne;Krasne;;
+PODKARPACKIE;rzeszowski;Lubenia;Lubenia;;
+PODKARPACKIE;rzeszowski;Sokołów Małopolski;Sokołów Małopolski;;4376.0
+PODKARPACKIE;rzeszowski;Trzebownisko;Trzebownisko;;
+PODKARPACKIE;rzeszowski;Tyczyn;Tyczyn;;4627.0
+PODKARPACKIE;rzeszowski;Świlcza;Świlcza;;
+PODKARPACKIE;sanocki;Besko;Besko;;
+PODKARPACKIE;sanocki;Bukowsko;Bukowsko;;
+PODKARPACKIE;sanocki;Komańcza;Komańcza;;
+PODKARPACKIE;sanocki;Sanok;Sanok;;33844.0
+PODKARPACKIE;sanocki;Tyrawa Wołoska;Tyrawa Wołoska;;
+PODKARPACKIE;sanocki;Zagórz;Zagórz;;4865.0
+PODKARPACKIE;sanocki;Zarszyn;Zarszyn;;
+PODKARPACKIE;stalowowolski;Bojanów;Bojanów;;
+PODKARPACKIE;stalowowolski;Pysznica;Pysznica;;
+PODKARPACKIE;stalowowolski;Radomyśl nad Sanem;Radomyśl nad Sanem;;
+PODKARPACKIE;stalowowolski;Stalowa Wola;Stalowa Wola;;54300.0
+PODKARPACKIE;stalowowolski;Zaklików;Zaklików;;2739.0
+PODKARPACKIE;stalowowolski;Zaleszany;Zaleszany;;
+PODKARPACKIE;strzyżowski;Czudec;Czudec;;
+PODKARPACKIE;strzyżowski;Frysztak;Frysztak;;
+PODKARPACKIE;strzyżowski;Niebylec;Niebylec;;
+PODKARPACKIE;strzyżowski;Strzyżów;Strzyżów;;8327.0
+PODKARPACKIE;strzyżowski;Wiśniowa;Wiśniowa;;
+PODKARPACKIE;tarnobrzeski;Baranów Sandomierski;Baranów Sandomierski;;1386.0
+PODKARPACKIE;tarnobrzeski;Gorzyce;Gorzyce;;
+PODKARPACKIE;tarnobrzeski;Grębów;Grębów;;
+PODKARPACKIE;tarnobrzeski;Nowa Dęba;Nowa Dęba;;10268.0
+PODKARPACKIE;łańcucki;Białobrzegi;Białobrzegi;;
+PODKARPACKIE;łańcucki;Czarna;Czarna;;
+PODKARPACKIE;łańcucki;Markowa;Markowa;;
+PODKARPACKIE;łańcucki;Rakszawa;Rakszawa;;
+PODKARPACKIE;łańcucki;Łańcut;Łańcut;;17772.0
+PODKARPACKIE;łańcucki;Żołynia;Żołynia;;
+PODLASKIE;Białystok;Białystok;Białystok;;290386.0
+PODLASKIE;Suwałki;Suwałki;Suwałki;;68143.0
+PODLASKIE;augustowski;Augustów;Augustów;;28793.0
+PODLASKIE;augustowski;Bargłów Kościelny;Bargłów Kościelny;;
+PODLASKIE;augustowski;Lipsk;Lipsk;;2034.0
+PODLASKIE;augustowski;Nowinka;Nowinka;;
+PODLASKIE;augustowski;Nowinka;Nowinka;;
+PODLASKIE;augustowski;Płaska;Płaska;;
+PODLASKIE;augustowski;Sztabin;Sztabin;;
+PODLASKIE;białostocki;Choroszcz;Choroszcz;;6185.0
+PODLASKIE;białostocki;Czarna Białostocka;Czarna Białostocka;;8503.0
+PODLASKIE;białostocki;Dobrzyniewo Duże;Dobrzyniewo Duże;;
+PODLASKIE;białostocki;Grabówka;Grabówka;;
+PODLASKIE;białostocki;Gródek;Gródek;;
+PODLASKIE;białostocki;Juchnowiec Kościelny;Juchnowiec Kościelny;;
+PODLASKIE;białostocki;Michałowo;Michałowo;;2712.0
+PODLASKIE;białostocki;Poświętne;Poświętne;;
+PODLASKIE;białostocki;Supraśl;Supraśl;;4289.0
+PODLASKIE;białostocki;Suraż;Suraż;;952.0
+PODLASKIE;białostocki;Turośń Kościelna;Turośń Kościelna;;
+PODLASKIE;białostocki;Tykocin;Tykocin;;1838.0
+PODLASKIE;białostocki;Wasilków;Wasilków;;12831.0
+PODLASKIE;białostocki;Zabłudów;Zabłudów;;2495.0
+PODLASKIE;białostocki;Zawady;Zawady;;
+PODLASKIE;białostocki;Łapy;Łapy;;14253.0
+PODLASKIE;bielski;Bielsk Podlaski;Bielsk Podlaski;;23558.0
+PODLASKIE;bielski;Boćki;Boćki;;
+PODLASKIE;bielski;Brańsk;Brańsk;;3469.0
+PODLASKIE;bielski;Orla;Orla;;
+PODLASKIE;bielski;Rudka;Rudka;;
+PODLASKIE;bielski;Wyszki;Wyszki;;
+PODLASKIE;grajewski;Grajewo;Grajewo;;20724.0
+PODLASKIE;grajewski;Radziłów;Radziłów;;
+PODLASKIE;grajewski;Rajgród;Rajgród;;1378.0
+PODLASKIE;grajewski;Szczuczyn;Szczuczyn;;3093.0
+PODLASKIE;grajewski;Wąsosz;Wąsosz;;
+PODLASKIE;hajnowski;Białowieża;Białowieża;;
+PODLASKIE;hajnowski;Czeremcha;Czeremcha;;
+PODLASKIE;hajnowski;Czyże;Czyże;;
+PODLASKIE;hajnowski;Dubicze Cerkiewne;Dubicze Cerkiewne;;
+PODLASKIE;hajnowski;Hajnówka;Hajnówka;;18709.0
+PODLASKIE;hajnowski;Kleszczele;Kleszczele;;1026.0
+PODLASKIE;hajnowski;Narew;Narew;;
+PODLASKIE;hajnowski;Narewka;Narewka;;
+PODLASKIE;kolneński;Grabowo;Grabowo;;
+PODLASKIE;kolneński;Kolno;Kolno;;9772.0
+PODLASKIE;kolneński;Mały Płock;Mały Płock;;
+PODLASKIE;kolneński;Stawiski;Stawiski;;1975.0
+PODLASKIE;kolneński;Turośl;Turośl;;
+PODLASKIE;kolneński;Turośl;Turośl;;
+PODLASKIE;moniecki;Goniądz;Goniądz;;1697.0
+PODLASKIE;moniecki;Jasionówka;Jasionówka;;
+PODLASKIE;moniecki;Jaświły;Jaświły;;
+PODLASKIE;moniecki;Knyszyn;Knyszyn;;2637.0
+PODLASKIE;moniecki;Mońki;Mońki;;9330.0
+PODLASKIE;moniecki;Trzcianne;Trzcianne;;
+PODLASKIE;sejneński;Giby;Giby;;
+PODLASKIE;sejneński;Giby;Giby;;
+PODLASKIE;sejneński;Giby;Giby;;
+PODLASKIE;sejneński;Krasnopol;Krasnopol;;
+PODLASKIE;sejneński;Puńsk;Puńsk;;
+PODLASKIE;sejneński;Sejny;Sejny;;4818.0
+PODLASKIE;siemiatycki;Drohiczyn;Drohiczyn;;1735.0
+PODLASKIE;siemiatycki;Dziadkowice;Dziadkowice;;
+PODLASKIE;siemiatycki;Grodzisk;Grodzisk;;
+PODLASKIE;siemiatycki;Mielnik;Mielnik;;
+PODLASKIE;siemiatycki;Milejczyce;Milejczyce;;
+PODLASKIE;siemiatycki;Nurzec-Stacja;Nurzec-Stacja;;
+PODLASKIE;siemiatycki;Perlejewo;Perlejewo;;
+PODLASKIE;siemiatycki;Siemiatycze;Siemiatycze;;13297.0
+PODLASKIE;sokólski;Dąbrowa Białostocka;Dąbrowa Białostocka;;4956.0
+PODLASKIE;sokólski;Janów;Janów;;
+PODLASKIE;sokólski;Korycin;Korycin;;
+PODLASKIE;sokólski;Krynki;Krynki;;2105.0
+PODLASKIE;sokólski;Kuźnica;Kuźnica;;
+PODLASKIE;sokólski;Nowy Dwór;Nowy Dwór;;
+PODLASKIE;sokólski;Sidra;Sidra;;
+PODLASKIE;sokólski;Sokółka;Sokółka;;16937.0
+PODLASKIE;sokólski;Suchowola;Suchowola;;2003.0
+PODLASKIE;sokólski;Szudziałowo;Szudziałowo;;
+PODLASKIE;suwalski;Bakałarzewo;Bakałarzewo;;
+PODLASKIE;suwalski;Filipów;Filipów;;
+PODLASKIE;suwalski;Jeleniewo;Jeleniewo;;
+PODLASKIE;suwalski;Przerośl;Przerośl;;
+PODLASKIE;suwalski;Raczki;Raczki;;
+PODLASKIE;suwalski;Rutka-Tartak;Rutka-Tartak;;
+PODLASKIE;suwalski;Szypliszki;Szypliszki;;
+PODLASKIE;suwalski;Wiżajny;Wiżajny;;
+PODLASKIE;wysokomazowiecki;Ciechanowiec;Ciechanowiec;;4334.0
+PODLASKIE;wysokomazowiecki;Czyżew;Czyżew;;2457.0
+PODLASKIE;wysokomazowiecki;Klukowo;Klukowo;;
+PODLASKIE;wysokomazowiecki;Kobylin-Borzymy;Kobylin-Borzymy;;
+PODLASKIE;wysokomazowiecki;Kulesze Kościelne;Kulesze Kościelne;;
+PODLASKIE;wysokomazowiecki;Nowe Piekuty;Nowe Piekuty;;
+PODLASKIE;wysokomazowiecki;Sokoły;Sokoły;;
+PODLASKIE;wysokomazowiecki;Szepietowo;Szepietowo;;1963.0
+PODLASKIE;wysokomazowiecki;Wysokie Mazowieckie;Wysokie Mazowieckie;;8993.0
+PODLASKIE;zambrowski;Kołaki Kościelne;Kołaki Kościelne;;
+PODLASKIE;zambrowski;Szumowo;Szumowo;;
+PODLASKIE;zambrowski;Zambrów;Zambrów;;20668.0
+PODLASKIE;Łomża;Łomża;Łomża;;59263.0
+PODLASKIE;łomżyński;Jedwabne;Jedwabne;;1671.0
+PODLASKIE;łomżyński;Miastkowo;Miastkowo;;
+PODLASKIE;łomżyński;Nowogród;Nowogród;;2066.0
+PODLASKIE;łomżyński;Przytuły;Przytuły;;
+PODLASKIE;łomżyński;Wizna;Wizna;;
+PODLASKIE;łomżyński;Zbójna;Zbójna;;
+PODLASKIE;łomżyński;Śniadowo;Śniadowo;;
+POMORSKIE;Gdańsk;Gdańsk;Gdańsk;;488651.0
+POMORSKIE;Gdynia;Gdynia;Gdynia;;240084.0
+POMORSKIE;Sopot;Sopot;Sopot;;31444.0
+POMORSKIE;Słupsk;Słupsk;Słupsk;;84767.0
+POMORSKIE;bytowski;Borzytuchom;Borzytuchom;;
+POMORSKIE;bytowski;Bytów;Bytów;;16178.0
+POMORSKIE;bytowski;Czarna Dąbrówka;Czarna Dąbrówka;;
+POMORSKIE;bytowski;Kołczygłowy;Kołczygłowy;;
+POMORSKIE;bytowski;Lipnica;Lipnica;;
+POMORSKIE;bytowski;Miastko;Miastko;;9235.0
+POMORSKIE;bytowski;Parchowo;Parchowo;;
+POMORSKIE;bytowski;Parchowo;Parchowo;;
+POMORSKIE;bytowski;Studzienice;Studzienice;;
+POMORSKIE;bytowski;Trzebielino;Trzebielino;;
+POMORSKIE;bytowski;Tuchomie;Tuchomie;;
+POMORSKIE;chojnicki;Brusy;Brusy;;5049.0
+POMORSKIE;chojnicki;Chojnice;Chojnice;;38360.0
+POMORSKIE;chojnicki;Czersk;Czersk;;9775.0
+POMORSKIE;chojnicki;Czersk;Czersk;;9775.0
+POMORSKIE;chojnicki;Konarzyny;Konarzyny;;
+POMORSKIE;człuchowski;Czarne;Czarne;;5520.0
+POMORSKIE;człuchowski;Człuchów;Człuchów;;12896.0
+POMORSKIE;człuchowski;Debrzno;Debrzno;;4795.0
+POMORSKIE;człuchowski;Koczała;Koczała;;
+POMORSKIE;człuchowski;Przechlewo;Przechlewo;;
+POMORSKIE;człuchowski;Rzeczenica;Rzeczenica;;
+POMORSKIE;gdański;Cedry Wielkie;Cedry Wielkie;;
+POMORSKIE;gdański;Kolbudy;Kolbudy;;
+POMORSKIE;gdański;Pruszcz Gdański;Pruszcz Gdański;;32263.0
+POMORSKIE;gdański;Przywidz;Przywidz;;
+POMORSKIE;gdański;Pszczółki;Pszczółki;;
+POMORSKIE;gdański;Suchy Dąb;Suchy Dąb;;
+POMORSKIE;gdański;Trąbki Wielkie;Trąbki Wielkie;;
+POMORSKIE;gdański;Trąbki Wielkie;Trąbki Wielkie;;
+POMORSKIE;kartuski;Chmielno;Chmielno;;
+POMORSKIE;kartuski;Kartuzy;Kartuzy;;13614.0
+POMORSKIE;kartuski;Przodkowo;Przodkowo;;
+POMORSKIE;kartuski;Sierakowice;Sierakowice;;
+POMORSKIE;kartuski;Somonino;Somonino;;
+POMORSKIE;kartuski;Stężyca;Stężyca;;
+POMORSKIE;kartuski;Sulęczyno;Sulęczyno;;
+POMORSKIE;kartuski;Żukowo;Żukowo;;6724.0
+POMORSKIE;kartuski;Żukowo;Żukowo;;6724.0
+POMORSKIE;kościerski;Dziemiany;Dziemiany;;
+POMORSKIE;kościerski;Karsin;Karsin;;
+POMORSKIE;kościerski;Kościerzyna;Kościerzyna;;23264.0
+POMORSKIE;kościerski;Liniewo;Liniewo;;
+POMORSKIE;kościerski;Lipusz;Lipusz;;
+POMORSKIE;kościerski;Nowa Karczma;Nowa Karczma;;
+POMORSKIE;kościerski;Stara Kiszewa;Stara Kiszewa;;
+POMORSKIE;kwidzyński;Gardeja;Gardeja;;
+POMORSKIE;kwidzyński;Kwidzyn;Kwidzyn;;36565.0
+POMORSKIE;kwidzyński;Prabuty;Prabuty;;7996.0
+POMORSKIE;kwidzyński;Ryjewo;Ryjewo;;
+POMORSKIE;kwidzyński;Sadlinki;Sadlinki;;
+POMORSKIE;lęborski;Cewice;Cewice;;
+POMORSKIE;lęborski;Lębork;Lębork;;33791.0
+POMORSKIE;lęborski;Nowa Wieś Lęborska;Nowa Wieś Lęborska;;
+POMORSKIE;lęborski;Wicko;Wicko;;
+POMORSKIE;lęborski;Łeba;Łeba;;3018.0
+POMORSKIE;malborski;Lichnowy;Lichnowy;;
+POMORSKIE;malborski;Malbork;Malbork;;36520.0
+POMORSKIE;malborski;Miłoradz;Miłoradz;;
+POMORSKIE;malborski;Miłoradz;Miłoradz;;
+POMORSKIE;malborski;Nowy Staw;Nowy Staw;;3921.0
+POMORSKIE;malborski;Stare Pole;Stare Pole;;
+POMORSKIE;nowodworski;Krynica Morska;Krynica Morska;;1157.0
+POMORSKIE;nowodworski;Nowy Dwór Gdański;Nowy Dwór Gdański;;9392.0
+POMORSKIE;nowodworski;Ostaszewo;Ostaszewo;;
+POMORSKIE;nowodworski;Stegna;Stegna;;
+POMORSKIE;nowodworski;Sztutowo;Sztutowo;;
+POMORSKIE;pucki;Hel;Hel;;2715.0
+POMORSKIE;pucki;Jastarnia;Jastarnia;;2571.0
+POMORSKIE;pucki;Kosakowo;Kosakowo;;
+POMORSKIE;pucki;Krokowa;Krokowa;;
+POMORSKIE;pucki;Puck;Puck;;10345.0
+POMORSKIE;pucki;Władysławowo;Władysławowo;;9119.0
+POMORSKIE;starogardzki;Bobowo;Bobowo;;
+POMORSKIE;starogardzki;Czarna Woda;Czarna Woda;;2640.0
+POMORSKIE;starogardzki;Kaliska;Kaliska;;
+POMORSKIE;starogardzki;Lubichowo;Lubichowo;;
+POMORSKIE;starogardzki;Osieczna;Osieczna;;
+POMORSKIE;starogardzki;Osiek;Osiek;;
+POMORSKIE;starogardzki;Skarszewy;Skarszewy;;6558.0
+POMORSKIE;starogardzki;Skórcz;Skórcz;;3438.0
+POMORSKIE;starogardzki;Smętowo Graniczne;Smętowo Graniczne;;
+POMORSKIE;starogardzki;Starogard Gdański;Starogard Gdański;;44982.0
+POMORSKIE;starogardzki;Zblewo;Zblewo;;
+POMORSKIE;sztumski;Dzierzgoń;Dzierzgoń;;4810.0
+POMORSKIE;sztumski;Mikołajki Pomorskie;Mikołajki Pomorskie;;
+POMORSKIE;sztumski;Stary Dzierzgoń;Stary Dzierzgoń;;
+POMORSKIE;sztumski;Stary Targ;Stary Targ;;
+POMORSKIE;sztumski;Sztum;Sztum;;8891.0
+POMORSKIE;słupski;Damnica;Damnica;;
+POMORSKIE;słupski;Dębnica Kaszubska;Dębnica Kaszubska;;
+POMORSKIE;słupski;Główczyce;Główczyce;;
+POMORSKIE;słupski;Kobylnica;Kobylnica;;4961.0
+POMORSKIE;słupski;Kępice;Kępice;;3220.0
+POMORSKIE;słupski;Potęgowo;Potęgowo;;
+POMORSKIE;słupski;Redzikowo;Redzikowo;;
+POMORSKIE;słupski;Redzikowo;Redzikowo;;
+POMORSKIE;słupski;Smołdzino;Smołdzino;;
+POMORSKIE;słupski;Ustka;Ustka;;13461.0
+POMORSKIE;tczewski;Gniew;Gniew;;6054.0
+POMORSKIE;tczewski;Morzeszczyn;Morzeszczyn;;
+POMORSKIE;tczewski;Pelplin;Pelplin;;7079.0
+POMORSKIE;tczewski;Subkowy;Subkowy;;
+POMORSKIE;tczewski;Tczew;Tczew;;56410.0
+POMORSKIE;wejherowski;Choczewo;Choczewo;;
+POMORSKIE;wejherowski;Gniewino;Gniewino;;
+POMORSKIE;wejherowski;Linia;Linia;;
+POMORSKIE;wejherowski;Luzino;Luzino;;
+POMORSKIE;wejherowski;Reda;Reda;;28888.0
+POMORSKIE;wejherowski;Rumia;Rumia;;53770.0
+POMORSKIE;wejherowski;Szemud;Szemud;;
+POMORSKIE;wejherowski;Wejherowo;Wejherowo;;45520.0
+POMORSKIE;wejherowski;Łęczyce;Łęczyce;;
+WARMIŃSKO-MAZURSKIE;Elbląg;Elbląg;Elbląg;;112052.0
+WARMIŃSKO-MAZURSKIE;Olsztyn;Olsztyn;Olsztyn;;166392.0
+WARMIŃSKO-MAZURSKIE;bartoszycki;Bartoszyce;Bartoszyce;;21055.0
+WARMIŃSKO-MAZURSKIE;bartoszycki;Bisztynek;Bisztynek;;2114.0
+WARMIŃSKO-MAZURSKIE;bartoszycki;Górowo Iławeckie;Górowo Iławeckie;;3578.0
+WARMIŃSKO-MAZURSKIE;bartoszycki;Sępopol;Sępopol;;1860.0
+WARMIŃSKO-MAZURSKIE;braniewski;Braniewo;Braniewo;;15827.0
+WARMIŃSKO-MAZURSKIE;braniewski;Frombork;Frombork;;1976.0
+WARMIŃSKO-MAZURSKIE;braniewski;Lelkowo;Lelkowo;;
+WARMIŃSKO-MAZURSKIE;braniewski;Pieniężno;Pieniężno;;2368.0
+WARMIŃSKO-MAZURSKIE;braniewski;Pieniężno;Pieniężno;;2368.0
+WARMIŃSKO-MAZURSKIE;braniewski;Płoskinia;Płoskinia;;
+WARMIŃSKO-MAZURSKIE;braniewski;Wilczęta;Wilczęta;;
+WARMIŃSKO-MAZURSKIE;działdowski;Działdowo;Działdowo;;19949.0
+WARMIŃSKO-MAZURSKIE;działdowski;Iłowo-Osada;Iłowo-Osada;;
+WARMIŃSKO-MAZURSKIE;działdowski;Lidzbark;Lidzbark;;7122.0
+WARMIŃSKO-MAZURSKIE;działdowski;Płośnica;Płośnica;;
+WARMIŃSKO-MAZURSKIE;działdowski;Rybno;Rybno;;
+WARMIŃSKO-MAZURSKIE;elbląski;Godkowo;Godkowo;;
+WARMIŃSKO-MAZURSKIE;elbląski;Gronowo Elbląskie;Gronowo Elbląskie;;
+WARMIŃSKO-MAZURSKIE;elbląski;Markusy;Markusy;;
+WARMIŃSKO-MAZURSKIE;elbląski;Milejewo;Milejewo;;
+WARMIŃSKO-MAZURSKIE;elbląski;Młynary;Młynary;;1637.0
+WARMIŃSKO-MAZURSKIE;elbląski;Pasłęk;Pasłęk;;11630.0
+WARMIŃSKO-MAZURSKIE;elbląski;Rychliki;Rychliki;;
+WARMIŃSKO-MAZURSKIE;elbląski;Tolkmicko;Tolkmicko;;2379.0
+WARMIŃSKO-MAZURSKIE;ełcki;Ełk;Ełk;;59250.0
+WARMIŃSKO-MAZURSKIE;ełcki;Ełk;Ełk;;59250.0
+WARMIŃSKO-MAZURSKIE;ełcki;Kalinowo;Kalinowo;;
+WARMIŃSKO-MAZURSKIE;ełcki;Prostki;Prostki;;
+WARMIŃSKO-MAZURSKIE;ełcki;Stare Juchy;Stare Juchy;;
+WARMIŃSKO-MAZURSKIE;giżycki;Giżycko;Giżycko;;26832.0
+WARMIŃSKO-MAZURSKIE;giżycki;Kruklanki;Kruklanki;;
+WARMIŃSKO-MAZURSKIE;giżycki;Miłki;Miłki;;
+WARMIŃSKO-MAZURSKIE;giżycki;Ryn;Ryn;;2643.0
+WARMIŃSKO-MAZURSKIE;giżycki;Ryn;Ryn;;2643.0
+WARMIŃSKO-MAZURSKIE;giżycki;Wydminy;Wydminy;;
+WARMIŃSKO-MAZURSKIE;gołdapski;Banie Mazurskie;Banie Mazurskie;;
+WARMIŃSKO-MAZURSKIE;gołdapski;Dubeninki;Dubeninki;;
+WARMIŃSKO-MAZURSKIE;gołdapski;Gołdap;Gołdap;;13057.0
+WARMIŃSKO-MAZURSKIE;iławski;Iława;Iława;;32013.0
+WARMIŃSKO-MAZURSKIE;iławski;Kisielice;Kisielice;;1983.0
+WARMIŃSKO-MAZURSKIE;iławski;Lubawa;Lubawa;;10670.0
+WARMIŃSKO-MAZURSKIE;iławski;Susz;Susz;;5222.0
+WARMIŃSKO-MAZURSKIE;iławski;Zalewo;Zalewo;;1986.0
+WARMIŃSKO-MAZURSKIE;kętrzyński;Barciany;Barciany;;
+WARMIŃSKO-MAZURSKIE;kętrzyński;Korsze;Korsze;;3871.0
+WARMIŃSKO-MAZURSKIE;kętrzyński;Kętrzyn;Kętrzyn;;24795.0
+WARMIŃSKO-MAZURSKIE;kętrzyński;Reszel;Reszel;;3962.0
+WARMIŃSKO-MAZURSKIE;kętrzyński;Srokowo;Srokowo;;
+WARMIŃSKO-MAZURSKIE;lidzbarski;Kiwity;Kiwity;;
+WARMIŃSKO-MAZURSKIE;lidzbarski;Lidzbark Warmiński;Lidzbark Warmiński;;14266.0
+WARMIŃSKO-MAZURSKIE;lidzbarski;Lubomino;Lubomino;;
+WARMIŃSKO-MAZURSKIE;lidzbarski;Orneta;Orneta;;7867.0
+WARMIŃSKO-MAZURSKIE;mrągowski;Mikołajki;Mikołajki;;3298.0
+WARMIŃSKO-MAZURSKIE;mrągowski;Mikołajki;Mikołajki;;3298.0
+WARMIŃSKO-MAZURSKIE;mrągowski;Mrągowo;Mrągowo;;20304.0
+WARMIŃSKO-MAZURSKIE;mrągowski;Piecki;Piecki;;
+WARMIŃSKO-MAZURSKIE;mrągowski;Sorkwity;Sorkwity;;
+WARMIŃSKO-MAZURSKIE;nidzicki;Janowiec Kościelny;Janowiec Kościelny;;
+WARMIŃSKO-MAZURSKIE;nidzicki;Janowo;Janowo;;
+WARMIŃSKO-MAZURSKIE;nidzicki;Kozłowo;Kozłowo;;
+WARMIŃSKO-MAZURSKIE;nidzicki;Nidzica;Nidzica;;12449.0
+WARMIŃSKO-MAZURSKIE;nowomiejski;Biskupiec;Biskupiec;;
+WARMIŃSKO-MAZURSKIE;nowomiejski;Grodziczno;Grodziczno;;
+WARMIŃSKO-MAZURSKIE;nowomiejski;Kurzętnik;Kurzętnik;;
+WARMIŃSKO-MAZURSKIE;nowomiejski;Nowe Miasto Lubawskie;Nowe Miasto Lubawskie;;10004.0
+WARMIŃSKO-MAZURSKIE;olecki;Kowale Oleckie;Kowale Oleckie;;
+WARMIŃSKO-MAZURSKIE;olecki;Olecko;Olecko;;15580.0
+WARMIŃSKO-MAZURSKIE;olecki;Wieliczki;Wieliczki;;
+WARMIŃSKO-MAZURSKIE;olecki;Świętajno;Świętajno;;
+WARMIŃSKO-MAZURSKIE;olsztyński;Barczewo;Barczewo;;7292.0
+WARMIŃSKO-MAZURSKIE;olsztyński;Biskupiec;Biskupiec;;9865.0
+WARMIŃSKO-MAZURSKIE;olsztyński;Dobre Miasto;Dobre Miasto;;9199.0
+WARMIŃSKO-MAZURSKIE;olsztyński;Dywity;Dywity;;
+WARMIŃSKO-MAZURSKIE;olsztyński;Gietrzwałd;Gietrzwałd;;
+WARMIŃSKO-MAZURSKIE;olsztyński;Jeziorany;Jeziorany;;2894.0
+WARMIŃSKO-MAZURSKIE;olsztyński;Jonkowo;Jonkowo;;
+WARMIŃSKO-MAZURSKIE;olsztyński;Kolno;Kolno;;
+WARMIŃSKO-MAZURSKIE;olsztyński;Olsztynek;Olsztynek;;7177.0
+WARMIŃSKO-MAZURSKIE;olsztyński;Purda;Purda;;
+WARMIŃSKO-MAZURSKIE;olsztyński;Stawiguda;Stawiguda;;
+WARMIŃSKO-MAZURSKIE;olsztyński;Stawiguda;Stawiguda;;
+WARMIŃSKO-MAZURSKIE;olsztyński;Świątki;Świątki;;
+WARMIŃSKO-MAZURSKIE;ostródzki;Dąbrówno;Dąbrówno;;
+WARMIŃSKO-MAZURSKIE;ostródzki;Grunwald;Grunwald;;
+WARMIŃSKO-MAZURSKIE;ostródzki;Grunwald;Grunwald;;
+WARMIŃSKO-MAZURSKIE;ostródzki;Małdyty;Małdyty;;
+WARMIŃSKO-MAZURSKIE;ostródzki;Miłakowo;Miłakowo;;2388.0
+WARMIŃSKO-MAZURSKIE;ostródzki;Miłomłyn;Miłomłyn;;2428.0
+WARMIŃSKO-MAZURSKIE;ostródzki;Morąg;Morąg;;12534.0
+WARMIŃSKO-MAZURSKIE;ostródzki;Ostróda;Ostróda;;31028.0
+WARMIŃSKO-MAZURSKIE;ostródzki;Łukta;Łukta;;
+WARMIŃSKO-MAZURSKIE;piski;Biała Piska;Biała Piska;;3653.0
+WARMIŃSKO-MAZURSKIE;piski;Orzysz;Orzysz;;5200.0
+WARMIŃSKO-MAZURSKIE;piski;Pisz;Pisz;;17400.0
+WARMIŃSKO-MAZURSKIE;piski;Ruciane-Nida;Ruciane-Nida;;4001.0
+WARMIŃSKO-MAZURSKIE;szczycieński;Dźwierzuty;Dźwierzuty;;
+WARMIŃSKO-MAZURSKIE;szczycieński;Jedwabno;Jedwabno;;
+WARMIŃSKO-MAZURSKIE;szczycieński;Pasym;Pasym;;2383.0
+WARMIŃSKO-MAZURSKIE;szczycieński;Pasym;Pasym;;2383.0
+WARMIŃSKO-MAZURSKIE;szczycieński;Rozogi;Rozogi;;
+WARMIŃSKO-MAZURSKIE;szczycieński;Szczytno;Szczytno;;21585.0
+WARMIŃSKO-MAZURSKIE;szczycieński;Wielbark;Wielbark;;2958.0
+WARMIŃSKO-MAZURSKIE;szczycieński;Świętajno;Świętajno;;
+WARMIŃSKO-MAZURSKIE;węgorzewski;Budry;Budry;;
+WARMIŃSKO-MAZURSKIE;węgorzewski;Pozezdrze;Pozezdrze;;
+WARMIŃSKO-MAZURSKIE;węgorzewski;Węgorzewo;Węgorzewo;;10490.0
+WIELKOPOLSKIE;Kalisz;Kalisz;Kalisz;;91963.0
+WIELKOPOLSKIE;Konin;Konin;Konin;;66103.0
+WIELKOPOLSKIE;Leszno;Leszno;Leszno;;59521.0
+WIELKOPOLSKIE;chodzieski;Budzyń;Budzyń;;4666.0
+WIELKOPOLSKIE;chodzieski;Chodzież;Chodzież;;17043.0
+WIELKOPOLSKIE;chodzieski;Margonin;Margonin;;2940.0
+WIELKOPOLSKIE;chodzieski;Szamocin;Szamocin;;3887.0
+WIELKOPOLSKIE;czarnkowsko-trzcianecki;Czarnków;Czarnków;;9771.0
+WIELKOPOLSKIE;czarnkowsko-trzcianecki;Drawsko;Drawsko;;
+WIELKOPOLSKIE;czarnkowsko-trzcianecki;Drawsko;Drawsko;;
+WIELKOPOLSKIE;czarnkowsko-trzcianecki;Krzyż Wielkopolski;Krzyż Wielkopolski;;5823.0
+WIELKOPOLSKIE;czarnkowsko-trzcianecki;Lubasz;Lubasz;;
+WIELKOPOLSKIE;czarnkowsko-trzcianecki;Połajewo;Połajewo;;
+WIELKOPOLSKIE;czarnkowsko-trzcianecki;Trzcianka;Trzcianka;;16317.0
+WIELKOPOLSKIE;czarnkowsko-trzcianecki;Wieleń;Wieleń;;5554.0
+WIELKOPOLSKIE;gnieźnieński;Czerniejewo;Czerniejewo;;2555.0
+WIELKOPOLSKIE;gnieźnieński;Gniezno;Gniezno;;62820.0
+WIELKOPOLSKIE;gnieźnieński;Kiszkowo;Kiszkowo;;
+WIELKOPOLSKIE;gnieźnieński;Kłecko;Kłecko;;2495.0
+WIELKOPOLSKIE;gnieźnieński;Mieleszyn;Mieleszyn;;
+WIELKOPOLSKIE;gnieźnieński;Niechanowo;Niechanowo;;
+WIELKOPOLSKIE;gnieźnieński;Trzemeszno;Trzemeszno;;7195.0
+WIELKOPOLSKIE;gnieźnieński;Witkowo;Witkowo;;7347.0
+WIELKOPOLSKIE;gnieźnieński;Łubowo;Łubowo;;
+WIELKOPOLSKIE;gostyński;Borek Wielkopolski;Borek Wielkopolski;;2417.0
+WIELKOPOLSKIE;gostyński;Gostyń;Gostyń;;19650.0
+WIELKOPOLSKIE;gostyński;Krobia;Krobia;;4528.0
+WIELKOPOLSKIE;gostyński;Piaski;Piaski;;
+WIELKOPOLSKIE;gostyński;Pogorzela;Pogorzela;;2037.0
+WIELKOPOLSKIE;gostyński;Poniec;Poniec;;2905.0
+WIELKOPOLSKIE;gostyński;Pępowo;Pępowo;;
+WIELKOPOLSKIE;grodziski;Granowo;Granowo;;
+WIELKOPOLSKIE;grodziski;Grodzisk Wielkopolski;Grodzisk Wielkopolski;;15115.0
+WIELKOPOLSKIE;grodziski;Kamieniec;Kamieniec;;
+WIELKOPOLSKIE;grodziski;Rakoniewice;Rakoniewice;;3618.0
+WIELKOPOLSKIE;grodziski;Rakoniewice;Rakoniewice;;3618.0
+WIELKOPOLSKIE;grodziski;Rakoniewice;Rakoniewice;;3618.0
+WIELKOPOLSKIE;grodziski;Wielichowo;Wielichowo;;1648.0
+WIELKOPOLSKIE;jarociński;Jaraczewo;Jaraczewo;;1374.0
+WIELKOPOLSKIE;jarociński;Jarocin;Jarocin;;26291.0
+WIELKOPOLSKIE;jarociński;Kotlin;Kotlin;;
+WIELKOPOLSKIE;jarociński;Żerków;Żerków;;2069.0
+WIELKOPOLSKIE;kaliski;Blizanów;Blizanów;;
+WIELKOPOLSKIE;kaliski;Brzeziny;Brzeziny;;
+WIELKOPOLSKIE;kaliski;Ceków-Kolonia;Ceków-Kolonia;;
+WIELKOPOLSKIE;kaliski;Godziesze Wielkie;Godziesze Wielkie;;
+WIELKOPOLSKIE;kaliski;Koźminek;Koźminek;;1815.0
+WIELKOPOLSKIE;kaliski;Lisków;Lisków;;
+WIELKOPOLSKIE;kaliski;Mycielin;Mycielin;;
+WIELKOPOLSKIE;kaliski;Opatówek;Opatówek;;3481.0
+WIELKOPOLSKIE;kaliski;Stawiszyn;Stawiszyn;;1353.0
+WIELKOPOLSKIE;kaliski;Szczytniki;Szczytniki;;
+WIELKOPOLSKIE;kaliski;Żelazków;Żelazków;;
+WIELKOPOLSKIE;kolski;Babiak;Babiak;;
+WIELKOPOLSKIE;kolski;Chodów;Chodów;;
+WIELKOPOLSKIE;kolski;Dąbie;Dąbie;;1678.0
+WIELKOPOLSKIE;kolski;Grzegorzew;Grzegorzew;;
+WIELKOPOLSKIE;kolski;Koło;Koło;;19078.0
+WIELKOPOLSKIE;kolski;Kościelec;Kościelec;;
+WIELKOPOLSKIE;kolski;Kościelec;Kościelec;;
+WIELKOPOLSKIE;kolski;Kłodawa;Kłodawa;;5775.0
+WIELKOPOLSKIE;kolski;Olszówka;Olszówka;;
+WIELKOPOLSKIE;kolski;Osiek Mały;Osiek Mały;;
+WIELKOPOLSKIE;kolski;Przedecz;Przedecz;;1493.0
+WIELKOPOLSKIE;koniński;Golina;Golina;;4237.0
+WIELKOPOLSKIE;koniński;Grodziec;Grodziec;;
+WIELKOPOLSKIE;koniński;Kazimierz Biskupi;Kazimierz Biskupi;;
+WIELKOPOLSKIE;koniński;Kleczew;Kleczew;;3815.0
+WIELKOPOLSKIE;koniński;Kramsk;Kramsk;;
+WIELKOPOLSKIE;koniński;Krzymów;Krzymów;;
+WIELKOPOLSKIE;koniński;Rychwał;Rychwał;;2371.0
+WIELKOPOLSKIE;koniński;Rzgów;Rzgów;;
+WIELKOPOLSKIE;koniński;Skulsk;Skulsk;;
+WIELKOPOLSKIE;koniński;Sompolno;Sompolno;;3306.0
+WIELKOPOLSKIE;koniński;Stare Miasto;Stare Miasto;;
+WIELKOPOLSKIE;koniński;Wierzbinek;Wierzbinek;;
+WIELKOPOLSKIE;koniński;Wilczyn;Wilczyn;;
+WIELKOPOLSKIE;koniński;Ślesin;Ślesin;;3076.0
+WIELKOPOLSKIE;kościański;Czempiń;Czempiń;;5072.0
+WIELKOPOLSKIE;kościański;Kościan;Kościan;;23110.0
+WIELKOPOLSKIE;kościański;Krzywiń;Krzywiń;;1652.0
+WIELKOPOLSKIE;kościański;Śmigiel;Śmigiel;;5592.0
+WIELKOPOLSKIE;krotoszyński;Kobylin;Kobylin;;3195.0
+WIELKOPOLSKIE;krotoszyński;Koźmin Wielkopolski;Koźmin Wielkopolski;;6047.0
+WIELKOPOLSKIE;krotoszyński;Krotoszyn;Krotoszyn;;28005.0
+WIELKOPOLSKIE;krotoszyński;Rozdrażew;Rozdrażew;;
+WIELKOPOLSKIE;krotoszyński;Sulmierzyce;Sulmierzyce;;2708.0
+WIELKOPOLSKIE;krotoszyński;Zduny;Zduny;;4259.0
+WIELKOPOLSKIE;kępiński;Baranów;Baranów;;
+WIELKOPOLSKIE;kępiński;Bralin;Bralin;;
+WIELKOPOLSKIE;kępiński;Bralin;Bralin;;
+WIELKOPOLSKIE;kępiński;Kępno;Kępno;;13395.0
+WIELKOPOLSKIE;kępiński;Perzów;Perzów;;
+WIELKOPOLSKIE;kępiński;Rychtal;Rychtal;;1325.0
+WIELKOPOLSKIE;kępiński;Trzcinica;Trzcinica;;
+WIELKOPOLSKIE;kępiński;Łęka Opatowska;Łęka Opatowska;;
+WIELKOPOLSKIE;leszczyński;Krzemieniewo;Krzemieniewo;;
+WIELKOPOLSKIE;leszczyński;Krzemieniewo;Krzemieniewo;;
+WIELKOPOLSKIE;leszczyński;Lipno;Lipno;;
+WIELKOPOLSKIE;leszczyński;Osieczna;Osieczna;;2434.0
+WIELKOPOLSKIE;leszczyński;Rydzyna;Rydzyna;;2867.0
+WIELKOPOLSKIE;leszczyński;Rydzyna;Rydzyna;;2867.0
+WIELKOPOLSKIE;leszczyński;Wijewo;Wijewo;;
+WIELKOPOLSKIE;leszczyński;Włoszakowice;Włoszakowice;;
+WIELKOPOLSKIE;leszczyński;Święciechowa;Święciechowa;;
+WIELKOPOLSKIE;międzychodzki;Chrzypsko Wielkie;Chrzypsko Wielkie;;
+WIELKOPOLSKIE;międzychodzki;Kwilcz;Kwilcz;;
+WIELKOPOLSKIE;międzychodzki;Międzychód;Międzychód;;9888.0
+WIELKOPOLSKIE;międzychodzki;Międzychód;Międzychód;;9888.0
+WIELKOPOLSKIE;międzychodzki;Sieraków;Sieraków;;5771.0
+WIELKOPOLSKIE;nowotomyski;Kuślin;Kuślin;;
+WIELKOPOLSKIE;nowotomyski;Lwówek;Lwówek;;2904.0
+WIELKOPOLSKIE;nowotomyski;Lwówek;Lwówek;;2904.0
+WIELKOPOLSKIE;nowotomyski;Miedzichowo;Miedzichowo;;
+WIELKOPOLSKIE;nowotomyski;Nowy Tomyśl;Nowy Tomyśl;;13404.0
+WIELKOPOLSKIE;nowotomyski;Opalenica;Opalenica;;9203.0
+WIELKOPOLSKIE;nowotomyski;Zbąszyń;Zbąszyń;;7006.0
+WIELKOPOLSKIE;obornicki;Oborniki;Oborniki;;17087.0
+WIELKOPOLSKIE;obornicki;Rogoźno;Rogoźno;;10694.0
+WIELKOPOLSKIE;obornicki;Ryczywół;Ryczywół;;
+WIELKOPOLSKIE;ostrowski;Nowe Skalmierzyce;Nowe Skalmierzyce;;4546.0
+WIELKOPOLSKIE;ostrowski;Odolanów;Odolanów;;4909.0
+WIELKOPOLSKIE;ostrowski;Ostrów Wielkopolski;Ostrów Wielkopolski;;68637.0
+WIELKOPOLSKIE;ostrowski;Przygodzice;Przygodzice;;
+WIELKOPOLSKIE;ostrowski;Przygodzice;Przygodzice;;
+WIELKOPOLSKIE;ostrowski;Raszków;Raszków;;2079.0
+WIELKOPOLSKIE;ostrowski;Sieroszewice;Sieroszewice;;
+WIELKOPOLSKIE;ostrowski;Sośnie;Sośnie;;
+WIELKOPOLSKIE;ostrzeszowski;Czajków;Czajków;;
+WIELKOPOLSKIE;ostrzeszowski;Doruchów;Doruchów;;
+WIELKOPOLSKIE;ostrzeszowski;Grabów nad Prosną;Grabów nad Prosną;;1903.0
+WIELKOPOLSKIE;ostrzeszowski;Kobyla Góra;Kobyla Góra;;
+WIELKOPOLSKIE;ostrzeszowski;Kraszewice;Kraszewice;;
+WIELKOPOLSKIE;ostrzeszowski;Mikstat;Mikstat;;1669.0
+WIELKOPOLSKIE;ostrzeszowski;Ostrzeszów;Ostrzeszów;;13451.0
+WIELKOPOLSKIE;pilski;Białośliwie;Białośliwie;;
+WIELKOPOLSKIE;pilski;Białośliwie;Białośliwie;;
+WIELKOPOLSKIE;pilski;Kaczory;Kaczory;;2756.0
+WIELKOPOLSKIE;pilski;Miasteczko Krajeńskie;Miasteczko Krajeńskie;;1063.0
+WIELKOPOLSKIE;pilski;Piła;Piła;;69383.0
+WIELKOPOLSKIE;pilski;Szydłowo;Szydłowo;;
+WIELKOPOLSKIE;pilski;Ujście;Ujście;;3310.0
+WIELKOPOLSKIE;pilski;Wyrzysk;Wyrzysk;;5063.0
+WIELKOPOLSKIE;pilski;Wysoka;Wysoka;;2480.0
+WIELKOPOLSKIE;pilski;Łobżenica;Łobżenica;;2747.0
+WIELKOPOLSKIE;pleszewski;Chocz;Chocz;;1609.0
+WIELKOPOLSKIE;pleszewski;Czermin;Czermin;;
+WIELKOPOLSKIE;pleszewski;Dobrzyca;Dobrzyca;;2906.0
+WIELKOPOLSKIE;pleszewski;Gizałki;Gizałki;;
+WIELKOPOLSKIE;pleszewski;Gołuchów;Gołuchów;;
+WIELKOPOLSKIE;pleszewski;Pleszew;Pleszew;;16499.0
+WIELKOPOLSKIE;poznański;Buk;Buk;;5471.0
+WIELKOPOLSKIE;poznański;Czerwonak;Czerwonak;;
+WIELKOPOLSKIE;poznański;Dopiewo;Dopiewo;;
+WIELKOPOLSKIE;poznański;Kleszczewo;Kleszczewo;;
+WIELKOPOLSKIE;poznański;Komorniki;Komorniki;;
+WIELKOPOLSKIE;poznański;Kostrzyn;Kostrzyn;;9851.0
+WIELKOPOLSKIE;poznański;Kórnik;Kórnik;;8110.0
+WIELKOPOLSKIE;poznański;Luboń;Luboń;;32829.0
+WIELKOPOLSKIE;poznański;Mosina;Mosina;;14493.0
+WIELKOPOLSKIE;poznański;Murowana Goślina;Murowana Goślina;;10260.0
+WIELKOPOLSKIE;poznański;Pobiedziska;Pobiedziska;;9899.0
+WIELKOPOLSKIE;poznański;Puszczykowo;Puszczykowo;;9190.0
+WIELKOPOLSKIE;poznański;Rokietnica;Rokietnica;;
+WIELKOPOLSKIE;poznański;Stęszew;Stęszew;;5857.0
+WIELKOPOLSKIE;poznański;Suchy Las;Suchy Las;;
+WIELKOPOLSKIE;poznański;Swarzędz;Swarzędz;;27934.0
+WIELKOPOLSKIE;poznański;Tarnowo Podgórne;Tarnowo Podgórne;;
+WIELKOPOLSKIE;rawicki;Bojanowo;Bojanowo;;2782.0
+WIELKOPOLSKIE;rawicki;Jutrosin;Jutrosin;;1839.0
+WIELKOPOLSKIE;rawicki;Miejska Górka;Miejska Górka;;3029.0
+WIELKOPOLSKIE;rawicki;Pakosław;Pakosław;;
+WIELKOPOLSKIE;rawicki;Rawicz;Rawicz;;19482.0
+WIELKOPOLSKIE;szamotulski;Duszniki;Duszniki;;
+WIELKOPOLSKIE;szamotulski;Kaźmierz;Kaźmierz;;
+WIELKOPOLSKIE;szamotulski;Obrzycko;Obrzycko;;2383.0
+WIELKOPOLSKIE;szamotulski;Ostroróg;Ostroróg;;1821.0
+WIELKOPOLSKIE;szamotulski;Pniewy;Pniewy;;8039.0
+WIELKOPOLSKIE;szamotulski;Szamotuły;Szamotuły;;18053.0
+WIELKOPOLSKIE;szamotulski;Wronki;Wronki;;10382.0
+WIELKOPOLSKIE;słupecki;Lądek;Lądek;;
+WIELKOPOLSKIE;słupecki;Orchowo;Orchowo;;
+WIELKOPOLSKIE;słupecki;Ostrowite;Ostrowite;;
+WIELKOPOLSKIE;słupecki;Powidz;Powidz;;
+WIELKOPOLSKIE;słupecki;Strzałkowo;Strzałkowo;;
+WIELKOPOLSKIE;słupecki;Słupca;Słupca;;12802.0
+WIELKOPOLSKIE;słupecki;Zagórów;Zagórów;;2712.0
+WIELKOPOLSKIE;turecki;Brudzew;Brudzew;;
+WIELKOPOLSKIE;turecki;Dobra;Dobra;;1307.0
+WIELKOPOLSKIE;turecki;Kawęczyn;Kawęczyn;;
+WIELKOPOLSKIE;turecki;Malanów;Malanów;;
+WIELKOPOLSKIE;turecki;Przykona;Przykona;;
+WIELKOPOLSKIE;turecki;Tuliszków;Tuliszków;;2983.0
+WIELKOPOLSKIE;turecki;Turek;Turek;;24165.0
+WIELKOPOLSKIE;turecki;Władysławów;Władysławów;;
+WIELKOPOLSKIE;wolsztyński;Przemęt;Przemęt;;
+WIELKOPOLSKIE;wolsztyński;Siedlec;Siedlec;;
+WIELKOPOLSKIE;wolsztyński;Wolsztyn;Wolsztyn;;11762.0
+WIELKOPOLSKIE;wrzesiński;Kołaczkowo;Kołaczkowo;;
+WIELKOPOLSKIE;wrzesiński;Miłosław;Miłosław;;3384.0
+WIELKOPOLSKIE;wrzesiński;Nekla;Nekla;;3858.0
+WIELKOPOLSKIE;wrzesiński;Pyzdry;Pyzdry;;2911.0
+WIELKOPOLSKIE;wrzesiński;Września;Września;;31727.0
+WIELKOPOLSKIE;wągrowiecki;Damasławek;Damasławek;;
+WIELKOPOLSKIE;wągrowiecki;Gołańcz;Gołańcz;;3140.0
+WIELKOPOLSKIE;wągrowiecki;Mieścisko;Mieścisko;;2399.0
+WIELKOPOLSKIE;wągrowiecki;Skoki;Skoki;;4819.0
+WIELKOPOLSKIE;wągrowiecki;Wapno;Wapno;;
+WIELKOPOLSKIE;wągrowiecki;Wągrowiec;Wągrowiec;;25371.0
+WIELKOPOLSKIE;złotowski;Jastrowie;Jastrowie;;8199.0
+WIELKOPOLSKIE;złotowski;Krajenka;Krajenka;;3439.0
+WIELKOPOLSKIE;złotowski;Lipka;Lipka;;
+WIELKOPOLSKIE;złotowski;Okonek;Okonek;;3569.0
+WIELKOPOLSKIE;złotowski;Tarnówka;Tarnówka;;
+WIELKOPOLSKIE;złotowski;Tarnówka;Tarnówka;;
+WIELKOPOLSKIE;złotowski;Zakrzewo;Zakrzewo;;
+WIELKOPOLSKIE;złotowski;Złotów;Złotów;;18005.0
+WIELKOPOLSKIE;średzki;Dominowo;Dominowo;;
+WIELKOPOLSKIE;średzki;Krzykosy;Krzykosy;;
+WIELKOPOLSKIE;średzki;Nowe Miasto nad Wartą;Nowe Miasto nad Wartą;;
+WIELKOPOLSKIE;średzki;Zaniemyśl;Zaniemyśl;;2447.0
+WIELKOPOLSKIE;średzki;Środa Wielkopolska;Środa Wielkopolska;;24312.0
+WIELKOPOLSKIE;śremski;Brodnica;Brodnica;;
+WIELKOPOLSKIE;śremski;Dolsk;Dolsk;;1537.0
+WIELKOPOLSKIE;śremski;Książ Wielkopolski;Książ Wielkopolski;;2924.0
+WIELKOPOLSKIE;śremski;Śrem;Śrem;;27488.0
+ZACHODNIOPOMORSKIE;Koszalin;Koszalin;Koszalin;;105263.0
+ZACHODNIOPOMORSKIE;Szczecin;Szczecin;Szczecin;;386706.0
+ZACHODNIOPOMORSKIE;białogardzki;Białogard;Białogard;;22159.0
+ZACHODNIOPOMORSKIE;białogardzki;Karlino;Karlino;;5436.0
+ZACHODNIOPOMORSKIE;białogardzki;Tychowo;Tychowo;;2317.0
+ZACHODNIOPOMORSKIE;choszczeński;Bierzwnik;Bierzwnik;;
+ZACHODNIOPOMORSKIE;choszczeński;Choszczno;Choszczno;;13791.0
+ZACHODNIOPOMORSKIE;choszczeński;Drawno;Drawno;;2147.0
+ZACHODNIOPOMORSKIE;choszczeński;Krzęcin;Krzęcin;;
+ZACHODNIOPOMORSKIE;choszczeński;Pełczyce;Pełczyce;;2374.0
+ZACHODNIOPOMORSKIE;choszczeński;Recz;Recz;;2632.0
+ZACHODNIOPOMORSKIE;drawski;Czaplinek;Czaplinek;;6604.0
+ZACHODNIOPOMORSKIE;drawski;Drawsko Pomorskie;Drawsko Pomorskie;;11123.0
+ZACHODNIOPOMORSKIE;drawski;Kalisz Pomorski;Kalisz Pomorski;;4013.0
+ZACHODNIOPOMORSKIE;drawski;Wierzchowo;Wierzchowo;;
+ZACHODNIOPOMORSKIE;drawski;Złocieniec;Złocieniec;;11906.0
+ZACHODNIOPOMORSKIE;goleniowski;Goleniów;Goleniów;;21315.0
+ZACHODNIOPOMORSKIE;goleniowski;Maszewo;Maszewo;;3301.0
+ZACHODNIOPOMORSKIE;goleniowski;Maszewo;Maszewo;;3301.0
+ZACHODNIOPOMORSKIE;goleniowski;Nowogard;Nowogard;;15549.0
+ZACHODNIOPOMORSKIE;goleniowski;Osina;Osina;;
+ZACHODNIOPOMORSKIE;goleniowski;Przybiernów;Przybiernów;;
+ZACHODNIOPOMORSKIE;goleniowski;Stepnica;Stepnica;;2502.0
+ZACHODNIOPOMORSKIE;gryficki;Brojce;Brojce;;
+ZACHODNIOPOMORSKIE;gryficki;Gryfice;Gryfice;;15277.0
+ZACHODNIOPOMORSKIE;gryficki;Karnice;Karnice;;
+ZACHODNIOPOMORSKIE;gryficki;Płoty;Płoty;;3684.0
+ZACHODNIOPOMORSKIE;gryficki;Rewal;Rewal;;
+ZACHODNIOPOMORSKIE;gryficki;Trzebiatów;Trzebiatów;;9279.0
+ZACHODNIOPOMORSKIE;gryfiński;Banie;Banie;;
+ZACHODNIOPOMORSKIE;gryfiński;Cedynia;Cedynia;;1450.0
+ZACHODNIOPOMORSKIE;gryfiński;Chojna;Chojna;;7320.0
+ZACHODNIOPOMORSKIE;gryfiński;Gryfino;Gryfino;;19564.0
+ZACHODNIOPOMORSKIE;gryfiński;Mieszkowice;Mieszkowice;;3317.0
+ZACHODNIOPOMORSKIE;gryfiński;Moryń;Moryń;;1611.0
+ZACHODNIOPOMORSKIE;gryfiński;Stare Czarnowo;Stare Czarnowo;;
+ZACHODNIOPOMORSKIE;gryfiński;Trzcińsko-Zdrój;Trzcińsko-Zdrój;;2129.0
+ZACHODNIOPOMORSKIE;gryfiński;Widuchowa;Widuchowa;;
+ZACHODNIOPOMORSKIE;kamieński;Dziwnów;Dziwnów;;2282.0
+ZACHODNIOPOMORSKIE;kamieński;Golczewo;Golczewo;;2493.0
+ZACHODNIOPOMORSKIE;kamieński;Kamień Pomorski;Kamień Pomorski;;8136.0
+ZACHODNIOPOMORSKIE;kamieński;Międzyzdroje;Międzyzdroje;;4826.0
+ZACHODNIOPOMORSKIE;kamieński;Wolin;Wolin;;4607.0
+ZACHODNIOPOMORSKIE;kamieński;Świerzno;Świerzno;;
+ZACHODNIOPOMORSKIE;koszaliński;Biesiekierz;Biesiekierz;;
+ZACHODNIOPOMORSKIE;koszaliński;Bobolice;Bobolice;;3641.0
+ZACHODNIOPOMORSKIE;koszaliński;Będzino;Będzino;;
+ZACHODNIOPOMORSKIE;koszaliński;Manowo;Manowo;;
+ZACHODNIOPOMORSKIE;koszaliński;Mielno;Mielno;;2713.0
+ZACHODNIOPOMORSKIE;koszaliński;Polanów;Polanów;;2798.0
+ZACHODNIOPOMORSKIE;koszaliński;Sianów;Sianów;;6692.0
+ZACHODNIOPOMORSKIE;koszaliński;Świeszyno;Świeszyno;;
+ZACHODNIOPOMORSKIE;kołobrzeski;Dygowo;Dygowo;;
+ZACHODNIOPOMORSKIE;kołobrzeski;Gościno;Gościno;;2769.0
+ZACHODNIOPOMORSKIE;kołobrzeski;Kołobrzeg;Kołobrzeg;;43230.0
+ZACHODNIOPOMORSKIE;kołobrzeski;Rymań;Rymań;;
+ZACHODNIOPOMORSKIE;kołobrzeski;Siemyśl;Siemyśl;;
+ZACHODNIOPOMORSKIE;kołobrzeski;Ustronie Morskie;Ustronie Morskie;;
+ZACHODNIOPOMORSKIE;myśliborski;Barlinek;Barlinek;;12801.0
+ZACHODNIOPOMORSKIE;myśliborski;Boleszkowice;Boleszkowice;;
+ZACHODNIOPOMORSKIE;myśliborski;Dębno;Dębno;;12769.0
+ZACHODNIOPOMORSKIE;myśliborski;Myślibórz;Myślibórz;;10321.0
+ZACHODNIOPOMORSKIE;myśliborski;Nowogródek Pomorski;Nowogródek Pomorski;;
+ZACHODNIOPOMORSKIE;policki;Kołbaskowo;Kołbaskowo;;
+ZACHODNIOPOMORSKIE;policki;Nowe Warpno;Nowe Warpno;;1044.0
+ZACHODNIOPOMORSKIE;policki;Police;Police;;29286.0
+ZACHODNIOPOMORSKIE;pyrzycki;Bielice;Bielice;;
+ZACHODNIOPOMORSKIE;pyrzycki;Kozielice;Kozielice;;
+ZACHODNIOPOMORSKIE;pyrzycki;Lipiany;Lipiany;;3732.0
+ZACHODNIOPOMORSKIE;pyrzycki;Przelewice;Przelewice;;
+ZACHODNIOPOMORSKIE;pyrzycki;Pyrzyce;Pyrzyce;;11665.0
+ZACHODNIOPOMORSKIE;pyrzycki;Warnice;Warnice;;
+ZACHODNIOPOMORSKIE;stargardzki;Chociwel;Chociwel;;2941.0
+ZACHODNIOPOMORSKIE;stargardzki;Dobrzany;Dobrzany;;2145.0
+ZACHODNIOPOMORSKIE;stargardzki;Dobrzany;Dobrzany;;2145.0
+ZACHODNIOPOMORSKIE;stargardzki;Dobrzany;Dobrzany;;2145.0
+ZACHODNIOPOMORSKIE;stargardzki;Dolice;Dolice;;
+ZACHODNIOPOMORSKIE;stargardzki;Ińsko;Ińsko;;1750.0
+ZACHODNIOPOMORSKIE;stargardzki;Kobylanka;Kobylanka;;
+ZACHODNIOPOMORSKIE;stargardzki;Marianowo;Marianowo;;
+ZACHODNIOPOMORSKIE;stargardzki;Stara Dąbrowa;Stara Dąbrowa;;
+ZACHODNIOPOMORSKIE;stargardzki;Stargard;Stargard;;66077.0
+ZACHODNIOPOMORSKIE;stargardzki;Suchań;Suchań;;1397.0
+ZACHODNIOPOMORSKIE;szczecinecki;Barwice;Barwice;;3407.0
+ZACHODNIOPOMORSKIE;szczecinecki;Biały Bór;Biały Bór;;2074.0
+ZACHODNIOPOMORSKIE;szczecinecki;Borne Sulinowo;Borne Sulinowo;;4801.0
+ZACHODNIOPOMORSKIE;szczecinecki;Grzmiąca;Grzmiąca;;
+ZACHODNIOPOMORSKIE;szczecinecki;Szczecinek;Szczecinek;;37250.0
+ZACHODNIOPOMORSKIE;sławieński;Darłowo;Darłowo;;12370.0
+ZACHODNIOPOMORSKIE;sławieński;Malechowo;Malechowo;;
+ZACHODNIOPOMORSKIE;sławieński;Postomino;Postomino;;
+ZACHODNIOPOMORSKIE;sławieński;Sławno;Sławno;;11620.0
+ZACHODNIOPOMORSKIE;wałecki;Człopa;Człopa;;2111.0
+ZACHODNIOPOMORSKIE;wałecki;Mirosławiec;Mirosławiec;;2964.0
+ZACHODNIOPOMORSKIE;wałecki;Tuczno;Tuczno;;1757.0
+ZACHODNIOPOMORSKIE;wałecki;Wałcz;Wałcz;;23243.0
+ZACHODNIOPOMORSKIE;łobeski;Dobra;Dobra;;2003.0
+ZACHODNIOPOMORSKIE;łobeski;Radowo Małe;Radowo Małe;;
+ZACHODNIOPOMORSKIE;łobeski;Resko;Resko;;3818.0
+ZACHODNIOPOMORSKIE;łobeski;Węgorzyno;Węgorzyno;;2590.0
+ZACHODNIOPOMORSKIE;łobeski;Łobez;Łobez;;9418.0
+ZACHODNIOPOMORSKIE;Świnoujście;Świnoujście;Świnoujście;;38541.0
+ZACHODNIOPOMORSKIE;świdwiński;Brzeżno;Brzeżno;;
+ZACHODNIOPOMORSKIE;świdwiński;Połczyn-Zdrój;Połczyn-Zdrój;;7138.0
+ZACHODNIOPOMORSKIE;świdwiński;Rąbino;Rąbino;;
+ZACHODNIOPOMORSKIE;świdwiński;Sławoborze;Sławoborze;;
+ZACHODNIOPOMORSKIE;świdwiński;Świdwin;Świdwin;;14411.0
+ŁÓDZKIE;Piotrków Trybunalski;Piotrków Trybunalski;Piotrków Trybunalski;;66022.0
+ŁÓDZKIE;Skierniewice;Skierniewice;Skierniewice;;45121.0
+ŁÓDZKIE;bełchatowski;Bełchatów;Bełchatów;;51637.0
+ŁÓDZKIE;bełchatowski;Drużbice;Drużbice;;
+ŁÓDZKIE;bełchatowski;Kleszczów;Kleszczów;;
+ŁÓDZKIE;bełchatowski;Kluki;Kluki;;
+ŁÓDZKIE;bełchatowski;Rusiec;Rusiec;;
+ŁÓDZKIE;bełchatowski;Szczerców;Szczerców;;
+ŁÓDZKIE;bełchatowski;Zelów;Zelów;;6930.0
+ŁÓDZKIE;brzeziński;Brzeziny;Brzeziny;;11852.0
+ŁÓDZKIE;brzeziński;Dmosin;Dmosin;;
+ŁÓDZKIE;brzeziński;Jeżów;Jeżów;;1252.0
+ŁÓDZKIE;brzeziński;Rogów;Rogów;;
+ŁÓDZKIE;kutnowski;Bedlno;Bedlno;;
+ŁÓDZKIE;kutnowski;Dąbrowice;Dąbrowice;;947.0
+ŁÓDZKIE;kutnowski;Krośniewice;Krośniewice;;3935.0
+ŁÓDZKIE;kutnowski;Krzyżanów;Krzyżanów;;
+ŁÓDZKIE;kutnowski;Kutno;Kutno;;40349.0
+ŁÓDZKIE;kutnowski;Nowe Ostrowy;Nowe Ostrowy;;
+ŁÓDZKIE;kutnowski;Oporów;Oporów;;
+ŁÓDZKIE;kutnowski;Strzelce;Strzelce;;
+ŁÓDZKIE;kutnowski;Łanięta;Łanięta;;
+ŁÓDZKIE;kutnowski;Żychlin;Żychlin;;7401.0
+ŁÓDZKIE;opoczyński;Białaczów;Białaczów;;1098.0
+ŁÓDZKIE;opoczyński;Drzewica;Drzewica;;3462.0
+ŁÓDZKIE;opoczyński;Mniszków;Mniszków;;
+ŁÓDZKIE;opoczyński;Opoczno;Opoczno;;18677.0
+ŁÓDZKIE;opoczyński;Paradyż;Paradyż;;
+ŁÓDZKIE;opoczyński;Poświętne;Poświętne;;
+ŁÓDZKIE;opoczyński;Sławno;Sławno;;
+ŁÓDZKIE;opoczyński;Żarnów;Żarnów;;1107.0
+ŁÓDZKIE;pabianicki;Dobroń;Dobroń;;
+ŁÓDZKIE;pabianicki;Dłutów;Dłutów;;
+ŁÓDZKIE;pabianicki;Dłutów;Dłutów;;
+ŁÓDZKIE;pabianicki;Konstantynów Łódzki;Konstantynów Łódzki;;19276.0
+ŁÓDZKIE;pabianicki;Ksawerów;Ksawerów;;
+ŁÓDZKIE;pabianicki;Lutomiersk;Lutomiersk;;1566.0
+ŁÓDZKIE;pabianicki;Pabianice;Pabianice;;59910.0
+ŁÓDZKIE;pajęczański;Działoszyn;Działoszyn;;5154.0
+ŁÓDZKIE;pajęczański;Kiełczygłów;Kiełczygłów;;
+ŁÓDZKIE;pajęczański;Nowa Brzeźnica;Nowa Brzeźnica;;
+ŁÓDZKIE;pajęczański;Pajęczno;Pajęczno;;6281.0
+ŁÓDZKIE;pajęczański;Rząśnia;Rząśnia;;
+ŁÓDZKIE;pajęczański;Siemkowice;Siemkowice;;
+ŁÓDZKIE;pajęczański;Strzelce Wielkie;Strzelce Wielkie;;
+ŁÓDZKIE;pajęczański;Sulmierzyce;Sulmierzyce;;
+ŁÓDZKIE;piotrkowski;Aleksandrów;Aleksandrów;;
+ŁÓDZKIE;piotrkowski;Czarnocin;Czarnocin;;
+ŁÓDZKIE;piotrkowski;Gorzkowice;Gorzkowice;;
+ŁÓDZKIE;piotrkowski;Grabica;Grabica;;
+ŁÓDZKIE;piotrkowski;Moszczenica;Moszczenica;;
+ŁÓDZKIE;piotrkowski;Rozprza;Rozprza;;1623.0
+ŁÓDZKIE;piotrkowski;Ręczno;Ręczno;;
+ŁÓDZKIE;piotrkowski;Ręczno;Ręczno;;
+ŁÓDZKIE;piotrkowski;Sulejów;Sulejów;;5876.0
+ŁÓDZKIE;piotrkowski;Wola Krzysztoporska;Wola Krzysztoporska;;
+ŁÓDZKIE;piotrkowski;Wolbórz;Wolbórz;;2237.0
+ŁÓDZKIE;piotrkowski;Łęki Szlacheckie;Łęki Szlacheckie;;
+ŁÓDZKIE;poddębicki;Dalików;Dalików;;
+ŁÓDZKIE;poddębicki;Poddębice;Poddębice;;6674.0
+ŁÓDZKIE;poddębicki;Pęczniew;Pęczniew;;
+ŁÓDZKIE;poddębicki;Uniejów;Uniejów;;2974.0
+ŁÓDZKIE;poddębicki;Wartkowice;Wartkowice;;
+ŁÓDZKIE;poddębicki;Zadzim;Zadzim;;
+ŁÓDZKIE;radomszczański;Dobryszyce;Dobryszyce;;
+ŁÓDZKIE;radomszczański;Gidle;Gidle;;
+ŁÓDZKIE;radomszczański;Gomunice;Gomunice;;
+ŁÓDZKIE;radomszczański;Kamieńsk;Kamieńsk;;2598.0
+ŁÓDZKIE;radomszczański;Kobiele Wielkie;Kobiele Wielkie;;
+ŁÓDZKIE;radomszczański;Kodrąb;Kodrąb;;
+ŁÓDZKIE;radomszczański;Lgota Wielka;Lgota Wielka;;
+ŁÓDZKIE;radomszczański;Masłowice;Masłowice;;
+ŁÓDZKIE;radomszczański;Przedbórz;Przedbórz;;3117.0
+ŁÓDZKIE;radomszczański;Radomsko;Radomsko;;42412.0
+ŁÓDZKIE;radomszczański;Wielgomłyny;Wielgomłyny;;
+ŁÓDZKIE;radomszczański;Wielgomłyny;Wielgomłyny;;
+ŁÓDZKIE;radomszczański;Ładzice;Ładzice;;
+ŁÓDZKIE;radomszczański;Żytno;Żytno;;
+ŁÓDZKIE;rawski;Biała Rawska;Biała Rawska;;2917.0
+ŁÓDZKIE;rawski;Cielądz;Cielądz;;
+ŁÓDZKIE;rawski;Rawa Mazowiecka;Rawa Mazowiecka;;15783.0
+ŁÓDZKIE;rawski;Regnów;Regnów;;
+ŁÓDZKIE;rawski;Sadkowice;Sadkowice;;
+ŁÓDZKIE;sieradzki;Brzeźnio;Brzeźnio;;
+ŁÓDZKIE;sieradzki;Brąszewice;Brąszewice;;
+ŁÓDZKIE;sieradzki;Burzenin;Burzenin;;
+ŁÓDZKIE;sieradzki;Błaszki;Błaszki;;1952.0
+ŁÓDZKIE;sieradzki;Goszczanów;Goszczanów;;
+ŁÓDZKIE;sieradzki;Klonowa;Klonowa;;
+ŁÓDZKIE;sieradzki;Sieradz;Sieradz;;38299.0
+ŁÓDZKIE;sieradzki;Warta;Warta;;2889.0
+ŁÓDZKIE;sieradzki;Wróblew;Wróblew;;
+ŁÓDZKIE;sieradzki;Złoczew;Złoczew;;3384.0
+ŁÓDZKIE;skierniewicki;Bolimów;Bolimów;;894.0
+ŁÓDZKIE;skierniewicki;Godzianów;Godzianów;;
+ŁÓDZKIE;skierniewicki;Głuchów;Głuchów;;
+ŁÓDZKIE;skierniewicki;Kowiesy;Kowiesy;;
+ŁÓDZKIE;skierniewicki;Lipce Reymontowskie;Lipce Reymontowskie;;
+ŁÓDZKIE;skierniewicki;Maków;Maków;;
+ŁÓDZKIE;skierniewicki;Nowy Kawęczyn;Nowy Kawęczyn;;
+ŁÓDZKIE;skierniewicki;Słupia;Słupia;;
+ŁÓDZKIE;tomaszowski;Budziszewice;Budziszewice;;
+ŁÓDZKIE;tomaszowski;Będków;Będków;;
+ŁÓDZKIE;tomaszowski;Czerniewice;Czerniewice;;
+ŁÓDZKIE;tomaszowski;Inowłódz;Inowłódz;;765.0
+ŁÓDZKIE;tomaszowski;Lubochnia;Lubochnia;;
+ŁÓDZKIE;tomaszowski;Rokiciny;Rokiciny;;
+ŁÓDZKIE;tomaszowski;Rokiciny;Rokiciny;;
+ŁÓDZKIE;tomaszowski;Rzeczyca;Rzeczyca;;
+ŁÓDZKIE;tomaszowski;Tomaszów Mazowiecki;Tomaszów Mazowiecki;;56681.0
+ŁÓDZKIE;tomaszowski;Ujazd;Ujazd;;1499.0
+ŁÓDZKIE;tomaszowski;Żelechlinek;Żelechlinek;;
+ŁÓDZKIE;wieluński;Czarnożyły;Czarnożyły;;
+ŁÓDZKIE;wieluński;Konopnica;Konopnica;;
+ŁÓDZKIE;wieluński;Mokrsko;Mokrsko;;
+ŁÓDZKIE;wieluński;Osjaków;Osjaków;;1332.0
+ŁÓDZKIE;wieluński;Ostrówek;Ostrówek;;
+ŁÓDZKIE;wieluński;Pątnów;Pątnów;;
+ŁÓDZKIE;wieluński;Skomlin;Skomlin;;
+ŁÓDZKIE;wieluński;Wieluń;Wieluń;;20141.0
+ŁÓDZKIE;wieluński;Wierzchlas;Wierzchlas;;
+ŁÓDZKIE;wieruszowski;Bolesławiec;Bolesławiec;;873.0
+ŁÓDZKIE;wieruszowski;Czastary;Czastary;;
+ŁÓDZKIE;wieruszowski;Galewice;Galewice;;
+ŁÓDZKIE;wieruszowski;Lututów;Lututów;;2171.0
+ŁÓDZKIE;wieruszowski;Sokolniki;Sokolniki;;
+ŁÓDZKIE;wieruszowski;Wieruszów;Wieruszów;;8217.0
+ŁÓDZKIE;wieruszowski;Łubnice;Łubnice;;
+ŁÓDZKIE;zduńskowolski;Szadek;Szadek;;1750.0
+ŁÓDZKIE;zduńskowolski;Szadek;Szadek;;1750.0
+ŁÓDZKIE;zduńskowolski;Zapolice;Zapolice;;
+ŁÓDZKIE;zduńskowolski;Zduńska Wola;Zduńska Wola;;37914.0
+ŁÓDZKIE;zgierski;Aleksandrów Łódzki;Aleksandrów Łódzki;;22023.0
+ŁÓDZKIE;zgierski;Głowno;Głowno;;12956.0
+ŁÓDZKIE;zgierski;Ozorków;Ozorków;;17902.0
+ŁÓDZKIE;zgierski;Parzęczew;Parzęczew;;930.0
+ŁÓDZKIE;zgierski;Stryków;Stryków;;3329.0
+ŁÓDZKIE;zgierski;Zgierz;Zgierz;;52938.0
+ŁÓDZKIE;łaski;Buczek;Buczek;;
+ŁÓDZKIE;łaski;Sędziejowice;Sędziejowice;;
+ŁÓDZKIE;łaski;Widawa;Widawa;;
+ŁÓDZKIE;łaski;Wodzierady;Wodzierady;;
+ŁÓDZKIE;łaski;Łask;Łask;;15849.0
+ŁÓDZKIE;łowicki;Bielawy;Bielawy;;
+ŁÓDZKIE;łowicki;Chąśno;Chąśno;;
+ŁÓDZKIE;łowicki;Domaniewice;Domaniewice;;
+ŁÓDZKIE;łowicki;Kiernozia;Kiernozia;;794.0
+ŁÓDZKIE;łowicki;Kocierzew Południowy;Kocierzew Południowy;;
+ŁÓDZKIE;łowicki;Nieborów;Nieborów;;
+ŁÓDZKIE;łowicki;Zduny;Zduny;;
+ŁÓDZKIE;łowicki;Łowicz;Łowicz;;25611.0
+ŁÓDZKIE;łowicki;Łyszkowice;Łyszkowice;;
+ŁÓDZKIE;łódzki wschodni;Andrespol;Andrespol;;
+ŁÓDZKIE;łódzki wschodni;Brójce;Brójce;;
+ŁÓDZKIE;łódzki wschodni;Koluszki;Koluszki;;11925.0
+ŁÓDZKIE;łódzki wschodni;Rzgów;Rzgów;;3453.0
+ŁÓDZKIE;łódzki wschodni;Tuszyn;Tuszyn;;7135.0
+ŁÓDZKIE;łęczycki;Daszyna;Daszyna;;
+ŁÓDZKIE;łęczycki;Grabów;Grabów;;1008.0
+ŁÓDZKIE;łęczycki;Góra Świętej Małgorzaty;Góra Świętej Małgorzaty;;
+ŁÓDZKIE;łęczycki;Piątek;Piątek;;1541.0
+ŁÓDZKIE;łęczycki;Witonia;Witonia;;
+ŁÓDZKIE;łęczycki;Łęczyca;Łęczyca;;12853.0
+ŁÓDZKIE;łęczycki;Świnice Warckie;Świnice Warckie;;
+ŚLĄSKIE;Bielsko-Biała;Bielsko-Biała;Bielsko-Biała;;164318.0
+ŚLĄSKIE;Bytom;Bytom;Bytom;;146290.0
+ŚLĄSKIE;Chorzów;Chorzów;Chorzów;;99420.0
+ŚLĄSKIE;Częstochowa;Częstochowa;Częstochowa;;203615.0
+ŚLĄSKIE;Dąbrowa Górnicza;Dąbrowa Górnicza;Dąbrowa Górnicza;;112408.0
+ŚLĄSKIE;Gliwice;Gliwice;Gliwice;;168248.0
+ŚLĄSKIE;Jastrzębie-Zdrój;Jastrzębie-Zdrój;Jastrzębie-Zdrój;;81338.0
+ŚLĄSKIE;Jaworzno;Jaworzno;Jaworzno;;86075.0
+ŚLĄSKIE;Katowice;Katowice;Katowice;;278885.0
+ŚLĄSKIE;Mysłowice;Mysłowice;Mysłowice;;70741.0
+ŚLĄSKIE;Piekary Śląskie;Piekary Śląskie;Piekary Śląskie;;51373.0
+ŚLĄSKIE;Ruda Śląska;Ruda Śląska;Ruda Śląska;;128793.0
+ŚLĄSKIE;Rybnik;Rybnik;Rybnik;;129817.0
+ŚLĄSKIE;Siemianowice Śląskie;Siemianowice Śląskie;Siemianowice Śląskie;;62817.0
+ŚLĄSKIE;Sosnowiec;Sosnowiec;Sosnowiec;;184988.0
+ŚLĄSKIE;Tychy;Tychy;Tychy;;121063.0
+ŚLĄSKIE;Zabrze;Zabrze;Zabrze;;152461.0
+ŚLĄSKIE;bielski;Bestwina;Bestwina;;
+ŚLĄSKIE;bielski;Buczkowice;Buczkowice;;
+ŚLĄSKIE;bielski;Czechowice-Dziedzice;Czechowice-Dziedzice;;34622.0
+ŚLĄSKIE;bielski;Jasienica;Jasienica;;
+ŚLĄSKIE;bielski;Jaworze;Jaworze;;
+ŚLĄSKIE;bielski;Kozy;Kozy;;
+ŚLĄSKIE;bielski;Porąbka;Porąbka;;
+ŚLĄSKIE;bielski;Szczyrk;Szczyrk;;5200.0
+ŚLĄSKIE;bielski;Wilamowice;Wilamowice;;3162.0
+ŚLĄSKIE;bielski;Wilkowice;Wilkowice;;
+ŚLĄSKIE;bieruńsko-lędziński;Bieruń;Bieruń;;18738.0
+ŚLĄSKIE;bieruńsko-lędziński;Bojszowy;Bojszowy;;
+ŚLĄSKIE;bieruńsko-lędziński;Chełm Śląski;Chełm Śląski;;
+ŚLĄSKIE;bieruńsko-lędziński;Imielin;Imielin;;9430.0
+ŚLĄSKIE;bieruńsko-lędziński;Lędziny;Lędziny;;16269.0
+ŚLĄSKIE;będziński;Bobrowniki;Bobrowniki;;
+ŚLĄSKIE;będziński;Będzin;Będzin;;53250.0
+ŚLĄSKIE;będziński;Czeladź;Czeladź;;29503.0
+ŚLĄSKIE;będziński;Mierzęcice;Mierzęcice;;
+ŚLĄSKIE;będziński;Psary;Psary;;
+ŚLĄSKIE;będziński;Siewierz;Siewierz;;5772.0
+ŚLĄSKIE;będziński;Sławków;Sławków;;6781.0
+ŚLĄSKIE;będziński;Wojkowice;Wojkowice;;8382.0
+ŚLĄSKIE;cieszyński;Brenna;Brenna;;
+ŚLĄSKIE;cieszyński;Chybie;Chybie;;
+ŚLĄSKIE;cieszyński;Cieszyn;Cieszyn;;32526.0
+ŚLĄSKIE;cieszyński;Dębowiec;Dębowiec;;
+ŚLĄSKIE;cieszyński;Goleszów;Goleszów;;
+ŚLĄSKIE;cieszyński;Hażlach;Hażlach;;
+ŚLĄSKIE;cieszyński;Istebna;Istebna;;
+ŚLĄSKIE;cieszyński;Skoczów;Skoczów;;13203.0
+ŚLĄSKIE;cieszyński;Strumień;Strumień;;3526.0
+ŚLĄSKIE;cieszyński;Ustroń;Ustroń;;15843.0
+ŚLĄSKIE;cieszyński;Wisła;Wisła;;10494.0
+ŚLĄSKIE;cieszyński;Zebrzydowice;Zebrzydowice;;
+ŚLĄSKIE;częstochowski;Blachownia;Blachownia;;8962.0
+ŚLĄSKIE;częstochowski;Dąbrowa Zielona;Dąbrowa Zielona;;
+ŚLĄSKIE;częstochowski;Janów;Janów;;
+ŚLĄSKIE;częstochowski;Kamienica Polska;Kamienica Polska;;
+ŚLĄSKIE;częstochowski;Koniecpol;Koniecpol;;5272.0
+ŚLĄSKIE;częstochowski;Konopiska;Konopiska;;
+ŚLĄSKIE;częstochowski;Kruszyna;Kruszyna;;
+ŚLĄSKIE;częstochowski;Kłomnice;Kłomnice;;
+ŚLĄSKIE;częstochowski;Lelów;Lelów;;
+ŚLĄSKIE;częstochowski;Mstów;Mstów;;
+ŚLĄSKIE;częstochowski;Mykanów;Mykanów;;
+ŚLĄSKIE;częstochowski;Olsztyn;Olsztyn;;2456.0
+ŚLĄSKIE;częstochowski;Poczesna;Poczesna;;
+ŚLĄSKIE;częstochowski;Przyrów;Przyrów;;1083.0
+ŚLĄSKIE;częstochowski;Rędziny;Rędziny;;
+ŚLĄSKIE;częstochowski;Starcza;Starcza;;
+ŚLĄSKIE;gliwicki;Gierałtowice;Gierałtowice;;
+ŚLĄSKIE;gliwicki;Knurów;Knurów;;35298.0
+ŚLĄSKIE;gliwicki;Pilchowice;Pilchowice;;
+ŚLĄSKIE;gliwicki;Pyskowice;Pyskowice;;17224.0
+ŚLĄSKIE;gliwicki;Rudziniec;Rudziniec;;
+ŚLĄSKIE;gliwicki;Sośnicowice;Sośnicowice;;1965.0
+ŚLĄSKIE;gliwicki;Toszek;Toszek;;3469.0
+ŚLĄSKIE;gliwicki;Wielowieś;Wielowieś;;
+ŚLĄSKIE;kłobucki;Krzepice;Krzepice;;4083.0
+ŚLĄSKIE;kłobucki;Kłobuck;Kłobuck;;12135.0
+ŚLĄSKIE;kłobucki;Lipie;Lipie;;
+ŚLĄSKIE;kłobucki;Miedźno;Miedźno;;
+ŚLĄSKIE;kłobucki;Opatów;Opatów;;
+ŚLĄSKIE;kłobucki;Panki;Panki;;
+ŚLĄSKIE;kłobucki;Panki;Panki;;
+ŚLĄSKIE;kłobucki;Popów;Popów;;
+ŚLĄSKIE;kłobucki;Przystajń;Przystajń;;
+ŚLĄSKIE;kłobucki;Wręczyca Wielka;Wręczyca Wielka;;
+ŚLĄSKIE;lubliniecki;Boronów;Boronów;;
+ŚLĄSKIE;lubliniecki;Ciasna;Ciasna;;
+ŚLĄSKIE;lubliniecki;Ciasna;Ciasna;;
+ŚLĄSKIE;lubliniecki;Herby;Herby;;
+ŚLĄSKIE;lubliniecki;Kochanowice;Kochanowice;;
+ŚLĄSKIE;lubliniecki;Koszęcin;Koszęcin;;
+ŚLĄSKIE;lubliniecki;Lubliniec;Lubliniec;;23171.0
+ŚLĄSKIE;lubliniecki;Pawonków;Pawonków;;
+ŚLĄSKIE;lubliniecki;Woźniki;Woźniki;;4081.0
+ŚLĄSKIE;mikołowski;Mikołów;Mikołów;;41532.0
+ŚLĄSKIE;mikołowski;Ornontowice;Ornontowice;;
+ŚLĄSKIE;mikołowski;Orzesze;Orzesze;;22160.0
+ŚLĄSKIE;mikołowski;Wyry;Wyry;;
+ŚLĄSKIE;mikołowski;Łaziska Górne;Łaziska Górne;;20981.0
+ŚLĄSKIE;myszkowski;Koziegłowy;Koziegłowy;;2369.0
+ŚLĄSKIE;myszkowski;Myszków;Myszków;;29006.0
+ŚLĄSKIE;myszkowski;Niegowa;Niegowa;;
+ŚLĄSKIE;myszkowski;Poraj;Poraj;;
+ŚLĄSKIE;myszkowski;Poraj;Poraj;;
+ŚLĄSKIE;myszkowski;Żarki;Żarki;;4306.0
+ŚLĄSKIE;pszczyński;Goczałkowice-Zdrój;Goczałkowice-Zdrój;;
+ŚLĄSKIE;pszczyński;Kobiór;Kobiór;;
+ŚLĄSKIE;pszczyński;Miedźna;Miedźna;;
+ŚLĄSKIE;pszczyński;Pawłowice;Pawłowice;;
+ŚLĄSKIE;pszczyński;Pszczyna;Pszczyna;;24729.0
+ŚLĄSKIE;pszczyński;Suszec;Suszec;;
+ŚLĄSKIE;raciborski;Kornowac;Kornowac;;
+ŚLĄSKIE;raciborski;Krzanowice;Krzanowice;;1958.0
+ŚLĄSKIE;raciborski;Krzanowice;Krzanowice;;1958.0
+ŚLĄSKIE;raciborski;Krzyżanowice;Krzyżanowice;;
+ŚLĄSKIE;raciborski;Kuźnia Raciborska;Kuźnia Raciborska;;4572.0
+ŚLĄSKIE;raciborski;Nędza;Nędza;;
+ŚLĄSKIE;raciborski;Pietrowice Wielkie;Pietrowice Wielkie;;
+ŚLĄSKIE;raciborski;Racibórz;Racibórz;;49150.0
+ŚLĄSKIE;raciborski;Rudnik;Rudnik;;
+ŚLĄSKIE;rybnicki;Czerwionka-Leszczyny;Czerwionka-Leszczyny;;26245.0
+ŚLĄSKIE;rybnicki;Gaszowice;Gaszowice;;
+ŚLĄSKIE;rybnicki;Jejkowice;Jejkowice;;
+ŚLĄSKIE;rybnicki;Lyski;Lyski;;
+ŚLĄSKIE;rybnicki;Świerklany;Świerklany;;
+ŚLĄSKIE;tarnogórski;Kalety;Kalety;;8094.0
+ŚLĄSKIE;tarnogórski;Krupski Młyn;Krupski Młyn;;
+ŚLĄSKIE;tarnogórski;Miasteczko Śląskie;Miasteczko Śląskie;;6901.0
+ŚLĄSKIE;tarnogórski;Ożarowice;Ożarowice;;
+ŚLĄSKIE;tarnogórski;Radzionków;Radzionków;;15989.0
+ŚLĄSKIE;tarnogórski;Tarnowskie Góry;Tarnowskie Góry;;61210.0
+ŚLĄSKIE;tarnogórski;Tworóg;Tworóg;;
+ŚLĄSKIE;tarnogórski;Zbrosławice;Zbrosławice;;
+ŚLĄSKIE;tarnogórski;Świerklaniec;Świerklaniec;;
+ŚLĄSKIE;wodzisławski;Godów;Godów;;
+ŚLĄSKIE;wodzisławski;Gorzyce;Gorzyce;;
+ŚLĄSKIE;wodzisławski;Lubomia;Lubomia;;
+ŚLĄSKIE;wodzisławski;Marklowice;Marklowice;;
+ŚLĄSKIE;wodzisławski;Mszana;Mszana;;
+ŚLĄSKIE;wodzisławski;Pszów;Pszów;;12892.0
+ŚLĄSKIE;wodzisławski;Radlin;Radlin;;16730.0
+ŚLĄSKIE;wodzisławski;Rydułtowy;Rydułtowy;;20017.0
+ŚLĄSKIE;wodzisławski;Wodzisław Śląski;Wodzisław Śląski;;44460.0
+ŚLĄSKIE;zawierciański;Irządze;Irządze;;
+ŚLĄSKIE;zawierciański;Kroczyce;Kroczyce;;
+ŚLĄSKIE;zawierciański;Ogrodzieniec;Ogrodzieniec;;3911.0
+ŚLĄSKIE;zawierciański;Pilica;Pilica;;1738.0
+ŚLĄSKIE;zawierciański;Poręba;Poręba;;8012.0
+ŚLĄSKIE;zawierciański;Szczekociny;Szczekociny;;3292.0
+ŚLĄSKIE;zawierciański;Włodowice;Włodowice;;1155.0
+ŚLĄSKIE;zawierciański;Zawiercie;Zawiercie;;45564.0
+ŚLĄSKIE;zawierciański;Łazy;Łazy;;6290.0
+ŚLĄSKIE;zawierciański;Żarnowiec;Żarnowiec;;
+ŚLĄSKIE;Świętochłowice;Świętochłowice;Świętochłowice;;45021.0
+ŚLĄSKIE;Żory;Żory;Żory;;61923.0
+ŚLĄSKIE;żywiecki;Czernichów;Czernichów;;
+ŚLĄSKIE;żywiecki;Gilowice;Gilowice;;
+ŚLĄSKIE;żywiecki;Jeleśnia;Jeleśnia;;
+ŚLĄSKIE;żywiecki;Koszarawa;Koszarawa;;
+ŚLĄSKIE;żywiecki;Lipowa;Lipowa;;
+ŚLĄSKIE;żywiecki;Milówka;Milówka;;
+ŚLĄSKIE;żywiecki;Rajcza;Rajcza;;
+ŚLĄSKIE;żywiecki;Ujsoły;Ujsoły;;
+ŚLĄSKIE;żywiecki;Węgierska Górka;Węgierska Górka;;
+ŚLĄSKIE;żywiecki;Łodygowice;Łodygowice;;
+ŚLĄSKIE;żywiecki;Łękawica;Łękawica;;
+ŚLĄSKIE;żywiecki;Ślemień;Ślemień;;
+ŚLĄSKIE;żywiecki;Świnna;Świnna;;
+ŚLĄSKIE;żywiecki;Żywiec;Żywiec;;29419.0
+ŚWIĘTOKRZYSKIE;Kielce;Kielce;Kielce;;180537.0
+ŚWIĘTOKRZYSKIE;buski;Busko-Zdrój;Busko-Zdrój;;14079.0
+ŚWIĘTOKRZYSKIE;buski;Gnojno;Gnojno;;
+ŚWIĘTOKRZYSKIE;buski;Nowy Korczyn;Nowy Korczyn;;882.0
+ŚWIĘTOKRZYSKIE;buski;Pacanów;Pacanów;;1024.0
+ŚWIĘTOKRZYSKIE;buski;Solec-Zdrój;Solec-Zdrój;;
+ŚWIĘTOKRZYSKIE;buski;Stopnica;Stopnica;;1101.0
+ŚWIĘTOKRZYSKIE;buski;Tuczępy;Tuczępy;;
+ŚWIĘTOKRZYSKIE;buski;Wiślica;Wiślica;;442.0
+ŚWIĘTOKRZYSKIE;jędrzejowski;Imielno;Imielno;;
+ŚWIĘTOKRZYSKIE;jędrzejowski;Jędrzejów;Jędrzejów;;13849.0
+ŚWIĘTOKRZYSKIE;jędrzejowski;Małogoszcz;Małogoszcz;;3297.0
+ŚWIĘTOKRZYSKIE;jędrzejowski;Nagłowice;Nagłowice;;
+ŚWIĘTOKRZYSKIE;jędrzejowski;Oksa;Oksa;;
+ŚWIĘTOKRZYSKIE;jędrzejowski;Sobków;Sobków;;997.0
+ŚWIĘTOKRZYSKIE;jędrzejowski;Sędziszów;Sędziszów;;6065.0
+ŚWIĘTOKRZYSKIE;jędrzejowski;Słupia;Słupia;;
+ŚWIĘTOKRZYSKIE;jędrzejowski;Wodzisław;Wodzisław;;923.0
+ŚWIĘTOKRZYSKIE;kazimierski;Bejsce;Bejsce;;
+ŚWIĘTOKRZYSKIE;kazimierski;Czarnocin;Czarnocin;;
+ŚWIĘTOKRZYSKIE;kazimierski;Kazimierza Wielka;Kazimierza Wielka;;4951.0
+ŚWIĘTOKRZYSKIE;kazimierski;Opatowiec;Opatowiec;;305.0
+ŚWIĘTOKRZYSKIE;kazimierski;Skalbmierz;Skalbmierz;;1177.0
+ŚWIĘTOKRZYSKIE;kielecki;Bieliny;Bieliny;;
+ŚWIĘTOKRZYSKIE;kielecki;Bodzentyn;Bodzentyn;;2076.0
+ŚWIĘTOKRZYSKIE;kielecki;Chmielnik;Chmielnik;;3364.0
+ŚWIĘTOKRZYSKIE;kielecki;Chęciny;Chęciny;;4303.0
+ŚWIĘTOKRZYSKIE;kielecki;Daleszyce;Daleszyce;;2738.0
+ŚWIĘTOKRZYSKIE;kielecki;Górno;Górno;;
+ŚWIĘTOKRZYSKIE;kielecki;Miedziana Góra;Miedziana Góra;;
+ŚWIĘTOKRZYSKIE;kielecki;Mniów;Mniów;;
+ŚWIĘTOKRZYSKIE;kielecki;Morawica;Morawica;;1737.0
+ŚWIĘTOKRZYSKIE;kielecki;Nowa Słupia;Nowa Słupia;;1287.0
+ŚWIĘTOKRZYSKIE;kielecki;Nowiny;Nowiny;;
+ŚWIĘTOKRZYSKIE;kielecki;Piekoszów;Piekoszów;;2978.0
+ŚWIĘTOKRZYSKIE;kielecki;Pierzchnica;Pierzchnica;;1213.0
+ŚWIĘTOKRZYSKIE;kielecki;Raków;Raków;;
+ŚWIĘTOKRZYSKIE;kielecki;Strawczyn;Strawczyn;;
+ŚWIĘTOKRZYSKIE;kielecki;Zagnańsk;Zagnańsk;;
+ŚWIĘTOKRZYSKIE;kielecki;Łagów;Łagów;;1519.0
+ŚWIĘTOKRZYSKIE;kielecki;Łopuszno;Łopuszno;;1419.0
+ŚWIĘTOKRZYSKIE;konecki;Fałków;Fałków;;
+ŚWIĘTOKRZYSKIE;konecki;Gowarczów;Gowarczów;;1304.0
+ŚWIĘTOKRZYSKIE;konecki;Końskie;Końskie;;17145.0
+ŚWIĘTOKRZYSKIE;konecki;Radoszyce;Radoszyce;;2769.0
+ŚWIĘTOKRZYSKIE;konecki;Ruda Maleniecka;Ruda Maleniecka;;
+ŚWIĘTOKRZYSKIE;konecki;Smyków;Smyków;;
+ŚWIĘTOKRZYSKIE;konecki;Stąporków;Stąporków;;5014.0
+ŚWIĘTOKRZYSKIE;opatowski;Baćkowice;Baćkowice;;
+ŚWIĘTOKRZYSKIE;opatowski;Iwaniska;Iwaniska;;1197.0
+ŚWIĘTOKRZYSKIE;opatowski;Lipnik;Lipnik;;
+ŚWIĘTOKRZYSKIE;opatowski;Opatów;Opatów;;5835.0
+ŚWIĘTOKRZYSKIE;opatowski;Ożarów;Ożarów;;4137.0
+ŚWIĘTOKRZYSKIE;opatowski;Sadowie;Sadowie;;
+ŚWIĘTOKRZYSKIE;opatowski;Tarłów;Tarłów;;
+ŚWIĘTOKRZYSKIE;opatowski;Wojciechowice;Wojciechowice;;
+ŚWIĘTOKRZYSKIE;ostrowiecki;Bałtów;Bałtów;;
+ŚWIĘTOKRZYSKIE;ostrowiecki;Bodzechów;Bodzechów;;
+ŚWIĘTOKRZYSKIE;ostrowiecki;Kunów;Kunów;;2686.0
+ŚWIĘTOKRZYSKIE;ostrowiecki;Ostrowiec Świętokrzyski;Ostrowiec Świętokrzyski;;61188.0
+ŚWIĘTOKRZYSKIE;ostrowiecki;Waśniów;Waśniów;;
+ŚWIĘTOKRZYSKIE;ostrowiecki;Ćmielów;Ćmielów;;2762.0
+ŚWIĘTOKRZYSKIE;pińczowski;Działoszyce;Działoszyce;;820.0
+ŚWIĘTOKRZYSKIE;pińczowski;Kije;Kije;;
+ŚWIĘTOKRZYSKIE;pińczowski;Michałów;Michałów;;
+ŚWIĘTOKRZYSKIE;pińczowski;Pińczów;Pińczów;;9542.0
+ŚWIĘTOKRZYSKIE;pińczowski;Złota;Złota;;
+ŚWIĘTOKRZYSKIE;sandomierski;Dwikozy;Dwikozy;;
+ŚWIĘTOKRZYSKIE;sandomierski;Klimontów;Klimontów;;1726.0
+ŚWIĘTOKRZYSKIE;sandomierski;Koprzywnica;Koprzywnica;;2350.0
+ŚWIĘTOKRZYSKIE;sandomierski;Obrazów;Obrazów;;
+ŚWIĘTOKRZYSKIE;sandomierski;Samborzec;Samborzec;;
+ŚWIĘTOKRZYSKIE;sandomierski;Sandomierz;Sandomierz;;20984.0
+ŚWIĘTOKRZYSKIE;sandomierski;Wilczyce;Wilczyce;;
+ŚWIĘTOKRZYSKIE;sandomierski;Zawichost;Zawichost;;1582.0
+ŚWIĘTOKRZYSKIE;sandomierski;Łoniów;Łoniów;;
+ŚWIĘTOKRZYSKIE;skarżyski;Bliżyn;Bliżyn;;
+ŚWIĘTOKRZYSKIE;skarżyski;Skarżysko Kościelne;Skarżysko Kościelne;;
+ŚWIĘTOKRZYSKIE;skarżyski;Skarżysko-Kamienna;Skarżysko-Kamienna;;40650.0
+ŚWIĘTOKRZYSKIE;skarżyski;Suchedniów;Suchedniów;;7346.0
+ŚWIĘTOKRZYSKIE;skarżyski;Łączna;Łączna;;
+ŚWIĘTOKRZYSKIE;starachowicki;Brody;Brody;;
+ŚWIĘTOKRZYSKIE;starachowicki;Mirzec;Mirzec;;
+ŚWIĘTOKRZYSKIE;starachowicki;Pawłów;Pawłów;;
+ŚWIĘTOKRZYSKIE;starachowicki;Starachowice;Starachowice;;43773.0
+ŚWIĘTOKRZYSKIE;starachowicki;Wąchock;Wąchock;;2413.0
+ŚWIĘTOKRZYSKIE;staszowski;Bogoria;Bogoria;;1091.0
+ŚWIĘTOKRZYSKIE;staszowski;Oleśnica;Oleśnica;;1706.0
+ŚWIĘTOKRZYSKIE;staszowski;Osiek;Osiek;;1955.0
+ŚWIĘTOKRZYSKIE;staszowski;Połaniec;Połaniec;;7343.0
+ŚWIĘTOKRZYSKIE;staszowski;Rytwiany;Rytwiany;;
+ŚWIĘTOKRZYSKIE;staszowski;Staszów;Staszów;;13362.0
+ŚWIĘTOKRZYSKIE;staszowski;Szydłów;Szydłów;;951.0
+ŚWIĘTOKRZYSKIE;staszowski;Łubnice;Łubnice;;
+ŚWIĘTOKRZYSKIE;włoszczowski;Kluczewsko;Kluczewsko;;
+ŚWIĘTOKRZYSKIE;włoszczowski;Krasocin;Krasocin;;
+ŚWIĘTOKRZYSKIE;włoszczowski;Moskorzew;Moskorzew;;
+ŚWIĘTOKRZYSKIE;włoszczowski;Radków;Radków;;
+ŚWIĘTOKRZYSKIE;włoszczowski;Secemin;Secemin;;
+ŚWIĘTOKRZYSKIE;włoszczowski;Włoszczowa;Włoszczowa;;9414.0
