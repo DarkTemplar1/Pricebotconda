@@ -865,10 +865,33 @@ def main(argv=None) -> int:
         print(f"[BŁĄD] Nie mogę wczytać Polska.xlsx: {polska_path}\n{e}")
         return 1
 
-    col_area_pl = _find_col(df_pl.columns, ["metry", "powierzchnia", "powierzchnia lokalu", "powierzchnia (m2)", "obszar", "Obszar"])
-    col_price_pl = _find_col(df_pl.columns, ["cena_za_metr", "cena za metr", "cena_za_m2", "cena za m2", "cena za m²", "cena/m2", "cena/m²"])
+    col_area_pl = _find_col(df_pl.columns, [
+        "metry", "powierzchnia", "powierzchnia lokalu", "powierzchnia (m2)", "obszar", "Obszar"
+    ])
+
+    # 1) Preferuj gotową cenę za m2 jeśli istnieje w bazie
+    col_price_pl = _find_col(df_pl.columns, [
+        "cena_za_metr", "cena za metr", "cena_za_m2", "cena za m2", "cena za m²", "cena/m2", "cena/m²",
+        "cena m2", "cena za metr2", "cena za metr kwadratowy"
+    ])
+
+    # 2) Jeśli nie ma ceny za m2 — spróbuj policzyć z (CENA całkowita / metraż)
+    if col_price_pl is None:
+        col_total_price = _find_col(df_pl.columns, [
+            "Cena", "CENA", "Cena [PLN]", "Cena PLN", "Cena ofertowa", "CENA OFERTOWA", "Kwota", "Wartość",
+            "Wartosc", "Wartosc [PLN]", "Cena sprzedaży", "Cena sprzedazy"
+        ])
+        if col_total_price and col_area_pl:
+            # bezpieczne wyliczenie ceny za m2
+            prices = df_pl[col_total_price].map(_to_float_maybe)
+            areas  = df_pl[col_area_pl].map(_to_float_maybe)
+            with np.errstate(divide='ignore', invalid='ignore'):
+                df_pl["__price_m2__"] = prices / areas
+            col_price_pl = "__price_m2__"
+
     if not col_area_pl or not col_price_pl:
-        print("[BŁĄD] Polska.xlsx nie zawiera wymaganych kolumn metrażu / ceny.")
+        print("[BŁĄD] Polska.xlsx nie zawiera wymaganych kolumn do liczenia ceny za m2.")
+        print("  Wymagane: metraż (np. 'Obszar') oraz albo 'cena za m2', albo 'Cena' (cena całkowita).")
         return 1
 
     is_excel = raport_path.suffix.lower() in [".xlsx", ".xlsm", ".xls"]
