@@ -18,6 +18,7 @@ import re
 import sys
 import time
 import unicodedata
+from datetime import datetime
 from math import ceil
 from pathlib import Path
 from typing import Iterable, Set, List
@@ -172,6 +173,60 @@ def fetch(sess: requests.Session, url: str) -> str:
     return r.text
 
 
+def _read_existing_links(out_csv: Path) -> tuple[list[str], set[str]]:
+    """Czyta już zapisane linki (bez nagłówka). Zwraca (lista_w_kolejnosci, set)."""
+    if not out_csv.exists():
+        return [], set()
+    links: list[str] = []
+    seen: set[str] = set()
+    try:
+        with out_csv.open("r", encoding="utf-8-sig", newline="") as f:
+            for i, line in enumerate(f):
+                line = line.strip()
+                if not line:
+                    continue
+                if i == 0 and line.lower().startswith("link"):
+                    continue
+                u = line
+                if u and u not in seen:
+                    seen.add(u)
+                    links.append(u)
+    except Exception as e:
+        LOG(f"[WARN] Nie mogę odczytać istniejącego CSV: {e}")
+    return links, seen
+
+
+def _append_new_links(out_csv: Path, new_links: list[str]) -> None:
+    """Dopisuje linki do CSV (1 kolumna), dodając nagłówek jeśli plik pusty/nie istnieje."""
+    if not new_links:
+        return
+    out_csv.parent.mkdir(parents=True, exist_ok=True)
+    write_header = (not out_csv.exists()) or (out_csv.stat().st_size == 0)
+    with out_csv.open("a", encoding="utf-8-sig", newline="") as f:
+        if write_header:
+            f.write("link\n")
+        for u in new_links:
+            f.write(u + "\n")
+
+
+def _load_state(state_path: Path) -> dict:
+    if not state_path.exists():
+        return {}
+    try:
+        import json
+        return json.loads(state_path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _save_state(state_path: Path, data: dict) -> None:
+    try:
+        import json
+        state_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception:
+        pass
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--region", required=True, help="np. 'podlaskie' (bez polskich znaków też może być)")
@@ -185,66 +240,126 @@ def main():
     region_slug = normalize_region_slug(region_input)
     out_csv = Path(args.output).resolve()
 
+    stop_path  = out_csv.with_suffix(".stop")
+    state_path = out_csv.with_suffix(".state.json")
+    done_path  = out_csv.with_suffix(".done")
+
     LOG(f"[start] region='{region_input}' type='mieszkanie' output='{out_csv}'")
     LOG(f"[slug] '{region_input}' -> '{region_slug}'")
 
+    # Jeśli już gotowe — nic nie rób
+    if done_path.exists():
+        LOG(f"[done] marker istnieje: {done_path} (linki już zebrane)")
+        return
+
+    # Wczytaj to co już masz + stan wznowienia
+    existing_list, existing_set = _read_existing_links(out_csv)
+    st = _load_state(state_path)
+
+    next_page = int(st.get("next_page", 1) or 1)
+    max_pages = int(st.get("max_pages", 0) or 0)
+
+    LOG(f"[resume] existing_unique={len(existing_set)} next_page={next_page} max_pages(state)={max_pages}")
+
     sess = mk_session()
 
-    # Strona 1 — ustal liczbę ogłoszeń / stron
-    url1 = page_url(region_slug, 1, args.per_page)
-    LOG(f"[URL p1] {url1}")
-    html1 = fetch(sess, url1)
+    # Ustal max_pages (jeśli nie mamy ze stanu)
+    if max_pages <= 0:
+        url1 = page_url(region_slug, 1, args.per_page)
+        LOG(f"[URL p1] {url1}")
+        html1 = fetch(sess, url1)
 
-    bc = parse_banner_counts(html1)
-    if bc:
-        lo, hi, total = bc
-        LOG(f"[baner] {lo}-{hi} ogłoszeń z {total}   -> lo={lo}, hi={hi}, total={total}")
-        max_pages = ceil(total / args.per_page)
-        LOG(f"[pages] total={total} per_page={args.per_page} -> max_pages={max_pages}")
-    else:
-        LOG("[WARN] Nie udało się znaleźć banera z liczbą ogłoszeń — przyjmuję 1 stronę")
-        max_pages = 1
+        bc = parse_banner_counts(html1)
+        if bc:
+            lo, hi, total = bc
+            LOG(f"[baner] {lo}-{hi} ogłoszeń z {total} -> total={total}")
+            max_pages = ceil(total / args.per_page)
+            LOG(f"[pages] total={total} per_page={args.per_page} -> max_pages={max_pages}")
+        else:
+            LOG("[WARN] Nie udało się znaleźć banera — przyjmuję 1 stronę")
+            max_pages = 1
 
+        if args.max_pages and args.max_pages > 0:
+            max_pages = min(max_pages, args.max_pages)
+            LOG(f"[limit] max_pages ograniczone do {max_pages}")
+
+        # jeśli startujemy od 1 — od razu przerób stronę 1, żeby nie robić GET drugi raz
+        if next_page <= 1:
+            if stop_path.exists():
+                LOG(f"[STOP] wykryto {stop_path} — kończę przed stroną 1")
+                _save_state(state_path, {"region": region_input, "region_slug": region_slug,
+                                        "per_page": args.per_page, "max_pages": max_pages,
+                                        "next_page": 1, "unique": len(existing_set)})
+                return
+
+            links1 = extract_links(html1)
+            new_links = []
+            for u in links1:
+                if u and u not in existing_set:
+                    existing_set.add(u)
+                    new_links.append(u)
+            _append_new_links(out_csv, new_links)
+            LOG(f"[page 1] dom={len(links1)} new={len(new_links)} total_unique={len(existing_set)}")
+
+            next_page = 2
+
+    # jeśli user wymusił limit w trakcie wznowienia
     if args.max_pages and args.max_pages > 0:
         max_pages = min(max_pages, args.max_pages)
-        LOG(f"[limit] max_pages ograniczone do {max_pages}")
 
-    # Zbiór linków
-    all_links: List[str] = []
-    # Strona 1
-    links1 = extract_links(html1)
-    LOG(f"[page 1] dom={len(links1)} new={len(unique(links1))} total_unique={len(unique(links1))}")
-    all_links.extend(links1)
-    all_links = unique(all_links)
-    LOG(f"[unique after p1] {len(all_links)}")
+    # Główna pętla od next_page
+    for p in range(next_page, max_pages + 1):
+        if stop_path.exists():
+            LOG(f"[STOP] wykryto {stop_path} — kończę po stronie {p-1}")
+            _save_state(state_path, {"region": region_input, "region_slug": region_slug,
+                                    "per_page": args.per_page, "max_pages": max_pages,
+                                    "next_page": p, "unique": len(existing_set)})
+            return
 
-    # Następne strony
-    for p in range(2, max_pages + 1):
         urlp = page_url(region_slug, p, args.per_page)
         html = fetch(sess, urlp)
         links = extract_links(html)
-        before = len(all_links)
-        # ile nowych?
-        new_cnt = 0
-        seen_set = set(all_links)
+
+        new_links = []
         for u in links:
-            if u and u not in seen_set:
-                all_links.append(u)
-                seen_set.add(u)
-                new_cnt += 1
-        LOG(f"[page {p}] dom={len(links)} new={new_cnt} total_unique={len(all_links)}")
+            if u and u not in existing_set:
+                existing_set.add(u)
+                new_links.append(u)
+
+        _append_new_links(out_csv, new_links)
+        LOG(f"[page {p}] dom={len(links)} new={len(new_links)} total_unique={len(existing_set)}")
+
+        _save_state(state_path, {"region": region_input, "region_slug": region_slug,
+                                "per_page": args.per_page, "max_pages": max_pages,
+                                "next_page": p + 1, "unique": len(existing_set)})
+
         if args.delay > 0:
             LOG(f"[sleep] {args.delay:.2f}s")
             time.sleep(args.delay)
 
-    # Zapis CSV
-    out_csv.parent.mkdir(parents=True, exist_ok=True)
-    with out_csv.open("w", encoding="utf-8-sig", newline="") as f:
-        f.write("link\n")
-        for u in all_links:
-            f.write(u + "\n")
+    # Koniec: linki kompletne
+    try:
+        done_path.write_text(datetime.now().isoformat(), encoding="utf-8")
+    except Exception:
+        # fallback: "touch"
+        try:
+            done_path.touch(exist_ok=True)
+        except Exception:
+            pass
 
-    LOG(f"[done] zapisano: {out_csv} (unikalnych linków: {len(all_links)})")
+    # sprzątanie stanu/stop
+    try:
+        if state_path.exists():
+            state_path.unlink()
+    except Exception:
+        pass
+    try:
+        if stop_path.exists():
+            stop_path.unlink()
+    except Exception:
+        pass
+
+    LOG(f"[done] zapisano: {out_csv} (unikalnych linków: {len(existing_set)}) marker={done_path}")
 
 
 if __name__ == "__main__":

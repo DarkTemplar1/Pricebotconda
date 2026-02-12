@@ -397,6 +397,10 @@ class BazaDanychWindow(tk.Toplevel):
 
         lf = self.links_dir / f"{region}.csv"
         of = self.out_dir   / f"{region}.csv"
+
+        done_marker = lf.with_suffix(".done")
+        stop_marker = lf.with_suffix(".stop")
+
         total = self._read_links_count(lf)
         done  = self._read_processed_count(of)
 
@@ -406,8 +410,25 @@ class BazaDanychWindow(tk.Toplevel):
         except Exception:
             pass
 
-        if total == 0:
-            # najpierw LINKI
+        # jeśli ktoś skasował CSV, ale został .done → posprzątaj
+        if total == 0 and done_marker.exists():
+            try:
+                done_marker.unlink()
+            except Exception:
+                pass
+
+        # LINKI są "gotowe" dopiero gdy istnieje marker .done
+        links_ready = (total > 0) and done_marker.exists()
+
+        if not links_ready:
+            # najpierw LINKI (start / wznowienie)
+            # usuń ewentualny STOP, żeby wznowienie nie zatrzymało się od razu
+            try:
+                if stop_marker.exists():
+                    stop_marker.unlink()
+            except Exception:
+                pass
+
             self._save_timing_row(region, "links", "W trakcie", done, total)
             if (self.master is not None and not isinstance(self.master, tk.Tk)) or IS_FROZEN:
                 self._run_links_threaded(region, lf)
@@ -425,6 +446,7 @@ class BazaDanychWindow(tk.Toplevel):
         self._update_start_button_state()
         self._safe_refresh()
 
+
     def on_stop(self):
         region = self._selected_region()
         if not region:
@@ -432,9 +454,40 @@ class BazaDanychWindow(tk.Toplevel):
 
         th = self.thread_by_region.get(region)
         pr = self.proc_by_region.get(region)
+        stage = self.stage_by_region.get(region)
 
-        # jeśli coś działa – miękkie zatrzymanie + kolor ŻÓŁTY
-        if (th and th.is_alive()) or (pr and pr.poll() is None):
+        lf = self.links_dir / f"{region}.csv"
+        stop_marker = lf.with_suffix(".stop")
+
+        running = (th and th.is_alive()) or (pr and pr.poll() is None)
+
+        # jeśli coś działa – zatrzymaj zależnie od etapu
+        if running:
+            # 1) LINKI: sygnał STOP przez plik *.stop (skrypt przerwie po bieżącej stronie)
+            if stage == "links":
+                try:
+                    stop_marker.parent.mkdir(parents=True, exist_ok=True)
+                    stop_marker.write_text(datetime.now().isoformat(), encoding="utf-8")
+                except Exception:
+                    # nawet jeśli nie uda się zapisać, nie wywalaj GUI
+                    pass
+
+                # ŻÓŁTY = stop w toku
+                try:
+                    self.btn_stop.config(bg="#f7e26b", activebackground="#f5d742")
+                except Exception:
+                    pass
+
+                messagebox.showinfo(
+                    "Zatrzymanie",
+                    "Wysyłam STOP dla pobierania linków…\n"
+                    "Zatrzyma się po dokończeniu bieżącej strony i zapisze zebrane linki."
+                )
+                self._lock_start_until_stop = True
+                self._update_start_button_state()
+                return
+
+            # 2) ADS: miękki stop (dokończ jeszcze kilka ogłoszeń)
             try:
                 self.btn_stop.config(bg="#f7e26b", activebackground="#f5d742")
             except Exception:
@@ -468,6 +521,7 @@ class BazaDanychWindow(tk.Toplevel):
             self.btn_stop.config(bg="#d9d9d9", activebackground="#d0d0d0")
         except Exception:
             pass
+
 
     # ---------- uruchamianie (wątek – EXE/Toplevel) ----------
     def _run_links_threaded(self, region: str, lf: Path):
@@ -574,9 +628,16 @@ class BazaDanychWindow(tk.Toplevel):
         if self._any_running() or (self.active_region and self.active_region != region):
             return
         lf = self.links_dir / f"{region}.csv"
+        done_marker = lf.with_suffix(".done")
+        if not done_marker.exists():
+            # Linki nie są kompletne → nie startuj ADS
+            return
+
         of = self.out_dir   / f"{region}.csv"
         total = self._read_links_count(lf); done = self._read_processed_count(of)
-        if total == 0: return
+        if total == 0:
+            return
+
         self._save_timing_row(region, "ads", "W trakcie", done, total)
         if (self.master is not None and not isinstance(self.master, tk.Tk)) or IS_FROZEN:
             self._run_ads_threaded(region, lf, of)
@@ -591,7 +652,7 @@ class BazaDanychWindow(tk.Toplevel):
         self._update_start_button_state()
         self._safe_refresh()
 
-    # ---------- monitor miękkiego stopu ----------
+
     def _start_soft_stop_monitor(self, region: str):
         """Po kliknięciu 'Zatrzymaj' monitoruje plik i po +SOFT_STOP_MORE wierszach kończy scraper."""
         if region in self.soft_stop_monitors and self.soft_stop_monitors[region].is_alive():
@@ -661,48 +722,87 @@ class BazaDanychWindow(tk.Toplevel):
     def _auto_refresh(self):
         changed = False
 
+        def _maybe_unlock():
+            # jeśli NIC nie działa – odblokuj Start/Wznów
+            if not self._any_running():
+                self._lock_start_until_stop = False
+                self._update_start_button_state()
+
         # DEV: procesy
         for region, proc in list(self.proc_by_region.items()):
             alive = proc.poll() is None
-            lf = self.links_dir / f"{region}.csv"; of = self.out_dir / f"{region}.csv"
-            total = self._read_links_count(lf); done = self._read_processed_count(of)
+            lf = self.links_dir / f"{region}.csv"
+            of = self.out_dir   / f"{region}.csv"
+            total = self._read_links_count(lf)
+            done = self._read_processed_count(of)
             stage = self.stage_by_region.get(region)
+            done_marker = lf.with_suffix(".done")
+
             if not alive:
-                if stage == "links" and total > 0:
+                # proces zakończony
+                if stage == "links":
                     self.proc_by_region.pop(region, None); self.stage_by_region.pop(region, None)
                     self._save_timing_row(region, "links", "Stop", done, total); changed = True
                     self.active_region = None
-                    self._start_ads_for(region); continue
+
+                    # Auto-start ADS tylko jeśli linki zostały ukończone (.done)
+                    if done_marker.exists() and total > 0:
+                        self._start_ads_for(region)
+                        continue
+
+                    _maybe_unlock()
+                    continue
+
+                # ADS (lub brak stage)
                 self._save_timing_row(region, "ads", "Stop", done, total)
                 self.proc_by_region.pop(region, None); self.stage_by_region.pop(region, None)
                 self.active_region = None
                 changed = True
+                _maybe_unlock()
+
             else:
-                cur_phase = stage or ("ads" if total > 0 else "links")
+                cur_phase = stage or ("ads" if done_marker.exists() else "links")
                 self._save_timing_row(region, cur_phase, "W trakcie", done, total); changed = True
 
         # WĄTKI
         for region, th in list(self.thread_by_region.items()):
-            lf = self.links_dir / f"{region}.csv"; of = self.out_dir / f"{region}.csv"
-            total = self._read_links_count(lf); done = self._read_processed_count(of)
+            lf = self.links_dir / f"{region}.csv"
+            of = self.out_dir   / f"{region}.csv"
+            total = self._read_links_count(lf)
+            done = self._read_processed_count(of)
             stage = self.stage_by_region.get(region)
+            done_marker = lf.with_suffix(".done")
+
             if not th.is_alive():
-                if stage == "links" and total > 0:
+                # wątek zakończony
+                if stage == "links":
                     self.thread_by_region.pop(region, None); self.stage_by_region.pop(region, None)
                     self._save_timing_row(region, "links", "Stop", done, total); changed = True
                     self.active_region = None
-                    self._start_ads_for(region); continue
+
+                    if done_marker.exists() and total > 0:
+                        self._start_ads_for(region)
+                        continue
+
+                    _maybe_unlock()
+                    continue
+
                 self._save_timing_row(region, "ads", "Stop", done, total)
                 self.thread_by_region.pop(region, None); self.stage_by_region.pop(region, None)
                 self.active_region = None
                 changed = True
+                _maybe_unlock()
+
             else:
-                cur_phase = stage or ("ads" if total > 0 else "links")
+                cur_phase = stage or ("ads" if done_marker.exists() else "links")
                 self._save_timing_row(region, cur_phase, "W trakcie", done, total); changed = True
 
         if changed:
             self._safe_refresh()
+
+        _maybe_unlock()
         self.after(2000, self._auto_refresh)
+
 
     # ---------- scalanie ----------
     def run_scalanie(self):

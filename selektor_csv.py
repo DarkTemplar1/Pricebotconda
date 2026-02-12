@@ -84,10 +84,10 @@ def _xlsx_has_sheet(path: Path, sheet_name: str) -> bool:
         return False
 
 def _read_report_excel(path: Path, sheet_name: str = RAPORT_SHEET) -> pd.DataFrame:
-    """Czyta arkusz 'raport' jeśli istnieje, w przeciwnym razie pierwszy arkusz."""
-    if _xlsx_has_sheet(path, sheet_name):
-        return pd.read_excel(path, sheet_name=sheet_name)
-    return pd.read_excel(path)
+    """Czyta WYŁĄCZNIE arkusz 'raport'. Jeśli nie istnieje – rzuca wyjątek."""
+    if not _xlsx_has_sheet(path, sheet_name):
+        raise RuntimeError(f"Plik nie zawiera arkusza '{sheet_name}'.")
+    return pd.read_excel(path, sheet_name=sheet_name)
 
 def _get_header_from_ws(ws) -> list[str]:
     header = []
@@ -366,19 +366,25 @@ class App(tk.Tk):
     def load_dataframe(self, path: Path):
         try:
             if path.suffix.lower() in (".xlsx", ".xlsm"):
+                # ⛔ Podgląd ma być TYLKO arkusza 'raport'
                 self.df = _read_report_excel(path, sheet_name=RAPORT_SHEET)
-                # ✅ dopilnuj arkusza raport_odfiltrowane
+
+                # ✅ dopilnuj arkusza raport_odfiltrowane (techniczne)
                 try:
                     ensure_raport_odfiltrowane(path)
                 except Exception:
                     pass
             else:
+                # CSV nie ma arkuszy — podgląd OK
                 self.df = pd.read_csv(path, sep=None, engine="python")
         except Exception as e:
-            messagebox.showerror("Błąd odczytu", f"Nie mogę wczytać pliku:\n{path}\n\n{e}")
+            messagebox.showerror(
+                "Błąd odczytu",
+                f"Nie mogę wczytać arkusza '{RAPORT_SHEET}' z pliku:{path}{e}"
+            )
             self.df = None
             self.current_idx = None
-            self.preview_label.config(text="{Błąd odczytu pliku}")
+            self.preview_label.config(text="{Brak arkusza 'raport'}")
 
     # ---------- CZYSZCZENIE PLIKU Z LOGIEM ----------
 
@@ -626,17 +632,12 @@ class App(tk.Tk):
             try:
                 rc = automat.main(["automat.py", raport, baza])
             except Exception as e:
-                # UWAGA: w Python 3 zmienna `e` z bloku `except` jest czyszczona po wyjściu
-                # z tego bloku. Ponieważ on_error odpala się później (self.after), musimy
-                # skopiować komunikat błędu do zwykłej zmiennej.
-                err_text = str(e)
-
-                def on_error(err_text=err_text):
+                def on_error():
                     try:
                         self.automat_btn.config(bg="", activebackground="")
                     except Exception:
                         pass
-                    messagebox.showerror("Automat", f"Błąd działania automat.py:\n{err_text}")
+                    messagebox.showerror("Automat", f"Błąd działania automat.py:\n{e}")
                 self.after(0, on_error)
                 return
 

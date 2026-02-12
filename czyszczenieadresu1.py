@@ -112,6 +112,37 @@ for k, v in list(HIST.items()):
 HIST_KEYS_DESC = sorted(HIST.keys(), key=len, reverse=True)
 
 # ============================================================
+# AKTUALNE WOJEWÓDZTWA (16) — żeby nie łapać 'opolskie' w 'wielkopolskie'
+# Klucze: po norm_key() (bez ogonków, lower, spacje)
+# Wartości: oficjalne nazwy UPPERCASE (z polskimi znakami)
+# ============================================================
+
+CURRENT_16 = {
+    "dolnoslaskie": "DOLNOŚLĄSKIE",
+    "kujawsko pomorskie": "KUJAWSKO-POMORSKIE",
+    "lubelskie": "LUBELSKIE",
+    "lubuskie": "LUBUSKIE",
+    "lodzkie": "ŁÓDZKIE",
+    "malopolskie": "MAŁOPOLSKIE",
+    "mazowieckie": "MAZOWIECKIE",
+    "opolskie": "OPOLSKIE",
+    "podkarpackie": "PODKARPACKIE",
+    "podlaskie": "PODLASKIE",
+    "pomorskie": "POMORSKIE",
+    "slaskie": "ŚLĄSKIE",
+    "swietokrzyskie": "ŚWIĘTOKRZYSKIE",
+    "warminsko mazurskie": "WARMIŃSKO-MAZURSKIE",
+    "wielkopolskie": "WIELKOPOLSKIE",
+    "zachodniopomorskie": "ZACHODNIOPOMORSKIE",
+}
+
+# warianty typu "WOJEWÓDZTWO WIELKOPOLSKIE" / "WIELKOPOLSKIE WOJEWÓDZTWO"
+for k, v in list(CURRENT_16.items()):
+    CURRENT_16[f"wojewodztwo {k}"] = v
+    CURRENT_16[f"{k} wojewodztwo"] = v
+
+
+# ============================================================
 # NORMALIZACJA — KLUCZOWY FIX DLA Ł/ł
 # ============================================================
 
@@ -163,13 +194,26 @@ def replace_historical_voivodeship(val: str | None) -> str | None:
 
     # bez prefiksu "woj/wojewodztwo"
     key2 = re.sub(r"^(woj|wojewodztwo)\s+", "", key).strip()
+
+    # jeżeli użytkownik podał już aktualne województwo (np. WIELKOPOLSKIE / MAŁOPOLSKIE),
+    # zwróć oficjalną nazwę i NIE rób 'contains' (bo 'opolskie' jest podciągiem obu).
+    key3 = re.sub(r"\s+(woj|wojewodztwo)$", "", key).strip()
+    if key in CURRENT_16:
+        return CURRENT_16[key]
+    if key2 in CURRENT_16:
+        return CURRENT_16[key2]
+    if key3 in CURRENT_16:
+        return CURRENT_16[key3]
+
     if key2 in HIST:
         return HIST[key2]
 
     # contains
     for old in HIST_KEYS_DESC:
-        if old and old in key:
-            return HIST[old]
+        if old:
+            # dopasuj tylko całe słowo/frazę (a nie podciąg w środku słowa)
+            if re.search(rf"(^|\s){re.escape(old)}($|\s)", key):
+                return HIST[old]
 
     return val.upper()
 
