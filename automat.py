@@ -21,6 +21,7 @@ import os
 import datetime
 import re
 from typing import Optional, Dict, List, Tuple
+from dataclasses import dataclass
 
 import pandas as pd
 import numpy as np
@@ -647,15 +648,384 @@ def save_report_sheet_only(xlsx_path: Path, df_report: pd.DataFrame, sheet_name:
 # Core: przetwarzanie wiersza
 # =========================
 
+def _bucket_for_population(pop: float | None) -> tuple[float | None, float | None]:
+    """Zwraca (low, high) dla progu ludności wg POP_MARGIN_RULES."""
+    if pop is None:
+        return (None, None)
+    try:
+        p = float(pop)
+    except Exception:
+        return (None, None)
+
+    for low, high, _, _ in POP_MARGIN_RULES:
+        if p >= low and (high is None or p < high):
+            return (float(low), float(high) if high is not None else None)
+
+    # fallback: ostatni próg
+    low, high, _, _ = POP_MARGIN_RULES[-1]
+    return (float(low), float(high) if high is not None else None)
+
+def _pop_in_bucket(pop: float | None, low: float | None, high: float | None) -> bool:
+    if low is None and high is None:
+        return True
+    if pop is None:
+        return False
+    try:
+        p = float(pop)
+    except Exception:
+        return False
+    if high is None:
+        return p >= float(low)
+    return p >= float(low) and p < float(high)
+
+@dataclass
+class PolskaIndex:
+    df: pd.DataFrame
+    col_area: str
+    col_price: str
+
+    # kolumny adresowe w Polsce.xlsx (oryginalne)
+    col_woj: str | None
+    col_pow: str | None
+    col_gmi: str | None
+    col_mia: str | None
+    col_dzl: str | None
+
+    # kolumny kanoniczne
+    c_woj: str | None
+    c_pow: str | None
+    c_gmi: str | None
+    c_mia: str | None
+    c_dzl: str | None
+
+    # mapy miejscowości -> przykładowa nazwa (żeby móc pytać PopulationResolver sensownym tekstem)
+    by_gmina: Dict[Tuple[str, str, str], Dict[str, str]]
+    by_powiat: Dict[Tuple[str, str], Dict[str, str]]
+    by_woj: Dict[str, Dict[str, str]]
+
+def build_polska_index(df_pl: pd.DataFrame, col_area_pl: str, col_price_pl: str) -> PolskaIndex:
+    # kolumny administracyjne
+    col_woj = _find_col(df_pl.columns, ["wojewodztwo", "województwo", "woj"])
+    col_pow = _find_col(df_pl.columns, ["powiat"])
+    col_gmi = _find_col(df_pl.columns, ["gmina"])
+    col_mia = _find_col(df_pl.columns, ["miejscowosc", "miejscowość", "miasto"])
+    col_dzl = _find_col(df_pl.columns, ["dzielnica", "osiedle"])
+
+    # numeryczne metry/cena (jednorazowo – szybciej per wiersz raportu)
+    if "_area_num" not in df_pl.columns:
+        df_pl["_area_num"] = df_pl[col_area_pl].map(_to_float_maybe)
+    if "_price_num" not in df_pl.columns:
+        df_pl["_price_num"] = df_pl[col_price_pl].map(_to_float_maybe)
+
+    # kanonizacja tekstów do porównań
+    c_woj = c_pow = c_gmi = c_mia = c_dzl = None
+    if col_woj:
+        c_woj = "_woj_c"
+        df_pl[c_woj] = df_pl[col_woj].map(lambda x: _canon_admin(x, "woj"))
+    if col_pow:
+        c_pow = "_pow_c"
+        df_pl[c_pow] = df_pl[col_pow].map(lambda x: _canon_admin(x, "pow"))
+    if col_gmi:
+        c_gmi = "_gmi_c"
+        df_pl[c_gmi] = df_pl[col_gmi].map(lambda x: _canon_admin(x, "gmi"))
+    if col_mia:
+        c_mia = "_mia_c"
+        df_pl[c_mia] = df_pl[col_mia].map(lambda x: _canon_admin(x, "mia"))
+    if col_dzl:
+        c_dzl = "_dzl_c"
+        df_pl[c_dzl] = df_pl[col_dzl].map(lambda x: _canon_admin(x, "dzl"))
+
+    # mapy miejscowości po gminie/powiecie/woj (na bazie tego co w ogóle jest w Polska.xlsx)
+    by_gmina: Dict[Tuple[str, str, str], Dict[str, str]] = {}
+    by_powiat: Dict[Tuple[str, str], Dict[str, str]] = {}
+    by_woj: Dict[str, Dict[str, str]] = {}
+
+    # brak miejscowości -> brak indeksu (zostaną puste mapy, a fallback zadziała tylko na miejscowości)
+    if c_woj and c_mia:
+        # województwo
+        for w, gdf in df_pl.groupby(c_woj, dropna=False):
+            if not w:
+                continue
+            mp: Dict[str, str] = {}
+            if col_mia and c_mia:
+                for mia_c, sub in gdf.groupby(c_mia, dropna=False):
+                    if not mia_c:
+                        continue
+                    # przykładowa oryginalna nazwa (z diakrytykami)
+                    try:
+                        ex = sub[col_mia].dropna().iloc[0]
+                        mp[mia_c] = str(ex) if pd.notna(ex) else str(mia_c)
+                    except Exception:
+                        mp[mia_c] = str(mia_c)
+            by_woj[str(w)] = mp
+
+        # powiat
+        if c_pow:
+            for (w, p), gdf in df_pl.groupby([c_woj, c_pow], dropna=False):
+                if not w or not p:
+                    continue
+                mp: Dict[str, str] = {}
+                if col_mia:
+                    for mia_c, sub in gdf.groupby(c_mia, dropna=False):
+                        if not mia_c:
+                            continue
+                        try:
+                            ex = sub[col_mia].dropna().iloc[0]
+                            mp[mia_c] = str(ex) if pd.notna(ex) else str(mia_c)
+                        except Exception:
+                            mp[mia_c] = str(mia_c)
+                by_powiat[(str(w), str(p))] = mp
+
+        # gmina
+        if c_pow and c_gmi:
+            for (w, p, g), gdf in df_pl.groupby([c_woj, c_pow, c_gmi], dropna=False):
+                if not w or not p or not g:
+                    continue
+                mp: Dict[str, str] = {}
+                if col_mia:
+                    for mia_c, sub in gdf.groupby(c_mia, dropna=False):
+                        if not mia_c:
+                            continue
+                        try:
+                            ex = sub[col_mia].dropna().iloc[0]
+                            mp[mia_c] = str(ex) if pd.notna(ex) else str(mia_c)
+                        except Exception:
+                            mp[mia_c] = str(mia_c)
+                by_gmina[(str(w), str(p), str(g))] = mp
+
+    return PolskaIndex(
+        df=df_pl,
+        col_area=col_area_pl,
+        col_price=col_price_pl,
+        col_woj=col_woj,
+        col_pow=col_pow,
+        col_gmi=col_gmi,
+        col_mia=col_mia,
+        col_dzl=col_dzl,
+        c_woj=c_woj,
+        c_pow=c_pow,
+        c_gmi=c_gmi,
+        c_mia=c_mia,
+        c_dzl=c_dzl,
+        by_gmina=by_gmina,
+        by_powiat=by_powiat,
+        by_woj=by_woj,
+    )
+
+def _mask_eq_canon(df: pd.DataFrame, canon_col: str | None, value_canon: str) -> pd.Series:
+    if canon_col is None or not value_canon:
+        return pd.Series(True, index=df.index)
+    return df[canon_col].astype(str) == str(value_canon)
+
+def _filter_miejscowosci_by_bucket(
+    candidates: Dict[str, str],
+    bucket_low: float | None,
+    bucket_high: float | None,
+    pop_resolver: PopulationResolver | None,
+    woj_raw: str,
+    pow_raw: str,
+    gmi_raw: str,
+    scope: str,
+    pop_cache: Dict[Tuple[str, str], float | None],
+) -> List[str]:
+    """Zwraca listę kanonicznych nazw miejscowości w zadanym progu ludności.
+    Jeżeli brakuje ludności dla wszystkich, zwróci pustą listę (wtedy wyżej można zrobić fallback)."""
+    if not candidates:
+        return []
+    if bucket_low is None and bucket_high is None:
+        return list(candidates.keys())
+
+    out: List[str] = []
+    for mia_c, mia_original in candidates.items():
+        cache_key = (scope, mia_c)
+        if cache_key in pop_cache:
+            pop = pop_cache[cache_key]
+        else:
+            pop = None
+            if pop_resolver is not None:
+                pop = pop_resolver.get_population(woj_raw, pow_raw, gmi_raw, mia_original, "")
+            pop_cache[cache_key] = pop
+        if _pop_in_bucket(pop, bucket_low, bucket_high):
+            out.append(mia_c)
+    return out
+
+def _select_comparables(
+    pl: PolskaIndex,
+    woj_c: str,
+    pow_c: str,
+    gmi_c: str,
+    mia_c: str,
+    dzl_c: str,
+    woj_raw: str,
+    pow_raw: str,
+    gmi_raw: str,
+    min_hits: int,
+    bucket_low: float | None,
+    bucket_high: float | None,
+    pop_resolver: PopulationResolver | None,
+    low_area: float,
+    high_area: float,
+) -> Tuple[pd.DataFrame, str]:
+    df = pl.df
+
+    # baza: zakres metrażu + musi mieć cenę
+    base = (df["_area_num"].notna()) & (df["_area_num"] >= low_area) & (df["_area_num"] <= high_area) & df["_price_num"].notna()
+
+    pop_cache: Dict[Tuple[str, str], float | None] = {}
+
+    def _take(mask: pd.Series, label: str) -> Tuple[pd.DataFrame, str]:
+        sel = df[mask].copy()
+        # tylko z ceną (już jest), ale zabezpiecz
+        sel = sel[sel["_price_num"].notna()].copy()
+        return sel, label
+
+    # 1) DZIELNICA (jeśli podana)
+    if dzl_c:
+        mask = base.copy()
+        mask &= _mask_eq_canon(df, pl.c_woj, woj_c)
+        mask &= _mask_eq_canon(df, pl.c_mia, mia_c)
+        mask &= _mask_eq_canon(df, pl.c_dzl, dzl_c)
+        sel, label = _take(mask, "dzielnica")
+        if len(sel.index) >= min_hits:
+            return sel, label
+
+    # 2) MIEJSCOWOŚĆ
+    if mia_c:
+        mask = base.copy()
+        mask &= _mask_eq_canon(df, pl.c_woj, woj_c)
+        mask &= _mask_eq_canon(df, pl.c_mia, mia_c)
+        sel, label = _take(mask, "miejscowosc")
+        if len(sel.index) >= min_hits:
+            return sel, label
+
+    # 3) GMINA (miejscowości w tym samym progu ludności)
+    if gmi_c and pl.c_mia and pl.by_gmina:
+        candidates = pl.by_gmina.get((woj_c, pow_c, gmi_c), {})
+        bucket_mias = _filter_miejscowosci_by_bucket(
+            candidates, bucket_low, bucket_high, pop_resolver,
+            woj_raw=woj_raw, pow_raw=pow_raw, gmi_raw=gmi_raw,
+            scope="gmina", pop_cache=pop_cache
+        )
+        if not bucket_mias:
+            # fallback: jak nie mamy ludności (lub brak danych), weź wszystkie miejscowości z tej gminy
+            bucket_mias = list(candidates.keys())
+
+        if bucket_mias:
+            mask = base.copy()
+            mask &= _mask_eq_canon(df, pl.c_woj, woj_c)
+            mask &= _mask_eq_canon(df, pl.c_pow, pow_c)
+            mask &= _mask_eq_canon(df, pl.c_gmi, gmi_c)
+            mask &= df[pl.c_mia].isin(bucket_mias)
+            sel, label = _take(mask, "gmina(pop)")
+            if len(sel.index) >= min_hits:
+                return sel, label
+
+    # 4) POWIAT (miejscowości w tym samym progu ludności)
+    if pow_c and pl.c_mia and pl.by_powiat:
+        candidates = pl.by_powiat.get((woj_c, pow_c), {})
+        bucket_mias = _filter_miejscowosci_by_bucket(
+            candidates, bucket_low, bucket_high, pop_resolver,
+            woj_raw=woj_raw, pow_raw=pow_raw, gmi_raw="",
+            scope="powiat", pop_cache=pop_cache
+        )
+        if not bucket_mias:
+            bucket_mias = list(candidates.keys())
+
+        if bucket_mias:
+            mask = base.copy()
+            mask &= _mask_eq_canon(df, pl.c_woj, woj_c)
+            mask &= _mask_eq_canon(df, pl.c_pow, pow_c)
+            mask &= df[pl.c_mia].isin(bucket_mias)
+            sel, label = _take(mask, "powiat(pop)")
+            if len(sel.index) >= min_hits:
+                return sel, label
+
+    # 5) WOJEWÓDZTWO (miejscowości w tym samym progu ludności)
+    #    Specjalnie dla MAZOWIECKIEGO: zamiast przeszukiwać całe mazowieckie, przeszukuj WOJ. SĄSIEDNIE (bez mazowieckiego)
+    #    i zbierz WSZYSTKIE ogłoszenia z tych województw do wyliczeń.
+    if woj_c and pl.c_mia and pl.by_woj:
+        if woj_c == "mazowieckie":
+            neighbors = [
+                "lodzkie",
+                "kujawsko pomorskie",
+                "warminsko mazurskie",
+                "podlaskie",
+                "lubelskie",
+                "swietokrzyskie",
+            ]
+
+            parts = []
+            for w2 in neighbors:
+                candidates = pl.by_woj.get(w2, {})
+                if not candidates:
+                    continue
+
+                bucket_mias = _filter_miejscowosci_by_bucket(
+                    candidates, bucket_low, bucket_high, pop_resolver,
+                    woj_raw=w2, pow_raw="", gmi_raw="",
+                    scope=f"woj_sas:{w2}", pop_cache=pop_cache
+                )
+                if not bucket_mias:
+                    bucket_mias = list(candidates.keys())
+
+                if not bucket_mias:
+                    continue
+
+                mask = base.copy()
+                mask &= _mask_eq_canon(df, pl.c_woj, w2)
+                mask &= df[pl.c_mia].isin(bucket_mias)
+                sel_part, _ = _take(mask, f"woj_sas:{w2}")
+                if not sel_part.empty:
+                    parts.append(sel_part)
+
+            if parts:
+                sel = pd.concat(parts, axis=0, ignore_index=False)
+                # usuń duplikaty (na wszelki wypadek)
+                sel = sel.loc[~sel.index.duplicated(keep="first")].copy()
+                # UWAGA: tu NIE przerywamy po pierwszych 5 – zbieramy pełny zbiór z sąsiadów do wyliczeń.
+                if len(sel.index) >= min_hits:
+                    return sel, "woj_sasiednie(pop)"
+                # jeśli < min_hits, i tak zwrócimy to jako najlepszy szeroki zestaw (zamiast pustego)
+                return sel, "woj_sasiednie(pop)_malo"
+
+        # standard: dla innych województw przeszukaj własne woj.
+        candidates = pl.by_woj.get(woj_c, {})
+        bucket_mias = _filter_miejscowosci_by_bucket(
+            candidates, bucket_low, bucket_high, pop_resolver,
+            woj_raw=woj_raw, pow_raw="", gmi_raw="",
+            scope="woj", pop_cache=pop_cache
+        )
+        if not bucket_mias:
+            bucket_mias = list(candidates.keys())
+
+        if bucket_mias:
+            mask = base.copy()
+            mask &= _mask_eq_canon(df, pl.c_woj, woj_c)
+            mask &= df[pl.c_mia].isin(bucket_mias)
+            sel, label = _take(mask, "woj(pop)")
+            if len(sel.index) >= min_hits:
+                return sel, label
+
+    # jeśli nadal < min_hits, zwróć najlepsze co mamy (ostatni znaleziony) albo puste
+    # spróbuj chociaż na woj+miejscowość bez progu (jeśli progi odfiltrowały wszystko)
+    if woj_c and mia_c:
+        mask = base.copy()
+        mask &= _mask_eq_canon(df, pl.c_woj, woj_c)
+        mask &= _mask_eq_canon(df, pl.c_mia, mia_c)
+        sel, label = _take(mask, "miejscowosc(fallback)")
+        if not sel.empty:
+            return sel, label
+
+    return df.iloc[0:0].copy(), "brak"
+
 def _process_row(
     df_raport: pd.DataFrame,
     idx: int,
-    df_pl: pd.DataFrame,
-    col_area_pl: str,
-    col_price_pl: str,
+    pl: PolskaIndex,
     margin_m2_default: float,
     margin_pct_default: float,
     pop_resolver: PopulationResolver | None,
+    min_hits: int = 5,
 ) -> None:
     row = df_raport.iloc[idx]
 
@@ -668,12 +1038,105 @@ def _process_row(
         print(f"[Automat] Wiersz {idx+1}: brak obszaru – pomijam.")
         return
 
+    def _get(cands):
+        c = _find_col(df_raport.columns, cands)
+        return _trim_after_semicolon(row[c]) if c else ""
+
+    woj_r = _get(["Województwo", "Wojewodztwo", "wojewodztwo", "woj"])
+    pow_r = _get(["Powiat"])
+    gmi_r = _get(["Gmina"])
+    mia_r = _get(["Miejscowość", "Miejscowosc", "Miasto"])
+    dzl_r = _get(["Dzielnica", "Osiedle"])
+
+    woj_c = _canon_admin(woj_r, "woj")
+    pow_c = _canon_admin(pow_r, "pow")
+    gmi_c = _canon_admin(gmi_r, "gmi")
+    mia_c = _canon_admin(mia_r, "mia")
+    dzl_c = _canon_admin(dzl_r, "dzl")
+
     # =========================
     # TRYB STRICT (adres 100% wymagany)
-    # Jeśli brakuje danych adresowych lub brak dopasowań w bazie,
-    # wpisujemy komunikat w kolumnach wynikowych zamiast liczyć.
     # =========================
     STRICT_MSG = "BRAK LUB NIEPEŁNY ADRESU – WPISZ ADRES MANUALNIE"
+
+    mean_col = _find_col(df_raport.columns, ["Średnia cena za m2 ( z bazy)", "Srednia cena za m2 ( z bazy)", "Średnia cena za m² ( z bazy)"])
+    corr_col = _find_col(df_raport.columns, ["Średnia skorygowana cena za m2", "Srednia skorygowana cena za m2"])
+    val_col = _find_col(df_raport.columns, ["Statystyczna wartość nieruchomości", "Statystyczna wartosc nieruchomosci"])
+
+    if mean_col is None:
+        mean_col = "Średnia cena za m2 ( z bazy)"
+        if mean_col not in df_raport.columns:
+            df_raport[mean_col] = ""
+    if corr_col is None:
+        corr_col = "Średnia skorygowana cena za m2"
+        if corr_col not in df_raport.columns:
+            df_raport[corr_col] = ""
+    if val_col is None:
+        val_col = "Statystyczna wartość nieruchomości"
+        if val_col not in df_raport.columns:
+            df_raport[val_col] = ""
+
+    # Minimalne dane do pracy: woj + miejscowość
+    if not woj_c or not mia_c:
+        df_raport.at[idx, mean_col] = STRICT_MSG
+        df_raport.at[idx, corr_col] = STRICT_MSG
+        df_raport.at[idx, val_col] = STRICT_MSG
+        print(f"[Automat] {kw_value}: {STRICT_MSG} (woj='{woj_r}', mia='{mia_r}')")
+        return
+
+    # ludność + progi (m2 oraz %)
+    pop_target = pop_resolver.get_population(woj_r, pow_r, gmi_r, mia_r, dzl_r) if pop_resolver else None
+    bucket_low, bucket_high = _bucket_for_population(pop_target)
+
+    if pop_target is None:
+        margin_m2_row, margin_pct_row = float(margin_m2_default), float(margin_pct_default)
+    else:
+        margin_m2_row, margin_pct_row = rules_for_population(pop_target)
+
+    delta = abs(float(margin_m2_row or 0.0))
+    low_area, high_area = max(0.0, float(area_val) - delta), float(area_val) + delta
+
+    df_sel, stage = _select_comparables(
+        pl=pl,
+        woj_c=woj_c,
+        pow_c=pow_c,
+        gmi_c=gmi_c,
+        mia_c=mia_c,
+        dzl_c=dzl_c,
+        woj_raw=woj_r,
+        pow_raw=pow_r,
+        gmi_raw=gmi_r,
+        min_hits=int(min_hits),
+        bucket_low=bucket_low,
+        bucket_high=bucket_high,
+        pop_resolver=pop_resolver,
+        low_area=low_area,
+        high_area=high_area,
+    )
+
+    if df_sel.empty:
+        msg = "BRAK OGŁOSZEŃ W BAZIE DLA TEGO ZAKRESU"
+        df_raport.at[idx, mean_col] = msg
+        df_raport.at[idx, corr_col] = msg
+        df_raport.at[idx, val_col] = msg
+        print(f"[Automat] {kw_value}: {msg} (zakres {low_area:.2f}-{high_area:.2f} m², stage={stage})")
+        return
+
+    # usuwanie odstających (bez ryzyka, że spadnie poniżej min_hits)
+    prices = df_sel["_price_num"].astype(float)
+    if len(prices) >= max(10, int(min_hits)):
+        q1 = np.nanpercentile(prices, 25)
+        q3 = np.nanpercentile(prices, 75)
+        iqr = q3 - q1
+        lo = q1 - 1.5 * iqr
+        hi = q3 + 1.5 * iqr
+        df_filtered = df_sel[(prices >= lo) & (prices <= hi)].copy()
+        if len(df_filtered.index) >= int(min_hits):
+            df_sel = df_filtered
+            prices = df_sel["_price_num"].astype(float)
+
+    mean_price = float(np.nanmean(prices))
+
     # =========================
     # WYNIKI – ZAOKRĄGLENIE DO 2 MIEJSC
     # =========================
@@ -687,11 +1150,15 @@ def _process_row(
     value = corrected_price_rounded * float(area_val)
     df_raport.at[idx, val_col] = round(float(value), 2)
 
-    print(f"[Automat] {kw_value}: dopasowano {len(df_sel)}, średnia {mean_price:.2f}, skorygowana {corrected_price:.2f}, wartość {value:.2f}.")
+    # log
+    pop_txt = f"{int(pop_target):,}".replace(",", " ") if isinstance(pop_target, (int, float)) else "?"
+    bucket_txt = f"{bucket_low}-{bucket_high if bucket_high is not None else '∞'}" if bucket_low is not None else "?"
+    print(f"[Automat] {kw_value}: stage={stage} | hits={len(df_sel)} | pop={pop_txt} | bucket={bucket_txt} | mean={mean_price:.2f} | corr={corrected_price:.2f} | value={value:.2f}.")
 
 
 # =========================
 # MAIN
+
 # =========================
 
 def main(argv=None) -> int:
@@ -749,6 +1216,9 @@ def main(argv=None) -> int:
         print("[BŁĄD] Polska.xlsx nie zawiera wymaganych kolumn metrażu / ceny.")
         return 1
 
+    # indeksy dla szybkich dopasowań (kanonizacja + mapy miejscowości)
+    pl_index = build_polska_index(df_pl, col_area_pl, col_price_pl)
+
     is_excel = raport_path.suffix.lower() in [".xlsx", ".xlsm", ".xls"]
     try:
         if is_excel:
@@ -774,9 +1244,7 @@ def main(argv=None) -> int:
             _process_row(
                 df_raport=df_raport,
                 idx=idx,
-                df_pl=df_pl,
-                col_area_pl=col_area_pl,
-                col_price_pl=col_price_pl,
+                pl=pl_index,
                 margin_m2_default=margin_m2_default,
                 margin_pct_default=margin_pct_default,
                 pop_resolver=pop_resolver,
